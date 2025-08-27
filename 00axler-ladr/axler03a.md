@@ -127,6 +127,7 @@ Extrapolating from the previous proof, we know that two vectors in $\mathbb{F}^n
 
 > ## composition
 > Fix a polynomial $q\in\mathcal{P}(\mathbb{R}).$ Define a linear map $T\in \mathcal{L}(\mathcal{P}(\mathbb{R}))$ by
+>
 > $$
 > (Tp)(x)=p(q(x)).
 > $$
@@ -227,7 +228,7 @@ $$
 >
 > for every $(x_1,...,x_n)\in \mathbb{F}^n.$
 
-Every vector in $\mathbb{F}^n$ can be represented as a linear combination on the standard basis $e_1,...,e_n$ where each $e_k$ is a vector of zeroes with a $1$ in the $k$th position.
+Every vector in $\mathbb{F}^n$ can be represented as a linear combination on the standard basis $e_1,...,e_n$ where each $e_k$ is a vector of zeroes with a $1$ in the $k$ th position.
 
 $$
 T(x_1,...,x_n)=T(x_1e_1+\cdots+x_ne_n)
@@ -245,6 +246,7 @@ T(e_k)=(A_{1,k},...,A_{m,k})
 $$
 
 So 
+
 $$
 \begin{align*}
 T(x_1,\ldots,x_n)&=x_1Te_1+\cdots+x_nTe_n\\
@@ -325,7 +327,7 @@ That's all required by Axler's definition, six properties. From that the other p
 > $$
 >
 > for all $w,z\in\mathbb{C}$ but $\phi$ is not linear. (Here $\mathbb{C}$ is thought of as a complex vector space.)
-> > *There also exists a function \phi:\mathbb{R}\to\mathbb{R}$ such that $\phi$ satisfies the additivity condition but $\phi$ is not linear. However, the existence of such a function involves considerably more advanced tools.*
+> > *There also exists a function $\phi:\mathbb{R}\to\mathbb{R}$ such that $\phi$ satisfies the additivity condition but $\phi$ is not linear. However, the existence of such a function involves considerably more advanced tools.*
 
 > 10. Prove or give a counterexample: If $q\in \mathcal{P}(\mathbb{R})$ and $T:\mathcal{P}(\mathbb{R})\to\mathcal{P}(\mathbb{R})$ is defined by $Tp=q\circ p,$ then $T$ is a linear map.
 > > *The function $T$ defined here differs from the function $T$ defined nit eh last bullet point of 3.3 by the order of the functions in the compositions.*
