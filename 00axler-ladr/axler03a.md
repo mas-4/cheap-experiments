@@ -328,9 +328,9 @@ That's all required by Axler's definition, six properties. From that the other p
 > $$
 >
 > for all $w,z\in\mathbb{C}$ but $\phi$ is not linear. (Here $\mathbb{C}$ is thought of as a complex vector space.)
-> > *There also exists a function $\phi:\mathbb{R}\to\mathbb{R}$ such that $\phi$ satisfies the additivity condition but $\phi$ is not linear. However, the existence of such a function involves considerably more advanced tools.*
+> > There also exists a function $\phi:\mathbb{R}\to\mathbb{R}$ such that $\phi$ satisfies the additivity condition but $\phi$ is not linear. However, the existence of such a function involves considerably more advanced tools.
 
 > 10. Prove or give a counterexample: If $q\in \mathcal{P}(\mathbb{R})$ and $T:\mathcal{P}(\mathbb{R})\to\mathcal{P}(\mathbb{R})$ is defined by $Tp=q\circ p,$ then $T$ is a linear map.
-> > *The function $T$ defined here differs from the function $T$ defined nit eh last bullet point of 3.3 by the order of the functions in the compositions.*
+> > The function $T$ defined here differs from the function $T$ defined nit eh last bullet point of 3.3 by the order of the functions in the compositions.
 
 > 11. Suppose $V$ is finite-dimensional and $T\in\mathcal{L}(V).$ Prove that $T$ is a scalar multiple of the identity if and only if $ST=TS$ for every $S\in\mathcal{L}(V).$
