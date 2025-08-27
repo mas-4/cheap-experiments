@@ -300,6 +300,7 @@ $$
 > $$
 > 1+r+r^2+\cdots+r^n=\frac{1-r^{n+1}}{1-r} \\
 > $$
+> 
 > if $r\ne1$ (if $r=1,$ evaluating the sum certainly presents no problem).
 
 For the $n=1$ case observe that $1+r=\frac{(1+r)(1-r)}{1-r}=\frac{1-r^2}{1-r}.$ But for the $n+1$ case observe
