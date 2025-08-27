@@ -231,11 +231,11 @@ $$
 $$
 \begin{align*}
 (1+1)^n&=\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\binom{n}{3}+\cdots\\
-(1+1)^n-(1-1)^n&=(\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\binom{n}{3}+\cdots)-(\binom{n}{0}-\binom{n}{1}+\binom{n}{2}-\binom{n}{3}\pm\cdots)\\
-2^n-0^n&=(\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\binom{n}{3}+\cdots)-\binom{n}{0}+\binom{n}{1}-\binom{n}{2}+\binom{n}{3}\pm\cdots\\
-2^n-0&=(\binom{n}{0}-\binom{n}{0})+(\binom{n}{1}+\binom{n}{1})+(\binom{n}{2}-\binom{n}{2})+(\binom{n}{3}+\binom{n}{3})\\
+(1+1)^n-(1-1)^n&=\left(\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\binom{n}{3}+\cdots\right)-\left(\binom{n}{0}-\binom{n}{1}+\binom{n}{2}-\binom{n}{3}\pm\cdots\right)\\
+2^n-0^n&=\left(\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\binom{n}{3}+\cdots\right)-\binom{n}{0}+\binom{n}{1}-\binom{n}{2}+\binom{n}{3}\pm\cdots\\
+2^n-0&=\left(\binom{n}{0}-\binom{n}{0}\right)+\left(\binom{n}{1}+\binom{n}{1}\right)+\left(\binom{n}{2}-\binom{n}{2}\right)+\left(\binom{n}{3}+\binom{n}{3}\right)\\
 2^n&=2\binom{n}{1}+2\binom{n}{3}+2\binom{n}{5}+\cdots\\
-2^n&=2(\binom{n}{1}+\binom{n}{3}+\binom{n}{5}+\cdots)\\
+2^n&=2\left(\binom{n}{1}+\binom{n}{3}+\binom{n}{5}+\cdots\right)\\
 2^{n-1}&=\binom{n}{1}+\binom{n}{3}+\binom{n}{5}+\cdots \quad 🤌\\
 \end{align*}
 $$
