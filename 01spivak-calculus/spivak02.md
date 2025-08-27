@@ -199,8 +199,8 @@ $$
 &=a^{n+1} + \sum_{j=1}^n\binom{n}{j}a^{n-j+1}b^j+\sum_{j=0}^{n-1}\binom{n}{j}a^{n-j}b^{j+1}+b^{n+1} \\
 &=a^{n+1} + \sum_{j=1}^n\binom{n}{j}a^{n-j+1}b^j+\sum_{k=1}^{n}\binom{n}{k-1}a^{n-k+1}b^{k}+b^{n+1}\\
 &=a^{n+1} + \sum_{j=1}^n[\binom{n}{j}+\binom{n}{j-1}]a^{n-j+1}b^j+b^{n+1}\\
-&=a^{n+1} + \sum_{j=1}^n\binom{n+1}{k}a^{n-j+1}b^j+b^{n+1}\\
-&=\sum_{j=0}^{n+1}\binom{n+1}{k}a^{(n+1)-j}b^{j} \quad 🤌\\
+&=a^{n+1} + \sum_{j=1}^n\binom{n+1}{j}a^{n-j+1}b^j+b^{n+1}\\
+&=\sum_{j=0}^{n+1}\binom{n+1}{j}a^{(n+1)-j}b^{j} \quad 🤌\\
 \end{align*}
 $$
 
