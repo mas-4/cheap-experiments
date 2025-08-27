@@ -153,50 +153,50 @@ Certainly this is a slow ramp up and will accelerate.
 ## Core
 
 1. Bryant & O'Hallaron CSAPP
-3. Sipser – Introduction to the Theory of Computation
-4. CLRS – Introduction to Algorithms : Algorithm Design, Data Structures, Graph Algorithms, Dynamic Programming, Complexity Analysis
+3. Sipser
+4. CLRS – Introduction to Algorithms
 5. Engineering a Compiler [Alternative:Modern Compiler Design by Grune et al]
 6. 🛍️ Pierce – Types and Programming Languages
 7. 🛍️ Muchnick's Advanced Compiler Design and Implementation
 8. 🛍️ Hennessy & Patterson – Computer Architecture: A Quantitative Approach
-10. 🛍️ Herlihy & Shavit – Art of Multiprocessor Programming : Concurrent Programming, Synchronization, Lock-Free Data Structures, Memory Models
-11. 🛍️ Hwu & Kirk – Programming Massively Parallel Processors : Parallel Computing, CUDA Programming, GPU Memory Hierarchies, Performance Optimization
+10. 🛍️ Herlihy & Shavit – Art of Multiprocessor Programming
+11. 🛍️ Hwu & Kirk – Programming Massively Parallel Processors
 12. 🛍️ Hastie & Tibshirani – Elements of Statistical Learning
-13. 🛍️ Warren – Hacker's Delight  – Bit manipulation tricks and low-level optimization techniques
+13. 🛍️ Warren – Hacker's Delight
 
 ## Papers and Documentation
-- **Goto & van de Geijn – Anatomy of High-Performance Matrix Multiplication**: High-Performance Matrix Multiplication, Cache Optimization, BLAS Kernel Design
-- **On Proof and Progress in Mathematics**: Philosophy of Mathematics, Mathematical Discovery and Progress
-- **The Unreasonable Effectiveness of Mathematics**: Mathematics-Physics Relationship, Applied Mathematics Philosophy
-- **Williams, Waterman & Patterson – Roofline Model**
-- **Baydin et al – Automatic Differentiation in Machine Learning**
-- **Dean & Ghemawat – MapReduce**
-- **Vaswani et al – Attention Is All You Need**
-- **Lattner & Adve – LLVM**
-- **Lam, Wolf & Lam – "The Cache Performance and Optimizations of Blocked Algorithms"** - foundational cache blocking theory
-- **Frigo, Leiserson, Prokop & Ramachandran – "Cache-Oblivious Algorithms"** - the mathematical framework
-- **Bastoul – "Code Generation in the Polyhedral Model"** - connects the math to actual compiler transformations
-- **Whaley & Dongarra – "Automatically Tuned Linear Algebra Software (ATLAS)"** - how to systematically search optimization space
-- **Yotov et al. – "Is Search Really Necessary to Generate High-Performance BLAS?"** - prediction vs empirical search for cache optimization
-- **Hong & Kung (1981) “I/O Complexity: The Red–Blue Pebble Game”**
+- Goto & van de Geijn – Anatomy of High-Performance Matrix Multiplication: High-Performance Matrix Multiplication, Cache Optimization, BLAS Kernel Design
+- On Proof and Progress in Mathematics: Philosophy of Mathematics, Mathematical Discovery and Progress
+- The Unreasonable Effectiveness of Mathematics: Mathematics-Physics Relationship, Applied Mathematics Philosophy
+- Williams, Waterman & Patterson – Roofline Model
+- Baydin et al – Automatic Differentiation in Machine Learning
+- Dean & Ghemawat – MapReduce
+- Vaswani et al – Attention Is All You Need
+- Lattner & Adve – LLVM
+- Lam, Wolf & Lam – "The Cache Performance and Optimizations of Blocked Algorithms" - foundational cache blocking theory
+- Frigo, Leiserson, Prokop & Ramachandran – "Cache-Oblivious Algorithms" - the mathematical framework
+- Bastoul – "Code Generation in the Polyhedral Model" - connects the math to actual compiler transformations
+- Whaley & Dongarra – "Automatically Tuned Linear Algebra Software (ATLAS)" - how to systematically search optimization space
+- Yotov et al. – "Is Search Really Necessary to Generate High-Performance BLAS?" - prediction vs empirical search for cache optimization
+- Hong & Kung (1981) “I/O Complexity: The Red–Blue Pebble Game”
 
 ## Domain Specific for Current Work
 
 These might help with my current job directly.
 
-- **Streetman & Banerjee – Solid State Electronic Devices**
-- **Arnold's Mathematical Methods of Classical Mechanics** ⚒️
-- 🛍️ **Hecht's Optics**
-- 🛍️ **Griffiths – Introduction to Electrodynamics**
+- Streetman & Banerjee – Solid State Electronic Devices
+- Arnold's Mathematical Methods of Classical Mechanics ⚒️
+- 🛍️ Hecht's Optics
+- 🛍️ Griffiths – Introduction to Electrodynamics
 
 ## Detours, Stretch Goals, Domain Specific 
 
 It is fine if these seem completely ancillary or redundant. This is a subscription list to expand and pick through after the 12+12 curriculum.
 
-- **Durbin's Biological Sequence Analysis**
-- 🛍️ **Cover & Joy – Elements of Information Theory**
-- 🛍️ **Nielsen & Chuang – Quantum Computation and Quantum Information**
-- 🛍️ **Shreve – Stochastic Calculus for Finance II**
-- 🛍️ **Anderson – Computational Fluid Dynamics: The Basics with Applications**: Navier-Stokes is the perfect PDE playground for HPC. Ties together everything: PDEs, numerical methods, parallel computing. Plus, fluid flow shows up in semiconductor manufacturing.
-- 🛍️ **Pharr, Jakob & Humphreys – Physically Based Rendering (PBRT)**: Combines Monte Carlo methods (Durrett), optics (Hecht), and serious optimization. Rendering is embarrassingly parallel - perfect HPC domain. Ray tracing for metrology simulation.
-- 🛍️ **Diestel – Graph Theory**
+- Durbin's Biological Sequence Analysis
+- 🛍️ Cover & Joy – Elements of Information Theory
+- 🛍️ Nielsen & Chuang – Quantum Computation and Quantum Information
+- 🛍️ Shreve – Stochastic Calculus for Finance II
+- 🛍️ Anderson – Computational Fluid Dynamics: The Basics with Applications: Navier-Stokes is the perfect PDE playground for HPC. Ties together everything: PDEs, numerical methods, parallel computing. Plus, fluid flow shows up in semiconductor manufacturing.
+- 🛍️ Pharr, Jakob & Humphreys – Physically Based Rendering (PBRT): Combines Monte Carlo methods (Durrett), optics (Hecht), and serious optimization. Rendering is embarrassingly parallel - perfect HPC domain. Ray tracing for metrology simulation.
+- 🛍️ Diestel – Graph Theory
