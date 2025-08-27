@@ -309,17 +309,21 @@ That's all required by Axler's definition, six properties. From that the other p
 > 7. Show that every linear map from a one-dimensional vector space to itself is multiplication by some scalar. More precisely, prove that if $\dim V=1$ and $T\in \mathcal{L}(V),$ then there exists $\lambda \in \mathbb{F}$ such that $Tv=\lambda v$ for all $v\in V.$
 
 > 8. Give an example of a function $\phi:\mathbb{R}^2\to\mathbb{R}$ such that
+>
 > $$
 > \phi(av)=a\phi(v)
 > $$
+>
 > for all $a\in \mathbb{R}$ and $v\in \mathbb{R}^2$ but $\phi$ is not linear.
 >
 > > *This exercise and the next exercise show that neither homogeneity nor additivity alone is enough to imply that a function is a linear map.*
 
 > 9. Give an example of a function $\phi: \mathbb{C}\to\mathbb{C}$ such that
+>
 > $$
 > \phi(w+z)=\phi(w)+\phi(z)
 > $$
+>
 > for all $w,z\in\mathbb{C}$ but $\phi$ is not linear. (Here $\mathbb{C}$ is thought of as a complex vector space.)
 > > *There also exists a function \phi:\mathbb{R}\to\mathbb{R}$ such that $\phi$ satisfies the additivity condition but $\phi$ is not linear. However, the existence of such a function involves considerably more advanced tools.*
 

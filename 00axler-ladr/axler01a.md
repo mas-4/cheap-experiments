@@ -83,6 +83,7 @@ $$
 ## 6. Show that for every $\alpha \in \mathbb{C}$ with $\alpha \neq 0$, there exists a unique $\beta \in \mathbb{C}$ such that $\alpha\beta = 1$.
 
 Assume
+
 $$
 \begin{align*}
 \beta &= \frac{a - bi}{a^2 + b^2} \\
@@ -101,6 +102,7 @@ $$
 &= 1
 \end{align*}
 $$
+
 therefore a multiplicative inverse exists.
 
 To show uniqueness, assume there are $\beta_1,\beta_2 \in C$ such that, $\alpha\beta_1=1$ and $\alpha\beta_2=1$. Then $\alpha\beta_1=1=\alpha\beta_2$ and $\beta_1=\beta_2=\frac{1}{\alpha}$
@@ -171,11 +173,11 @@ $$
 ## 10. Explain why there does not exist $\lambda \in \mathbb{C}$ such that
 
 $$
-\begin{align*}
 \lambda(2 - 3i, 5+4i, -6+7i) = (12-5i, 7+22i, -32-9i)
-\end{align*}
 $$
+
 Well, solving
+
 $$
 \begin{align*}
 \lambda(2 - 3i) &= 12-5i \\
@@ -185,6 +187,7 @@ $$
 &=  3 + 2i
 \end{align*}
 $$
+
 And then substituting
 
 $$
@@ -196,6 +199,7 @@ $$
 $$
 
 So it holds for the second component, checking the third
+
 $$
 \begin{align*}
 (3+2i)(-6+7i) &= -32-9i \\
@@ -241,6 +245,7 @@ $$
 $$
 
 ## 14. Show that $\lambda(x+y)=\lambda x + \lambda y$ for all $\lambda \in \mathbb{F}$ and all $x,y \in \mathbb{F}^n$
+
 $$
 \begin{align*}
 \lambda(x+y) &= \lambda((x_1,...,x_n)+(y_1,...,y_n)) \\
@@ -254,6 +259,7 @@ $$
 $$
 
 ## 15. Show that $(a+b)x = ax + bx$ for all $a,b \in \mathbb{F}$ and all $x \in \mathbb{F}^n$
+
 $$
 \begin{align*}
 (a+b)x &= (a+b)(x_1,...,x_n) \\

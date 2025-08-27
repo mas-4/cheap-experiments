@@ -47,6 +47,7 @@ not a subspace of $F^3$.
 #### (c) ${(x_1,x_2,x_3) \in F^3 : x_1x_2x_3 = 0}$
 
 $0\cdot0\cdot0 = 0$, so the additive identity is in the set.
+
 Assuming $u+v = (u_1 + v_1, u_2 + v_2, u_3 + v_3)$, we have
 
 $$

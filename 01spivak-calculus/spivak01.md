@@ -781,12 +781,6 @@ Since both $|xy|$ and $|x|,|y|\ge0$ this shows equivalence.
 
 $$
 \begin{align*}
-
-\end{align*}
-$$
-
-$$
-\begin{align*}
 |\frac{1}{x}|\cdot|x|&=|\frac{1}{x}\cdot x| \tag{by (i)} \\
 &=|1| \\
 &=1 \\
@@ -1202,6 +1196,7 @@ At this point, however, we see that $y^2\ge0$ and so $-3y^2<0$ if $y\ne0.$ Since
 > (d) For which numbers $\alpha$ is it true that $x^2+\alpha xy+y^2>0$ whenever $x$ and $y$ are not both $0$?
 
 Since we're looking for when there are no real solutions (i.e., roots, when the equation equals $0$), we want to find
+
 $$
 \begin{align*}
 b^2-4c&<0\\

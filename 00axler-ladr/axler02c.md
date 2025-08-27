@@ -273,7 +273,6 @@ $$
 $$
 
 Finally, we already know that $\dim V_1 + \dim V_2 + \dim V_3 > 2\dim V = 20$, that $\dim (V_1 \cap V_2 \cap V_3) > 0$, and so the intersection can not contain just the origin. 🤌
-Finally, we already know that $\dim V_1 + \dim V_2 + \dim V_3 > 2\dim V = 20$, that $\dim (V_1 \cap V_2 \cap V_3) > 0$, and so the intersection can not contain just the origin. 🤌
 
 ***
 
@@ -440,7 +439,6 @@ $$
 \end{align*}
 $$
 
-
 ***
 
 20. Prove that if $V_1,V_2,$ and $V_3$ are subspaces of a finite-dimensional vector space, then
@@ -450,7 +448,6 @@ $$
 $$
 
 Well, let's start with equation $(3)$ from problem 19 and dedistribute the intersection by one step.
-
 
 $$
 \begin{align*}

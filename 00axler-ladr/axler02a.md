@@ -70,6 +70,7 @@ For any polynomial $p(x) = a_0 + a_1x + a_2x^2 + \cdots + a_mx^m \in \mathcal{P}
 define $-p(x) = (-a_0) + (-a_1)x + (-a_2)x^2 + \cdots + (-a_m)x^m$.
 
 Then:
+
 $$
 \begin{align*}
 p(x) + (-p(x)) &= (a_0 + a_1x + a_2x^2 + \cdots + a_mx^m) + ((-a_0) + (-a_1)x + (-a_2)x^2 + \cdots + (-a_m)x^m) \\
@@ -177,7 +178,6 @@ c &= 8 \\
 $$
 
 So for the list to be linearly dependent, that is, where the trivial solution $a_1 \neq a_2 \neq a_3 \neq 0$, $c = 8$.
-
 
 
 # Exercises

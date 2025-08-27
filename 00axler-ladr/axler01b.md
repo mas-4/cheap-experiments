@@ -15,12 +15,14 @@ $$
 Assume the opposite, that $av=0$ and $a \neq 0, v \neq 0$.
 
 If $a \neq 0$, then we can multiply both sides by $a^{-1}$, the multiplicative inverse of $a$.
+
 $$
 \begin{align*}
 a^{-1}av &= a^{-1}0 \\
 v &= 0
 \end{align*}
 $$
+
 Therefore, if $av=0$ and $a \neq 0$, $v$ must equal $0$. Thus it is not the case that $av = 0, a \neq 0, v \neq 0$.
 
 ## 3. Suppose $v,w \in V$. Explain why there exists a unique $x \in V$ such that $v + 3x = w$.

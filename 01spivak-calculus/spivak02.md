@@ -15,6 +15,7 @@ $$
 $$
 
 **Case n**
+
 $$
 \begin{align*}
 1^2+\cdots+n^2&=\frac{n(n+1)(2n+1)}{6}\\
@@ -33,6 +34,7 @@ $$
 > (ii) $1^3+\cdots+n^3=(1+\cdots+n)^2$
 
 **Case 1**
+
 $$
 \begin{align*}
 1^3=(1)^2\\
@@ -53,6 +55,7 @@ $$
 $$
 
 So that
+
 $$
 \begin{align*}
 1^3+\cdots+n^3=(1+\cdots+n)^2&=(\frac{n(n+1)}{2})^2\\
@@ -244,6 +247,7 @@ The same proof above follows from $(1+1)^n+(1-1)^n.$
 ***
 
 > 4. (a) Prove that
+>
 > $$
 > \sum^l_{k=0}\binom{n}{k}\binom{m}{l-k}=\binom{n+m}{l}.
 > $$
@@ -265,6 +269,7 @@ $$
 $$
 
 > (b) Prove that
+>
 > $$
 > \sum_{k=0}^n\binom{n}{k}^2=\binom{2n}{n}.
 > $$
@@ -291,6 +296,7 @@ $$
 $$
 
 > 5. (a) Prove by induction on $n$ that
+>
 > $$
 > 1+r+r^2+\cdots+r^n=\frac{1-r^{n+1}}{1-r} \\
 > $$
@@ -504,9 +510,7 @@ $$
 > (iv) $\frac{3}{1^2\cdot2^2}+\frac{5}{2^2\cdot3^2}+\cdots+\frac{2n+1}{n^2(n+1)^2}$
 
 $$
-\begin{align*}
-\frac{3}{1^2\cdot2^2}+\frac{5}{2^2\cdot3^2}+\cdots+\frac{2n+1}{n^2(n+1)^2}&=\sum_{k=1}^n\frac{2k+1}{k^2(k+1)^2}
-\end{align*}
+\frac{3}{1^2\cdot2^2}+\frac{5}{2^2\cdot3^2}+\cdots+\frac{2n+1}{n^2(n+1)^2}=\sum_{k=1}^n\frac{2k+1}{k^2(k+1)^2}
 $$
 
 We need to end up with something like $(k+1)^2-k^2$ to get our telescope. Luckily $(k+1)^2-k^2=(k^2+2k+1)-k^2=2k+1$
@@ -533,7 +537,9 @@ Dang man, getting a sense for this stuff is tough.
 > $$
 > \frac{n^{p+1}}{p+1} + An^p+Bn^{p-1}+Cn^{p-2}+\cdots.
 > $$
+>
 > (The first 10 such expressions are
+>
 > $$
 > \begin{align*}
 > &\sum_{k=1}^nk       &=\frac{1}{2}n^2     &+\frac{1}{2}n^1\\
