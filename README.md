@@ -1,4 +1,4 @@
-# 🧮 cheap-experiments
+# 💸🧮 cheap-experiments
 
 > *"Mathematics is the part of physics where experiments are cheap."*  
 > — Vladimir Arnold  

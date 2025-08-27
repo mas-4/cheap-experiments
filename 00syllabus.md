@@ -1,6 +1,6 @@
-# Leverage University
+# Leverage University 🔧🌎
 
-- [Leverage University](#leverage-university)
+- [Leverage University 🔧🌎](#leverage-university-)
   - [Prospectus](#prospectus)
     - [Career Goals](#career-goals)
     - [Personal Motivations](#personal-motivations)
