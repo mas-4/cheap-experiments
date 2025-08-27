@@ -662,7 +662,7 @@ Yes, $a=\sqrt[4]2$
 
 > (d) Are there two irrational numbers whose sum and product are both rational?
 
-Yes, consider $a=-\sqrt2,b=\sqrt2,$ for which $-\sqrt2\sqrt2=-2$ and $-\sqrt2+sqrt2=0.$
+Yes, consider $a=-\sqrt2,b=\sqrt2,$ for which $-\sqrt2\sqrt2=-2$ and $-\sqrt2+\sqrt2=0.$
 
 > 13. (a) Prove that $\sqrt3,\sqrt5,\sqrt6$ are irrational. Hint: To treat $\sqrt3,$ for example, use the fact that every integer is of the form $3n$ or $3n+1$ or $3n+2.$ Why doesn't this proof work for $\sqrt4$?
 
