@@ -143,6 +143,7 @@ We already know polynomials distribute scalars and additivity. This works and th
 > $$
 > (S+T)(v)=Sv+Tv\quad\text{ and }\quad(\lambda T)(v)=\lambda(Tv)
 > $$
+>
 > for all $v\in V.$
 >
 > You should verify $S+T$ and $\lambda T$ as defined are indeed linear maps.
