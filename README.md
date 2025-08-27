@@ -1,7 +1,7 @@
 # 💸🧮 cheap-experiments
 
-> *"Mathematics is the part of physics where experiments are cheap."*  
-> — Vladimir Arnold  
+> «Математика — это та часть физики, где эксперименты дешевы.»  
+> — В.И. Арнольд
 
 Solutions to various math textbooks as I work through the syllabus.
 
