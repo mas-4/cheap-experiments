@@ -12,15 +12,18 @@
     - [Methodogy \& Tools](#methodogy--tools)
   - [Syllabus](#syllabus)
     - [Progress Tracking](#progress-tracking)
-  - [Math Foundations – Ordered Spine](#math-foundations--ordered-spine)
-      - [Stage 1 — Core algebra/analysis bedrock](#stage-1--core-algebraanalysis-bedrock)
-      - [Stage 2 — ODEs + applied linear algebra](#stage-2--odes--applied-linear-algebra)
-      - [Stage 3 — Functional Analysis + Probability](#stage-3--functional-analysis--probability)
-      - [Stage 4 — Fourier/complex toolkits](#stage-4--fouriercomplex-toolkits)
-      - [Stage 5 — Optimization + PDEs](#stage-5--optimization--pdes)
-      - [Stage 6 — Specialized methods](#stage-6--specialized-methods)
-  - [Core](#core)
+  - [Math Foundations — Two-Core Plan](#math-foundations--two-core-plan)
+    - [Common base](#common-base)
+    - [Goto Core (primary goal)](#goto-core-primary-goal)
+    - [Modeling Core (secondary goal)](#modeling-core-secondary-goal)
+  - [CS Core](#cs-core)
   - [Papers and Documentation](#papers-and-documentation)
+    - [Philosophy \& Foundations](#philosophy--foundations)
+    - [Performance Models](#performance-models)
+    - [High-Performance Kernels](#high-performance-kernels)
+    - [Memory \& Cache Models](#memory--cache-models)
+    - [Compiler \& Program Transformations](#compiler--program-transformations)
+    - [Machine Learning \& Differentiable Programming](#machine-learning--differentiable-programming)
   - [Domain Specific for Current Work](#domain-specific-for-current-work)
   - [Detours, Stretch Goals, Domain Specific](#detours-stretch-goals-domain-specific)
 
@@ -100,6 +103,8 @@ Also, work through the problems in a paper pad and nice notebook and also write 
 
 This process will take years. But every book completed should add to performance abilities at work. There won't be one day after completing this list where "Now you can work on HPC! 🧑‍🎓." Likely the list will be refined as the books are completed and you identify paths yourself rather than with help.
 
+---
+
 ## Syllabus
 
 ### Progress Tracking
@@ -116,76 +121,99 @@ Certainly this is a slow ramp up and will accelerate.
 - 🌐: Available Online
 - 📖: Currently reading
 
-## Math Foundations – Ordered Spine
+## Math Foundations — Two-Core Plan
 
-#### Stage 1 — Core algebra/analysis bedrock
+### Common base
 
-1. 📖🌐 Axler – Linear Algebra Done Right
-   - Supplement with Shilov ⚒️
-   - Supplement with Gelfand's lectures ⚒️
-2. 📖 Spivak – Calculus
-   - Supplement with Shaum's Outline
-3. Spivak – Calculus on Manifolds
+1. Axler — Linear Algebra Done Right
+   - Supplement: Shilov
+   - Supplement: Gelfand’s Lectures on Linear Algebra
+2. Spivak — Calculus
+   - Supplement: Schaum’s Outline (exercises)
+3. Spivak — Calculus on Manifolds
 
-#### Stage 2 — ODEs + applied linear algebra
+### Goto Core (primary goal)
 
-4. Arnold – Ordinary Differential Equations ⚒️
-5. Trefethen & Bau – Numerical Linear Algebra
-6. Saad – Iterative Methods for Sparse Linear Systems
-7. Higham – Accuracy and Stability of Numerical Algorithms : Floating-Point Arithmetic, Condition Numbers, Backward Error Analysis, Numerical Stability
+1. Knuth et al. — Concrete Mathematics
+2. Trefethen & Bau — Numerical Linear Algebra
+   - Supplement: Golub & Van Loan — Matrix Computations
+3. Higham — Accuracy and Stability of Numerical Algorithms
+4. Saad — Iterative Methods for Sparse Linear Systems
+5. 🛍️ Boyd & Vandenberghe — Convex Optimization
+6. Nocedal & Wright — Numerical Optimization
+7. 🛍️ Rivlin — Chebyshev Polynomials
 
-#### Stage 3 — Functional Analysis + Probability
+### Modeling Core (secondary goal)
 
-8. Kolmogorov & Fomin – Elements of the Theory of Functions and Functional Analysis ⚒️
-   - Supplement with Kreyszig
-9. 🛍️ Durrett – Probability: Theory and Examples
-10. Knuth et al – Concrete Math
+1. Arnold — Ordinary Differential Equations
+2. 🛍️ Durrett — Probability: Theory and Examples
+3. Kolmogorov & Fomin — Elements of the Theory of Functions and Functional Analysis
+   - Supplement: Kreyszig
+4. 🛍️ Samarskii — Theory of Difference Schemes
+5. Tikhonov & Samarskii — Equations of Mathematical Physics
+6. 🛍️ Körner — Fourier Analysis
+7. 🛍️ Ahlfors — Complex Analysis
+8. 🛍️ Trefethen — Spectral Methods in MATLAB
 
-#### Stage 4 — Fourier/complex toolkits
+---
 
-11. 🛍️ Stein & Shakarchi OR Körner – Fourier Analysis
-12. 🛍️ Stein & Shakarchi OR Ahlfors – Complex Analysis
-
-#### Stage 5 — Optimization + PDEs
-
-13. 🛍️🌐 Boyd & Vandenberghe – Convex Optimization
-14. Nocedal & Wright – Numerical Optimization
-15. Tikhonov & Samarskii – Equations of Mathematical Physics ⚒️
-16. Samarskii Theory of Difference Schemes ⚒️
-
-#### Stage 6 — Specialized methods
-
-17. Rivlin – Chebyshev Polynomials
-
-## Core
+## CS Core
 
 1. Bryant & O'Hallaron CSAPP
-3. Sipser
-4. CLRS – Introduction to Algorithms
-5. Engineering a Compiler [Alternative:Modern Compiler Design by Grune et al]
-6. 🛍️ Pierce – Types and Programming Languages
-7. 🛍️ Muchnick's Advanced Compiler Design and Implementation
-8. 🛍️ Hennessy & Patterson – Computer Architecture: A Quantitative Approach
-10. 🛍️ Herlihy & Shavit – Art of Multiprocessor Programming
-11. 🛍️ Hwu & Kirk – Programming Massively Parallel Processors
-12. 🛍️ Hastie & Tibshirani – Elements of Statistical Learning
-13. 🛍️ Warren – Hacker's Delight
+2. Sipser
+3. CLRS – Introduction to Algorithms
+4. Engineering a Compiler [Alternative:Modern Compiler Design by Grune et al]
+5. 🛍️ Pierce – Types and Programming Languages
+6. 🛍️ Muchnick's Advanced Compiler Design and Implementation
+7. 🛍️ Hennessy & Patterson – Computer Architecture: A Quantitative Approach
+8. 🛍️ Herlihy & Shavit – Art of Multiprocessor Programming
+9. 🛍️ Hwu & Kirk – Programming Massively Parallel Processors
+10. 🛍️ Gropp, Lusk & Skjellum – Using MPI
+11. 🛍️ Hastie & Tibshirani – Elements of Statistical Learning
+12. 🛍️ Warren – Hacker's Delight
+13. 🛍️ OSTEP
+
+---
 
 ## Papers and Documentation
-- Goto & van de Geijn – Anatomy of High-Performance Matrix Multiplication: High-Performance Matrix Multiplication, Cache Optimization, BLAS Kernel Design
-- On Proof and Progress in Mathematics: Philosophy of Mathematics, Mathematical Discovery and Progress
-- The Unreasonable Effectiveness of Mathematics: Mathematics-Physics Relationship, Applied Mathematics Philosophy
-- Williams, Waterman & Patterson – Roofline Model
-- Baydin et al – Automatic Differentiation in Machine Learning
-- Dean & Ghemawat – MapReduce
-- Vaswani et al – Attention Is All You Need
-- Lattner & Adve – LLVM
-- Lam, Wolf & Lam – "The Cache Performance and Optimizations of Blocked Algorithms" - foundational cache blocking theory
-- Frigo, Leiserson, Prokop & Ramachandran – "Cache-Oblivious Algorithms" - the mathematical framework
-- Bastoul – "Code Generation in the Polyhedral Model" - connects the math to actual compiler transformations
-- Whaley & Dongarra – "Automatically Tuned Linear Algebra Software (ATLAS)" - how to systematically search optimization space
-- Yotov et al. – "Is Search Really Necessary to Generate High-Performance BLAS?" - prediction vs empirical search for cache optimization
-- Hong & Kung (1981) “I/O Complexity: The Red–Blue Pebble Game”
+
+### Philosophy & Foundations
+
+- Thurston — “On Proof and Progress in Mathematics”: philosophy of mathematics, discovery, and pedagogy.
+- Wigner — “The Unreasonable Effectiveness of Mathematics in the Natural Sciences”: reflections on the mathematics–physics relationship.
+
+### Performance Models
+
+- Williams, Waterman & Patterson — “Roofline: An Insightful Visual Performance Model for Multicore Architectures”: performance modeling of memory- vs compute-bound workloads.
+- Hong & Kung — “I/O Complexity: The Red–Blue Pebble Game” (1981): foundational lower bounds on communication complexity.
+- Culler et al. — “LogP: Towards a Realistic Model of Parallel Computation” (1993): classic model for distributed-memory performance.
+- Gustafson — “Reevaluating Amdahl’s Law” (1988): scalability model (weak scaling vs Amdahl’s pessimism).
+
+### High-Performance Kernels
+
+- Goto & van de Geijn — “Anatomy of High-Performance Matrix Multiplication”: cache optimization, BLAS kernel design.
+- Whaley & Dongarra — “Automatically Tuned Linear Algebra Software (ATLAS)”: systematic search-based kernel optimization.
+- Yotov et al. — “Is Search Really Necessary to Generate High-Performance BLAS?”: prediction vs empirical tuning.
+- Frigo & Johnson — “The Design and Implementation of FFTW (‘The Fastest Fourier Transform in the West’)”: auto-tuning in FFT kernels.
+- Volkov & Demmel — “LU, QR, and Cholesky Factorizations Using Vector Capabilities of GPUs” (2008): GPU kernel optimization, a Goto-style paper for accelerators.
+
+### Memory & Cache Models
+
+- Lam, Wolf & Lam — “The Cache Performance and Optimizations of Blocked Algorithms”: cache blocking theory.
+- Frigo, Leiserson, Prokop & Ramachandran — “Cache-Oblivious Algorithms”: recursive cache-friendly algorithms without tuning parameters.
+
+### Compiler & Program Transformations
+
+- Lattner & Adve — “LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation”: modular compiler infrastructure.
+- Bastoul — “Code Generation in the Polyhedral Model”: loop transformations and dependence analysis.
+- Allen & Kennedy — “Optimizing Compilers for Modern Architectures” (overview paper): classic introduction to compiler optimizations, ties into Muchnick.
+
+### Machine Learning & Differentiable Programming
+
+- Baydin et al. — “Automatic Differentiation in Machine Learning: A Survey”: AD foundations and systems.
+- Vaswani et al. — “Attention Is All You Need”: the Transformer architecture, parallelism-friendly ML.
+- Dean & Ghemawat — “MapReduce: Simplified Data Processing on Large Clusters”: distributed data processing at scale.
+
 
 ## Domain Specific for Current Work
 
@@ -198,7 +226,7 @@ These might help with my current job directly.
 
 ## Detours, Stretch Goals, Domain Specific 
 
-It is fine if these seem completely ancillary or redundant. This is a subscription list to expand and pick through after the 12+12 curriculum.
+It is fine if these seem completely ancillary or redundant. This is a subscription list to expand and pick through after the main curriculum.
 
 - Durbin's Biological Sequence Analysis
 - 🛍️ Cover & Joy – Elements of Information Theory
