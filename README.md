@@ -38,6 +38,8 @@
 - Scientific Computing 🧑‍🔬
 - Compiler work 🛠️
 
+**North Star:** Ronin Perf LLC. ⚔️🥷
+
 ### Personal Motivations
 
 - Conquer the Math Dragon 🧮🐉: persistent nerves about doing higher level math need to be confronted with exposure therapy. Don't be fooled, math is half intuition cultivation and half a bag of tricks 🪄. It is learnable.
@@ -163,15 +165,15 @@ Certainly this is a slow ramp up and will accelerate.
 2. Sipser
 3. CLRS – Introduction to Algorithms
 4. Engineering a Compiler [Alternative:Modern Compiler Design by Grune et al]
+  - Supplement: 🛍️ Muchnick's Advanced Compiler Design and Implementation
 5. 🛍️ Pierce – Types and Programming Languages
-6. 🛍️ Muchnick's Advanced Compiler Design and Implementation
-7. 🛍️ Hennessy & Patterson – Computer Architecture: A Quantitative Approach
-8. 🛍️ Herlihy & Shavit – Art of Multiprocessor Programming
-9. 🛍️ Hwu & Kirk – Programming Massively Parallel Processors
-10. 🛍️ Gropp, Lusk & Skjellum – Using MPI
-11. 🛍️ Hastie & Tibshirani – Elements of Statistical Learning
-12. 🛍️ Warren – Hacker's Delight
-13. 🛍️ OSTEP
+6. 🛍️ Hennessy & Patterson – Computer Architecture: A Quantitative Approach
+7. 🛍️ Herlihy & Shavit – Art of Multiprocessor Programming
+8. 🛍️ Hwu & Kirk – Programming Massively Parallel Processors
+9. 🛍️ Gropp, Lusk & Skjellum – Using MPI
+10. 🛍️ Hastie & Tibshirani – Elements of Statistical Learning
+11. 🛍️ Warren – Hacker's Delight
+12. 🛍️ OSTEP
 
 ---
 

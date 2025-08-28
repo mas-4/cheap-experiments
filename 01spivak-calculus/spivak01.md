@@ -707,8 +707,6 @@ $$
 
 > 10. Express each of the following without absolute value signs, treating various cases separately when necessary.
 > 
-> I'm skipping this question at least for now. It's a whole lot of busy work.
-> 
 > (i) $|a+b|-|b|.$
 > 
 > (ii) $|(|x|-1)|.$
