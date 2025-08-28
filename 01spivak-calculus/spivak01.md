@@ -20,14 +20,14 @@
 
 > 1. Prove the following:
 >
-> i. If $ax=a$ for some number $a \neq 0$, then $x = 1$. 🙄
+> 1. (i) If $ax=a$ for some number $a \neq 0$, then $x = 1$. 🙄
 
 $$
 \begin{align*}
 ax &= a \\
 a^{-1} \cdot a \cdot x &= a^{-1} \cdot a \\
 1x &= 1 \tag{P7} \\
-x &= 1 🤌\tag{P6} \\
+x &= 1 \quad🤌\tag{P6} \\
 \end{align*}
 $$
 
@@ -39,7 +39,7 @@ x^2 - y^2 &= (x-y)(x+y) \\
 &= (x-y)x+(x-y)y \tag{P9}\\
 &= x(x-y)+y(x-y) \tag{P8}\\
 &= x^2-xy+xy-y^2 \tag{P9}\\
-&= x^2-y^2 🤌\\
+&= x^2-y^2 \quad🤌\\
 \end{align*}
 $$
 
@@ -60,7 +60,7 @@ $$
 x - y &= 0 \\
 x &= y \\
 x + y &= 0 \\
-x &= -y 🤌\\
+x &= -y \quad🤌\\
 \end{align*}
 $$
 
@@ -71,7 +71,7 @@ $$
 x^3 - y^3 &= (x-y)(x^2 + xy + y^2) \\
 &= (x-y)x^2 + (x-y)xy + (x-y)y^2 \tag{P9}\\
 &= x^3-x^2y + x^2y-xy^2 + xy^2-y^3 \tag{P9}\\
-&= x^3-y^3 🤌\\
+&= x^3-y^3 \quad🤌\\
 \end{align*}
 $$
 
@@ -82,7 +82,7 @@ $$
 x^n - y^n &= (x-y)(x^{n-1}+x^{n-2}y+\cdots+xy^{n-2}+y^{n-1}) \\
 &= (x-y)x^{n-1}+(x-y)x^{n-2}y+\cdots+(x-y)xy^{n-2}+(x-y)y^{n-1} \tag{P9} \\
 &= x^n-x^{n-1}y+x^{n-1}y-x^{n-2}y^2+\cdots+x^2y^{n-2}-xy^{n-1}+xy^{n-1}-y^n \tag{P9} \\
-&= x^n-y^n 🤌\\
+&= x^n-y^n \quad🤌\\
 \end{align*}
 $$
 
@@ -92,7 +92,7 @@ $$
 \begin{align*}
 (x+y)(x^2-xy+y^2) &= x^2(x+y)-xy(x+y)+y^2(x+y) \tag{P9} \\
 &= x^3+x^2y-x^2y-xy^2+xy^2+y^3 \tag{P9} \\
-&= x^3+y^3 🤌 \\
+&= x^3+y^3 \quad🤌 \\
 \end{align*}
 $$
 
@@ -126,7 +126,7 @@ $$
 \frac{a}{b} &= \frac{ac}{bc} \\
 &= \frac{a}{b} \cdot \frac{c}{c} \\
 &= \frac{a}{b} \cdot 1 \\
-&= \frac{a}{b} \\
+&= \frac{a}{b} \quad 🤌 \\
 \end{align*}
 $$
 
@@ -138,7 +138,7 @@ $$
 &= \frac{ad}{bd} + \frac{bc}{bd} \\
 &= \frac{a}{b} \cdot \frac{d}{d} + \frac{b}{b} \cdot \frac{c}{d} \\
 &= \frac{a}{b} \cdot 1 + 1 \cdot \frac{c}{d} \\
-&= \frac{a}{b} + \frac{c}{d} \\
+&= \frac{a}{b} + \frac{c}{d} \quad 🤌 \\
 \end{align*}
 $$
 
@@ -150,7 +150,7 @@ $$
 \begin{align*}
 (ab)a^{-1}b^{-1} &= aa^{-1}bb^{-1} \\
 &= 1 \cdot 1 \\
-&= 1
+&= 1 \quad 🤌
 \end{align*}
 $$
 
@@ -161,7 +161,7 @@ $$
 \frac{a}{b} \cdot \frac{c}{d} &= ab^{-1} \cdot cd^{-1} \\
 &= acb^{-1}d^{-1} \\
 &= ac(bd)^{-1} \\
-&= \frac{ac}{bd} \\
+&= \frac{ac}{bd} \quad 🤌 \\
 \end{align*}
 $$
 
@@ -175,7 +175,7 @@ $$
 &= ab^{-1} \cdot c^{-1} \cdot d\\
 &= ad \cdot b^{-1}c^{-1} \\
 &= ad \cdot (bc)^{-1} \\
-&= \frac{ad}{bc} \\
+&= \frac{ad}{bc} \quad 🤌 \\
 \end{align*}
 $$
 
@@ -204,7 +204,7 @@ b \cdot ab^{-1} &= ba^{-1} ab^{-1} \cdot b\\
 a &= b^2a^{-1} \\
 a \cdot a &= b^2a^{-1} \cdot a\\
 a^2 &= b^2 \\
-a &= b \\
+a &= b  \quad 🤌\\
 \end{align*}
 $$
 
@@ -344,15 +344,21 @@ Now we can see that $x \in (-5,3) \cup (\pi, \infty)$
 
 > x. $(x - \sqrt[3]2)(x-\sqrt 2) > 0$
 
-$x \in (-\infty, \sqrt[3]2) \cup (\sqrt 2, \infty)$
+$$
+x \in (-\infty, \sqrt[3]2) \cup (\sqrt 2, \infty)
+$$
 
 > xi. $2^x < 8$
 
-$x < 3$
+$$
+x < 3
+$$
 
 > xii. $x+3^x < 4$
 
-$x < 1$
+$$
+x < 1
+$$
 
 > xiii. $\frac{1}{x}+\frac{1}{1-x}>0.$
 
@@ -376,7 +382,7 @@ $$
 \begin{align*}
 a &< b \\
 + c &< d \\
-a + c &< b +d \\
+a + c &< b + d \\
 \end{align*}
 $$
 
@@ -485,7 +491,7 @@ Therefore the whole term $d(b-a)+a(d-c)$ must be positive because it is at least
 
 Take the terms $c=a$ and $d=b$ from the previous proof. We know $ac<bd,$ and applying our equalities we get $aa<bb$ and therefore $a^2<b^2.$ 🤌
 
-(x) If $a,b \ge 0$ and $a^2 < b^2,$ then $a<b.$ (Use (ix), backwards.)
+> (x) If $a,b \ge 0$ and $a^2 < b^2,$ then $a<b.$ (Use (ix), backwards.)
 
 Assume $a^2 < b^2$ and $a>b$. Since $a,b\ge 0$ it also follows that $0\le b < a$. But then $b^2<a^2$ by (ix) contradicting our assumption. So $a \le b.$
 
@@ -796,14 +802,14 @@ $$
 \frac{|x|}{|y|} &= |x|\cdot|y^-1| \\
 &= |xy^-1| \tag{i} \\
 &= |x\cdot\frac{1}{y}| \\
-&= |\frac{x}{y}|\\
+&= |\frac{x}{y}| \quad 🤌\\
 \end{align*}
 $$
 
 > (iv) $|x-y|\le|x|+|y|.$ (Give a very short proof)
 
 $$
-|x-y|=|x+(-y)|\le|x|+|-y|=|x|+|y| 🤌
+|x-y|=|x+(-y)|\le|x|+|-y|=|x|+|y| \quad  🤌
 $$
 
 > (v) $|x|-|y|\le|x-y|.$ (A very short proof is possible, if you write things in the right way.) 
