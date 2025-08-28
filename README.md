@@ -74,9 +74,11 @@ But I'm tired of CI/CD. I want to do the real under the hood work. I also find h
 
 ### Philosophy
 
-Seeking a basis for the goal space: linearly independent and yet still spans the goal space.
+This isn't ultralearning in the traditional sense, I'm not speedrunning MIT level knowledge, I'm trying to surpass it. Slow and deep and foundational knowledge.
 
-Seeking mathematical rigor to conquer the math dragon 🐉. No half assed computationally focussed "this is how you do a matrix multiply" books.
+I am Seeking a basis for the goal space: linearly independent and yet still spans the goal space.
+
+I seek mathematical rigor to conquer the math dragon 🐉. No half assed computationally focussed "this is how you do a matrix multiply" books.
 
 This booklist is meant to reflect the actual best and most rigorous texts that form the basis. MIT will have stuff like Strang, but I choose Axler. I choose Spivak for the disguised real analysis rather than a cookbook of derivatives. Soviet math is of particular interest for its reputation for blending intuition and rigor. Soviet books get ⚒️. 
 
@@ -126,28 +128,33 @@ Certainly this is a slow ramp up and will accelerate.
 3. Spivak – Calculus on Manifolds
 
 #### Stage 2 — ODEs + applied linear algebra
+
 4. Arnold – Ordinary Differential Equations ⚒️
 5. Trefethen & Bau – Numerical Linear Algebra
 6. Saad – Iterative Methods for Sparse Linear Systems
 7. Higham – Accuracy and Stability of Numerical Algorithms : Floating-Point Arithmetic, Condition Numbers, Backward Error Analysis, Numerical Stability
 
 #### Stage 3 — Functional Analysis + Probability
+
 8. Kolmogorov & Fomin – Elements of the Theory of Functions and Functional Analysis ⚒️
    - Supplement with Kreyszig
 9. 🛍️ Durrett – Probability: Theory and Examples
 10. Knuth et al – Concrete Math
 
 #### Stage 4 — Fourier/complex toolkits
-11. 🛍️ Stein & Shakarchi – Fourier Analysis
-12. 🛍️ Stein & Shakarchi – Complex Analysis
+
+11. 🛍️ Stein & Shakarchi OR Körner – Fourier Analysis
+12. 🛍️ Stein & Shakarchi OR Ahlfors – Complex Analysis
 
 #### Stage 5 — Optimization + PDEs
+
 13. 🛍️🌐 Boyd & Vandenberghe – Convex Optimization
 14. Nocedal & Wright – Numerical Optimization
 15. Tikhonov & Samarskii – Equations of Mathematical Physics ⚒️
 16. Samarskii Theory of Difference Schemes ⚒️
 
 #### Stage 6 — Specialized methods
+
 17. Rivlin – Chebyshev Polynomials
 
 ## Core
