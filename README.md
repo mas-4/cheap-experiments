@@ -9,7 +9,7 @@
     - [Personal Motivations](#personal-motivations)
     - [Background](#background)
     - [Philosophy](#philosophy)
-    - [Methodogy \& Tools](#methodogy--tools)
+    - [Methodology \& Tools](#methodology--tools)
   - [Syllabus](#syllabus)
     - [Progress Tracking](#progress-tracking)
   - [Math Foundations — Two-Core Plan](#math-foundations--two-core-plan)
@@ -34,7 +34,7 @@
 
 - Be the second coming of Kazushige Goto-san 🙇🥷
 - HPC 🏎️💨
-- Modelling 🚂
+- Modeling 🚂
 - Scientific Computing 🧑‍🔬
 - Compiler work 🛠️
 
@@ -46,7 +46,7 @@
 
 ### Background
 
-I'm a software developer with minimal experience in math (some linear algebra and calculus). Now I want to make a career step change
+I'm a software developer with minimal experience in math (some linear algebra and calculus). Now I want to make a career step change.
 
 <!--  This section is commented out just for LLMs
 ### Status
@@ -77,9 +77,9 @@ But I'm tired of CI/CD. I want to do the real under the hood work. I also find h
 
 ### Philosophy
 
-This isn't ultralearning in the traditional sense, I'm not speedrunning MIT level knowledge, I'm trying to surpass it. Slow and deep and foundational knowledge.
+This isn't ultralearning in the traditional sense, I'm not speedrunning an MIT CS degree, I'm trying to surpass it. Building slow and deep and foundational knowledge and intuition. 
 
-I am Seeking a basis for the goal space: linearly independent and yet still spans the goal space.
+I am seeking a basis for the goal space: linearly independent and yet still spans the goal space.
 
 I seek mathematical rigor to conquer the math dragon 🐉. No half assed computationally focussed "this is how you do a matrix multiply" books.
 
@@ -91,7 +91,7 @@ I am also interested in domain specific goals that can add dimensionality and gi
 
 This syllabus is STRICTLY about the math and text books not about manuals and hands on work. That is all covered in parallel documents.
 
-### Methodogy & Tools
+### Methodology & Tools
 
 Interleave 1-3 books at a time.
 
@@ -99,7 +99,7 @@ Anki helps to retain familiarity with definitions and challenging proofs encount
 
 A Leuchtturm 1916 notebook contains a "Commonplace Book" of encountered proof tricks like "Completing the Square." The book will be refined with experience.
 
-Also, work through the problems in a paper pad and nice notebook and also write them up in LaTeX. Solve the problems independently multiple times.
+Work through the problems in a paper pad and nice notebook and also write them up in LaTeX. Solve the problems independently multiple times.
 
 This process will take years. But every book completed should add to performance abilities at work. There won't be one day after completing this list where "Now you can work on HPC! 🧑‍🎓." Likely the list will be refined as the books are completed and you identify paths yourself rather than with help.
 
