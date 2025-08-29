@@ -1380,30 +1380,24 @@ From this we can sum inequalities for our terms
 
 $$
 \begin{align*}
-
 2\left(\frac{x_1}{\sqrt{{x_1}^2+{x_2}^2}}\cdot\frac{y_1}{\sqrt{{y_1}^2+{y_2}^2}}\right)
 &\le
 \left(\frac{x_1}{\sqrt{{x_1}^2+{x_2}^2}}\right)^2+\left(\frac{y_1}{\sqrt{{y_1}^2+{y_2}^2}}\right)^2\\
-
 2\left(\frac{x_2}{\sqrt{{x_1}^2+{x_2}^2}}\cdot\frac{y_2}{\sqrt{{y_1}^2+{y_2}^2}}\right)
 &\le
 \left(\frac{x_2}{\sqrt{{x_1}^2+{x_2}^2}}\right)^2+\left(\frac{y_2}{\sqrt{{y_1}^2+{y_2}^2}}\right)^2\\
 \hline
-
 2\left(\frac{x_1}{\sqrt{{x_1}^2+{x_2}^2}}\cdot\frac{y_1}{\sqrt{{y_1}^2+{y_2}^2}}\right)+
 2\left(\frac{x_2}{\sqrt{{x_1}^2+{x_2}^2}}\cdot\frac{y_2}{\sqrt{{y_1}^2+{y_2}^2}}\right)
 &\le
 \left(\frac{x_1}{\sqrt{{x_1}^2+{x_2}^2}}\right)^2+\left(\frac{y_1}{\sqrt{{y_1}^2+{y_2}^2}}\right)^2+
 \left(\frac{x_2}{\sqrt{{x_1}^2+{x_2}^2}}\right)^2+\left(\frac{y_2}{\sqrt{{y_1}^2+{y_2}^2}}\right)^2\\
-
 2\left(\frac{x_1y_1}{\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}}+\frac{x_2y_2}{\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}}\right)
 &\le
 \frac{{x_1}^2}{{x_1}^2+{x_2}^2}+\frac{{y_1}^2}{{y_1}^2+{y_2}^2}+ \frac{{x_2}^2}{{x_1}^2+{x_2}^2}+\frac{{y_2}^2}{{y_1}^2+{y_2}^2}\\
-
 2\frac{x_1y_1+x_2y_2}{\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}}
 &\le
 \frac{{x_1}^2+{x_2}^2}{{x_1}^2+{x_2}^2}+\frac{{y_1}^2+{y_2}^2}{{y_1}^2+{y_2}^2}\\
-
 2\frac{x_1y_1+x_2y_2}{\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}} &\le 1+1\\
 2\frac{x_1y_1+x_2y_2}{\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}} &\le 2\\
 \frac{x_1y_1+x_2y_2}{\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}} &\le 1\\
