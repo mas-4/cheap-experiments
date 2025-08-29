@@ -18,7 +18,7 @@
 
 ***
 
-> 1. Prove the following:
+> Prove the following:
 >
 > 1. (i) If $ax=a$ for some number $a \neq 0$, then $x = 1$. 🙄
 
@@ -31,7 +31,7 @@ x &= 1 \quad🤌\tag{P6} \\
 \end{align*}
 $$
 
-> ii. $x^2 - y^2 = (x-y)(x+y).$
+> 1. (ii) $x^2 - y^2 = (x-y)(x+y).$
 
 $$
 \begin{align*}
@@ -43,7 +43,7 @@ x^2 - y^2 &= (x-y)(x+y) \\
 \end{align*}
 $$
 
-> iii. If $x^2=y^2,$ then $x=y$ or $x = -y.$
+> 1. (iii) If $x^2=y^2,$ then $x=y$ or $x = -y.$
 
 $$
 \begin{align*}
@@ -64,7 +64,7 @@ x &= -y \quad🤌\\
 \end{align*}
 $$
 
-> iv. $x^3 - y^3 = (x-y)(x^2 + xy + y^2).$
+> 1. (iv) $x^3 - y^3 = (x-y)(x^2 + xy + y^2).$
 
 $$
 \begin{align*}
@@ -86,7 +86,7 @@ x^n - y^n &= (x-y)(x^{n-1}+x^{n-2}y+\cdots+xy^{n-2}+y^{n-1}) \\
 \end{align*}
 $$
 
-> vi. $x^3 + y^3 = (x+y)(x^2-xy+y^2).$
+> 1. (vi) $x^3 + y^3 = (x+y)(x^2-xy+y^2).$
 
 $$
 \begin{align*}
@@ -117,9 +117,9 @@ If $x^2 = xy$, then $x = y$, which means $x-y = 0$ so the fourth step, dividing 
 
 ***
 
-> 3. Prove the following.
+> Prove the following.
 > 
-> i. $\frac{a}{b} = \frac{ac}{bc},$ if $b,c \neq 0.$
+> 3. (i) $\frac{a}{b} = \frac{ac}{bc},$ if $b,c \neq 0.$
 
 $$
 \begin{align*}
@@ -130,7 +130,7 @@ $$
 \end{align*}
 $$
 
-> ii. $\frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd},$ if $b,d \neq 0.$
+> 3. (ii) $\frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd},$ if $b,d \neq 0.$
 
 $$
 \begin{align*}
@@ -142,7 +142,7 @@ $$
 \end{align*}
 $$
 
-> iii. $(ab)^{-1} = a^{-1}b^{-1},$ if $a,b \neq 0.$ (To do this you must remember the defining property of $(ab)^{-1}.$)
+> 3. (iii) $(ab)^{-1} = a^{-1}b^{-1},$ if $a,b \neq 0.$ (To do this you must remember the defining property of $(ab)^{-1}.$)
 
 Since $(ab)^{-1}$ is defined as satisfying $(ab)(ab)^{-1}$ it suffices to show that $a^{-1}b^{-1}$ also satisfies this property.
 
@@ -154,7 +154,7 @@ $$
 \end{align*}
 $$
 
-> iv. $\frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{db},$ if $b,d \neq 0.$
+> 3. (iv) $\frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{db},$ if $b,d \neq 0.$
 
 $$
 \begin{align*}
@@ -165,7 +165,7 @@ $$
 \end{align*}
 $$
 
-> v. $\frac{a}{b} / \frac{c}{d} = \frac{ad}{bc},$ if $b,c,d \neq 0.$
+> 3. (v) $\frac{a}{b} / \frac{c}{d} = \frac{ad}{bc},$ if $b,c,d \neq 0.$
 
 $$
 \begin{align*}
@@ -179,7 +179,7 @@ $$
 \end{align*}
 $$
 
-> vi. If $b,d \neq 0,$ then $\frac{a}{b} = \frac{c}{d}$ if and only if $ad = bc.$ Also determine when $\frac{a}{b} = \frac{b}{a}$.
+> 3. (vi) If $b,d \neq 0,$ then $\frac{a}{b} = \frac{c}{d}$ if and only if $ad = bc.$ Also determine when $\frac{a}{b} = \frac{b}{a}$.
 
 Since
 
@@ -210,9 +210,9 @@ $$
 
 ***
 
-> 4. Find all numbers $x$ for which
+> Find all numbers $x$ for which
 > 
-> i. $4 - x < 3 - 2x.$
+> 4. (i) $4 - x < 3 - 2x.$
 
 $$
 \begin{align*}
@@ -223,7 +223,7 @@ x &< -1
 \end{align*}
 $$
 
-> ii. $5-x^2<8.$
+> 4. (ii) $5-x^2<8.$
 
 $$
 \begin{align*}
@@ -234,7 +234,7 @@ x^2&>-3 \\
 \end{align*}
 $$
 
-> iii. $5-x^2<-2.$
+> 4. (iii) $5-x^2<-2.$
 
 $$
 \begin{align*}
@@ -246,7 +246,7 @@ $$
 
 Which means $|x| > \sqrt 7$
 
-> iv. $(x-1)(x-3)>0$
+> 4. (iv) $(x-1)(x-3)>0$
 
 Since the inequality only holds when the left side is not zero, both terms $(x-1),(x-3)$ need to evaluate to a non zero identity and the pair need to multiply to a positive number.
 
@@ -256,7 +256,7 @@ We also know that they are both positive only when $x > 3$.
 
 So we have $x \in (-\infty, 1)\cup(3,\infty)$.
 
-> v. $x^2 - 2x + 2 > 0$
+> 4. (v) $x^2 - 2x + 2 > 0$
 
 After completing the square we get
 
@@ -270,7 +270,7 @@ $$
 
 In this case we can see that $(x-1)^2$ is at least $0$, and with the addition of $1$ we see this inequality holds for all real numbers.
 
-> vi. $x^2+x+1>2$ 
+> 4. (vi) $x^2+x+1>2$ 
 $$
 \begin{align*}
 x^2+x+1&>2\\
@@ -289,7 +289,7 @@ $$
 x \in (-\infty, \frac{-\sqrt 5 - 1}{2}) \cup (\frac{\sqrt5-1}{2}, \infty)
 $$
 
-> vii. $x^2-x+10>16$
+> 4. (vi) $x^2-x+10>16$
 
 $$
 \begin{align*}
@@ -310,7 +310,7 @@ $$
 x \in (-\infty, -2) \cup (3,\infty)
 $$
 
-> viii. $x^2+x+1>0$
+> 4. (viii) $x^2+x+1>0$
 
 $$
 \begin{align*}
@@ -322,7 +322,7 @@ $$
 
 Since $(x+\frac{1}{2})^2$ is always positive and is at least $0$, the smallest possible value on the left is $\frac{3}{4}$ so $x \in (-\infty,\infty).$
 
-> ix. $(x-\pi)(x+5)(x-3)>0.$
+> 4. (ix) $(x-\pi)(x+5)(x-3)>0.$
 
 In this case, since it's 3 terms, the calculus is significantly more complicated.
 
@@ -342,39 +342,39 @@ We must table this!
 
 Now we can see that $x \in (-5,3) \cup (\pi, \infty)$
 
-> x. $(x - \sqrt[3]2)(x-\sqrt 2) > 0$
+> 4. (x) $(x - \sqrt[3]2)(x-\sqrt 2) > 0$
 
 $$
 x \in (-\infty, \sqrt[3]2) \cup (\sqrt 2, \infty)
 $$
 
-> xi. $2^x < 8$
+> 4. (xi) $2^x < 8$
 
 $$
 x < 3
 $$
 
-> xii. $x+3^x < 4$
+> 4. (xii) $x+3^x < 4$
 
 $$
 x < 1
 $$
 
-> xiii. $\frac{1}{x}+\frac{1}{1-x}>0.$
+> 4. (xiii) $\frac{1}{x}+\frac{1}{1-x}>0.$
 
 This simplifies to $\frac{1}{x-x^2} > 0$
 
 $x \in (0,1)$ since past 1 and below 0 the $x^2$ term will dominate.
 
-> xiv. $\frac{x-1}{x+1} > 0.$
+> 4. (xiv) $\frac{x-1}{x+1} > 0.$
 
 Well, it's undefined at $-1$. $x \in (-\infty,-1)\cup (1,\infty)$
 
 ***
 
->  5. Prove the following:
+> Prove the following:
 >
-> (i) If $a < b$ and $c < d,$ then $a+c < b+d$
+> 5. (i) If $a < b$ and $c < d,$ then $a+c < b+d$
 
 Well, there's this trick I know of, adding equations. Why don't we try it with an inequality with identical operators
 
@@ -388,7 +388,7 @@ $$
 
 Whoa! it worked! 🤌
 
-> (ii) If $a < b$, then $-b < -a.$
+> 5. (ii) If $a < b$, then $-b < -a.$
 
 From $a < b$ we know $b - a \in \mathbb{P}$. So, watch this 👀
 
@@ -402,7 +402,7 @@ $$
 
 And there we know $-a-(-b)\in \mathbb{P}$ means $-b < -a.$ 🤌
 
-> (iii) If $a<b$ and $c>d,$ then $a-c<b-d.$
+> 5. (iii) If $a<b$ and $c>d,$ then $a-c<b-d.$
 
 Translating our statements into $b-a \in \mathbb{P}$ and $c-d \in \mathbb{P}$ we then see that adding two positive numbers is still positive so
 
@@ -417,11 +417,11 @@ $$
 
 Since the last statement fits our pattern we know it to say $b-d>a-c.$ 🤌
 
-> (iv) If $a < b$ and $c > 0$, then $ac < bc.$
+> 5. (iv) If $a < b$ and $c > 0$, then $ac < bc.$
 
 Since $\mathbb{P}$ is closed under multiplication and both $b-a \in \mathbb{P}$ and $c \in \mathbb{P}$, then $c(b-a) \in \mathbb{P}$ so $bc-ac \in \mathbb{P}$ and $bc > ac$ and $ac < bc.$ 🤌
 
-> (v) If $a<b$ and $c<0,$ then $ac > bc$.
+> 5. (v) If $a<b$ and $c<0,$ then $ac > bc$.
 
 Since $b-a \in \mathbb{P}$ and $0-c\in \mathbb{P}$ we can see multiply again.
 
@@ -438,7 +438,7 @@ $$
 
 And from that we can see $ac>bc.$ 🤌
 
-> (vi) If $a>1,$ then $a^2>a.$
+> 5. (vi) If $a>1,$ then $a^2>a.$
 
 We know that $\mathbb{P}$ is closed under multiplication so
 
@@ -452,7 +452,7 @@ $$
 
 From this we see $a^2>a.$ 🤌
 
-> (vii) If $0 < a < 1,$ then $a^2<a.$
+> 5. (vii) If $0 < a < 1,$ then $a^2<a.$
 
 $$
 \begin{align*}
@@ -471,7 +471,7 @@ a-a^2 &\in \mathbb{P} 🤌\\
 \end{align*}
 $$
 
-> (viii) If $0\le a <b$ and $0\le c <d,$ then $ac<bd.$
+> 5. (viii) If $0\le a <b$ and $0\le c <d,$ then $ac<bd.$
 
 Let's examine our term $ac<bd.$
 
@@ -487,11 +487,11 @@ We also know $a$ is at least $0$ and $d-c$ is positive, so the term $a(d-c)$ is 
 
 Therefore the whole term $d(b-a)+a(d-c)$ must be positive because it is at least $d(b-a)$ which is positive. 🤌
 
-> (ix) If $0 \le a <b,$ then $a^2<b^2.$ (Use (viii).)
+> 5. (ix) If $0 \le a <b,$ then $a^2<b^2.$ (Use (viii).)
 
 Take the terms $c=a$ and $d=b$ from the previous proof. We know $ac<bd,$ and applying our equalities we get $aa<bb$ and therefore $a^2<b^2.$ 🤌
 
-> (x) If $a,b \ge 0$ and $a^2 < b^2,$ then $a<b.$ (Use (ix), backwards.)
+> 5. (x) If $a,b \ge 0$ and $a^2 < b^2,$ then $a<b.$ (Use (ix), backwards.)
 
 Assume $a^2 < b^2$ and $a>b$. Since $a,b\ge 0$ it also follows that $0\le b < a$. But then $b^2<a^2$ by (ix) contradicting our assumption. So $a \le b.$
 
@@ -519,7 +519,7 @@ x^{k+1}&<y^{k+1} 🤌\\
 \end{align*}
 $$
 
-> (b) Prove that if $x<y$ and $n$ is odd, then $x^n<y^n.$
+> 6. (b) Prove that if $x<y$ and $n$ is odd, then $x^n<y^n.$
 
 Let's separate into three separate cases, $0\le x<y, x<y\le0,$ and $x<0<y.$
 
@@ -531,7 +531,7 @@ For the second case, from (5-ii) we know from $x<y\le0$ that $-x>-y\ge0$ which m
 
 Finally, because odd $n$ preserve sign, from $x<0\le y$ we know $x^n<0\le y.$ 🤌
 
-> (c) Prove that if $x^n=y^n$ and $n$ is odd, then $x=y.$ 
+> 6. (c) Prove that if $x^n=y^n$ and $n$ is odd, then $x=y.$ 
 
 Assume for the sake of contradiction that $x \neq y$.
 
@@ -543,7 +543,7 @@ For the first case, note from (b) that $x^n<y^n$ contradicting $x^n=y^n.$
 
 For the second case, reverse $x$ and $y$ and notice the same contradiction. 🤌
 
-> (d) Prove that if $x^n=y^n$ and $n$ is even, then $x=y$ or $x=-y.$
+> 6. (d) Prove that if $x^n=y^n$ and $n$ is even, then $x=y$ or $x=-y.$
 
 If $x,y\ge 0$ then $x<y,x>y,$ or $x=y$. If $x<y$ then by (a) $x^n<y^n$ contradicting our premise. Likewise from (a) for $x>y.$ Therefore $x=y.$
 
@@ -654,13 +654,13 @@ $$
 
 ***
 
-> 9. Express each of the following with at least one less pair of absolute value signs.
+> Express each of the following with at least one less pair of absolute value signs.
 > 
-> (i) $|\sqrt2+\sqrt3-\sqrt5+\sqrt7|.$
+> 9. (i) $|\sqrt2+\sqrt3-\sqrt5+\sqrt7|.$
 
 $\sqrt{(\sqrt2+\sqrt3-\sqrt5+\sqrt7)^2}$ 🤌
 
-> (ii) $|(|a+b|-|a|-|b|)|.$
+> 9. (ii) $|(|a+b|-|a|-|b|)|.$
 
 we observe from Theorem 1 that
 
@@ -673,15 +673,15 @@ $$
 
 Therefore the equation within the outer absolute value bars is always negative or 0 and can rewrite it as $-(|a+b|-|a|-|b|).$ 🤌
 
-> (iii) $|(|a+b|+|c|-|a+b+c|)|.$
+> 9. (iii) $|(|a+b|+|c|-|a+b+c|)|.$
 
 Taking $d=a+b$ we can rewrite out equation as $|(|d|+|c|-|d+c|)|.$ We then observe the same fact as before, but in this case we know $|d|+|c|\ge|d+c|$ so can conclude the number is always positive and can rewrite it as $|d|+|c|-|d+c|$ and thence substitute back our original terms $|a+b|+|c|-|a+b+c|.$ 🤌
 
-> (iv) $|x^2-2xy+y^2|.$
+> 9. (iv) $|x^2-2xy+y^2|.$
 
 The statement reduces to $(x-y)^2$ which is always positive. 🤌
 
-> (v) $|(|\sqrt2+\sqrt3|-|\sqrt5-\sqrt7|)|.$
+> 9. (v) $|(|\sqrt2+\sqrt3|-|\sqrt5-\sqrt7|)|.$
 
 We know both $\sqrt 2,\sqrt 3 \in \mathbb{P}$ so
 
@@ -706,72 +706,109 @@ $$
 |(\sqrt2+\sqrt3-|\sqrt5-\sqrt7|)|\\
 |(\sqrt2+\sqrt3-|-(\sqrt7-\sqrt5)|)|\\
 |(\sqrt2+\sqrt3+(\sqrt7-\sqrt5))|\\
-\sqrt2+\sqrt3+\sqrt7-\sqrt5 🤌\\
+\sqrt2+\sqrt3+\sqrt7-\sqrt5 \quad 🤌\\
 $$
 
 ***
 
-> 10. Express each of the following without absolute value signs, treating various cases separately when necessary.
+> Express each of the following without absolute value signs, treating various cases separately when necessary.
 > 
-> (i) $|a+b|-|b|.$
-> 
-> (ii) $|(|x|-1)|.$
-> 
-> (iii) $|x|-|x^2|.$
-> 
-> (iv) $a-|(a-|a|)|.$
+> 10. (i) $|a+b|-|b|.$
+
+$$
+|a+b|-|b|=
+\begin{cases}
+a,      & |a+b|\ge0,b\ge0\\
+a+2b,   & |a+b|\ge0,b<0\\
+-(a+2b) & |a+b|<0,b\ge0\\
+-a      & |a+b|<0,b<0
+\end{cases}
+$$
+
+> 10. (ii) $|(|x|-1)|.$
+
+Let $S=|x|-1$
+
+$$
+|(|x|-1)|=
+\begin{cases}
+x-1,    & x\ge1 \\
+x+1,    & 0\le x<1\\
+-x+1,   & x<0
+\end{cases}
+$$
+
+> 10. (iii) $|x|-|x^2|.$
+
+$$
+|x|-|x^2| =
+\begin{cases}
+x-x^2,      & x\ge0 \\
+-x-x^2,     & x<0 \\
+\end{cases}
+$$
+
+> 10. (iv) $a-|(a-|a|)|.$
+
+$$
+a-|(a-|a|)|==
+\begin{cases}
+a,      & a \ge 0
+-a,     & a < 0
+\end{cases}
+$$
 
 ***
 
-> 11. Find all numbers $x$ for which
+> Find all numbers $x$ for which
 > 
-> (i) $|x-3| = 8.$
+> 11. (i) $|x-3| = 8.$
 
 $$
 x=\{-5\}\cup\{11\}
 $$
 
-> (ii) $|x-3|<8.$
+> 11. (ii) $|x-3|<8.$
 
 $$
 -5<x<11
 $$
 
-> (iii) $|x+4|<2.$
+> 11. (iii) $|x+4|<2.$
 
 $$
 -6<x<-2
 $$
 
-> (iv) $|x-1|+|x-2|>1.$
+> 11. (iv) $|x-1|+|x-2|>1.$
 
 $$
 x<0\text{ or }x>2.
 $$
 
-> (v) $|x-1|+|x+1|<2.$
+> 11. (v) $|x-1|+|x+1|<2.$
 
 No x.
 
-> (vi) $|x-1|+|x+1|<1.$
+> 11. (vi) $|x-1|+|x+1|<1.$
 
 No x.
 
-> (vii) $|x-1| \cdot |x+1| = 0.$
+> 11. (vii) $|x-1| \cdot |x+1| = 0.$
 
 $$
 x=-1\text{ or }x=1
 $$
 
-> (viii) $|x-1|\cdot|x+2|=3.$
+> 11. (viii) $|x-1|\cdot|x+2|=3.$
 
 When $x>1$ or $x<-2$ both sides of the number line behave identically as $(x-1)(x+2)=3$ for which the solutions are $\frac{-1\pm\sqrt{21}}{2}.$ Between that range there are no real solutions.
 
 ***
 
-> 12. Prove the following:
+> Prove the following:
 >
-> (i) $|xy|=|x|\cdot|y|.$
+> 12. (i) $|xy|=|x|\cdot|y|.$
 
 $$
 \begin{align*}
@@ -781,7 +818,7 @@ $$
 
 Since both $|xy|$ and $|x|,|y|\ge0$ this shows equivalence.
 
-> (ii) $|\frac{1}{x}|=\frac{1}{|x|},$ if $x \neq 0.$ Best to remember what $|x|^{-1}$ is.
+> 12. (ii) $|\frac{1}{x}|=\frac{1}{|x|},$ if $x \neq 0.$ Best to remember what $|x|^{-1}$ is.
 
 $$
 \begin{align*}
@@ -795,7 +832,7 @@ Now divide both sides by $|x|.$ 🤌
 
 NB: This proof is a little unsatisfying. It seems to leave some logic on the table.
 
-> (iii) $\frac{|x|}{|y|}=|\frac{x}{y}|,$ if $y\neq0.$
+> 12. (iii) $\frac{|x|}{|y|}=|\frac{x}{y}|,$ if $y\neq0.$
 
 $$
 \begin{align*}
@@ -806,13 +843,13 @@ $$
 \end{align*}
 $$
 
-> (iv) $|x-y|\le|x|+|y|.$ (Give a very short proof)
+> 12. (iv) $|x-y|\le|x|+|y|.$ (Give a very short proof)
 
 $$
 |x-y|=|x+(-y)|\le|x|+|-y|=|x|+|y| \quad  🤌
 $$
 
-> (v) $|x|-|y|\le|x-y|.$ (A very short proof is possible, if you write things in the right way.) 
+> 12. (v) $|x|-|y|\le|x-y|.$ (A very short proof is possible, if you write things in the right way.) 
 
 $$
 \begin{align*}
@@ -822,7 +859,7 @@ $$
 \end{align*}
 $$
 
-> (vi) $|(|x|-|y|)|\le|x-y|.$ (Why does this follow immediately from (v)?)
+> 12. (vi) $|(|x|-|y|)|\le|x-y|.$ (Why does this follow immediately from (v)?)
 
 Since $|x-y|=|y-x|,$ swapping $x,y$ from (v) we get
 
@@ -835,7 +872,7 @@ $$
 
 Since both $|x|-|y|$ and its negative are less than $|x-y|,$ we know $|(|x|-|y|)|\le|x-y|.$ 🤌
 
-> (vii) $|x+y+z|\le|x|+|y|+|z|.$ Indicate when equality holds and prove your statement.
+> 12. (vii) $|x+y+z|\le|x|+|y|+|z|.$ Indicate when equality holds and prove your statement.
 
 Supposing $y=y+z$ and applying the triangle inequality we see $|x+(y+z)|\le|x|+|y+z|.$ However, applying the triangle inequality to $|y+z|$ we see again $|y+z|\le|y|+|z|$ and so we can susbstitute the right hand of the inequality again to derive
 
@@ -855,8 +892,8 @@ Forward cases:
 
 Backward cases, look at the triangle inequality applications:
 
-1. If $|y+z|=|y|+|z|,$ then $y,z$ have the same sign.
-2. If $|x+(y+z)|=|x|+|y+z|$ then $x,y+z$ have the same sign.
+- If $|y+z|=|y|+|z|,$ then $y,z$ have the same sign.
+- If $|x+(y+z)|=|x|+|y+z|$ then $x,y+z$ have the same sign.
 
 Therefore equality holds when if and only if three terms have the same sign. 🤌
 
@@ -917,15 +954,13 @@ Hideous. 🤮. But 🤌 nonetheless.
 
 ***
 
-> 14.
-> 
-> (a) Prove that $|a|=|-a|.$ (The trick is to not become comfused by too many cases. First prove the statement for $a\ge0.$ Why is it then obvious for $a\le0$?)
+> 14. (a) Prove that $|a|=|-a|.$ (The trick is to not become comfused by too many cases. First prove the statement for $a\ge0.$ Why is it then obvious for $a\le0$?)
 
 **Case 1** If $a\ge0,$ then $|a|=a$ and $|-a|=a$ and therefore $|a|=|-a|$ for $a\ge0.$
 
 **Case 2** If $a<0,$ then $|a|=-a$ and $|-a|=-a$ and therefore $|a|=|-a|$ for $a<0.$
  
-> (b) Prove that $-b\le a\le b$ if and only if $|a|\le b.$ In particular, it follows that $-|a|\le a \le|a|.$
+> 14. (b) Prove that $-b\le a\le b$ if and only if $|a|\le b.$ In particular, it follows that $-|a|\le a \le|a|.$
 
 For $|a|\le b \implies -b \le a \le b,$ we know that $|a|\ge0$ so $b\ge0.$
 
@@ -955,7 +990,7 @@ Assume again that $a<0.$ Then $-a>b$ and $a<-b,$ contradicting $-b \le a \le b.$
 
 Furthermore, to prove $-|a|\le a \le |a|,$ assume $b=|a|.$ Then $|a|\le b=|a|.$ And $-|a|\le a \le |a|.$
 
-> (c) Use this fact to give a new proof that $|a+b|\le|a|+|b|.$
+> 14. (c) Use this fact to give a new proof that $|a+b|\le|a|+|b|.$
 
 First, take any $a,b.$ From (b) we can sum these inequalities:
 
@@ -993,9 +1028,7 @@ For, $x^4+x^3y+x^2y^2+xy^3+y^4$ the same proof applies using problem 1(v) since 
 
 ***
 
-> 16.
->
-> (a) Show that
+> 16. (a) Show that
 > 
 > $$
 > \begin{align*}
@@ -1005,6 +1038,7 @@ For, $x^4+x^3y+x^2y^2+xy^3+y^4$ the same proof applies using problem 1(v) since 
 > $$
 
 If
+
 $$
 x^2+y^2=(x+y)^2=x^2+2xy+y^2
 $$
@@ -1017,7 +1051,7 @@ $$
 
 Then $3x^2y+3xy^2=3xy(x+y)=0$ so $x=0$ or $y=0$ or $x=-y.$
 
-> (b) Using the fact that
+> 16. (b) Using the fact that
 > 
 > $$
 > x^2+2xy+y^2=(x+y)^2\ge0,
@@ -1041,7 +1075,7 @@ Subtracting these we find $xy\ge0.$ If neither $x$ nor $y$ is $0,$ then we must 
 
 Further, if only one of x or y i s0, then $x^2>0$ or $y^2>0,$ so the equation remains positive.
 
-> (c) Use part (b) to find out when $(x+y)^4=x^4+y^4.$
+> 16. (c) Use part (b) to find out when $(x+y)^4=x^4+y^4.$
 
 If
 
@@ -1057,7 +1091,7 @@ $$
 
 So either $x=0,y=0,$ or $4x^2+6xy+4y^2=0,$ but we know from (b) $4x^2+6xy+4y^2=0$ only when $x=y=0,$ but then $x^4+y^4=0,$ so $x=0$ or $y=0$ but not both. 🤌
 
-> (d) Find out when $(x+y)^5=x^5+y^5.$ Hint: From the assumption $(x+y)^5=x^5+y^5$ you should be able to derive the equation $x^3+2x^2y+2xy^2+y^3=0,$ if $xy\neq0.$ This implies $(x+y)^3=x^2y+xy^2=xy(x+y).$
+> 16. (d) Find out when $(x+y)^5=x^5+y^5.$ Hint: From the assumption $(x+y)^5=x^5+y^5$ you should be able to derive the equation $x^3+2x^2y+2xy^2+y^3=0,$ if $xy\neq0.$ This implies $(x+y)^3=x^2y+xy^2=xy(x+y).$
 
 First, note that
 
@@ -1115,7 +1149,7 @@ $$
 
 Since $2(x-\frac{3}{4})^2$ is at least zero, the smallest value is $\frac{23}{8}$ when $x=\frac{3}{4}$
 
-> (b) Find the smallest possible value of $x^2-3x+2y^2+4y+2.$
+> 17. (b) Find the smallest possible value of $x^2-3x+2y^2+4y+2.$
 
 $$
 \begin{align*}
@@ -1127,7 +1161,7 @@ $$
 
 Since the first 2 terms are always positive the smallest possible value is $-\frac{9}{4}.$
 
-> (c) Find the smallest possible value of $x^2+4xy+5y^2-4x-6y+7.$
+> 17. (c) Find the smallest possible value of $x^2+4xy+5y^2-4x-6y+7.$
 
 $$
 \begin{align*}
@@ -1150,7 +1184,7 @@ By the same logic we see this one to be at least 2.
 > 18. (a) Suppose that $b^2-4c\ge0.$ Show that the numbers
 >
 > $$
-\frac{-b+\sqrt{b^2-4c}}{2},\quad\frac{-b-\sqrt{b^2-4c}}{2}
+> \frac{-b+\sqrt{b^2-4c}}{2},\quad\frac{-b-\sqrt{b^2-4c}}{2}
 > $$
 >
 > both satisfy the equation $x^2+bx+c=0.$
@@ -1166,7 +1200,7 @@ x^2+bx+c&=0 \\
 \end{align*}
 $$
 
-> (b) Suppose $b^2-4c<0.$ Show that there are no numbers $x$ satisfying $x^2+bx+c=0$
+> 18. (b) Suppose $b^2-4c<0.$ Show that there are no numbers $x$ satisfying $x^2+bx+c=0$
 
 I mean, I guess I could rederive the formula but why man?
 
@@ -1186,7 +1220,7 @@ $$
 
 Since this is the form, if $b^2-4c<0,$ then the square root of it is complex and no real number exists to satisfy.
 
-> (c) Use this fact to give another proof that if $x$ and $y$ are not both $0,$ then $x^2+xy+y^2>0.$
+> 18. (c) Use this fact to give another proof that if $x$ and $y$ are not both $0,$ then $x^2+xy+y^2>0.$
 
 $$
 \begin{align*}
@@ -1197,7 +1231,7 @@ $$
 
 At this point, however, we see that $y^2\ge0$ and so $-3y^2<0$ if $y\ne0.$ Since no $x$ satisfies the equation when $y\ne0,$ for $x^2+xy+y^2=0,$ both $x=y=0.$ Since we're told this is not the case, the equation can never equal zero.
 
-> (d) For which numbers $\alpha$ is it true that $x^2+\alpha xy+y^2>0$ whenever $x$ and $y$ are not both $0$?
+> 18. (d) For which numbers $\alpha$ is it true that $x^2+\alpha xy+y^2>0$ whenever $x$ and $y$ are not both $0$?
 
 Since we're looking for when there are no real solutions (i.e., roots, when the equation equals $0$), we want to find
 
@@ -1223,13 +1257,13 @@ $$
 
 Therefore, it is always positive when $|\alpha|<2.$
 
-> (e) Find the smallest possible value of $x^2+bx+c$ and of $ax^2+bx+c,$ for $a>0.$
+> 18. (e) Find the smallest possible value of $x^2+bx+c$ and of $ax^2+bx+c,$ for $a>0.$
 
 Well,
 
 $$
 \begin{align*}
-x^2+bx+c=(x+\frac{b}{2})^2+c-\frac{b^2}{4}\ge c-\frac{b^2}{4}
+x^2+bx+c=\left(x+\frac{b}{2}\right)^2+c-\frac{b^2}{4}\ge c-\frac{b^2}{4}
 \end{align*}
 $$
 
@@ -1237,17 +1271,17 @@ and since $ax^2+bx+c=c-\frac{b^2}{4}$ when $x=-\frac{b}{2}$ the minimum value is
 
 $$
 \begin{align*}
-ax^2+bx+c&=a(x^2+\frac{b}{a}x+\frac{c}{a})\\
-&=a(x^2+\frac{b}{a}x+\frac{c}{a})\\
-&=a(x^2+\frac{b}{a}x+\frac{b^2}{4a^2}-\frac{b^2}{4a^2}+\frac{c}{a})\\
-&=a((x+\frac{b}{2a})^2-\frac{b^2}{4a^2}+\frac{c}{a})\\
+ax^2+bx+c&=a\left(x^2+\frac{b}{a}x+\frac{c}{a}\right)\\
+&=a\left(x^2+\frac{b}{a}x+\frac{c}{a}\right)\\
+&=a\left(x^2+\frac{b}{a}x+\frac{b^2}{4a^2}-\frac{b^2}{4a^2}+\frac{c}{a}\right)\\
+&=a\left(\left(x+\frac{b}{2a}\right)^2-\frac{b^2}{4a^2}+\frac{c}{a}\right)\\
 \end{align*}
 $$
 
 We can see that when $x=-\frac{b}{2a}$ the smallest value is
 
 $$
-a(\frac{c}{a}-\frac{b^2}{4a^2})=c-\frac{b^2}{4a}
+a\left(\frac{c}{a}-\frac{b^2}{4a^2}\right)=c-\frac{b^2}{4a}
 $$
 
 ***
@@ -1258,10 +1292,156 @@ $$
 > x_1y_1+x_2y_2\le\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}
 > $$
 > 
-> (A more general form occurs in Problem 2-21.) The Three proofs of the Schwarz inequality outlined below have only one thing in common—their reliance on the fact that $a^2\ge0$ for all $a.$
+> (A more general form occurs in Problem 2-21.) The three proofs of the Schwarz inequality outlined below have only one thing in common—their reliance on the fact that $a^2\ge0$ for all $a.$
 >
-> (a) Prove that if $x_1=\lambda y_1$ and $x_2=\lambda y_2$ for some $\lambda \ge0,$ then equality holds in teh Schwarz inequality. Prove the same thing if $y_1=y_2=0$. Now suppose that $y_1$ and y_2$ are not both $0,$ and that there is no number $\lambda$ such that $x_1=\lambda y_1$ and that $x_2=\lambda y_2.$ Then
+> 19. (a) Prove that if $x_1=\lambda y_1$ and $x_2=\lambda y_2$ for some $\lambda \ge0,$ then equality holds in the Schwarz inequality. Prove the same thing if $y_1=y_2=0$. Now suppose that $y_1$ and $y_2$ are not both $0,$ and that there is no number $\lambda$ such that $x_1=\lambda y_1$ and that $x_2=\lambda y_2.$ Then
 >
 > $$
 > 0 < (\lambda y_1-x_1)^2+(\lambda y_2-x_2)^2=\lambda^2({y_1}^2+{y_2}^2)-2\lambda(x_1y_1+x_2y_2)+({x_1}^2+{x_2}^2).
 > $$
+>
+> Using problem 18, complete the proof of the Schwarz inequality.
+
+If $x_1=\lambda y_1,x_2=\lambda y_2,$
+
+$$
+\begin{align*}
+x_1y_1+x_2y_2&\le\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}\\
+\lambda y_1y_1+\lambda y_2y_2&\le\sqrt{{(\lambda y_1)}^2+{(\lambda y_2)}^2}\sqrt{{y_1}^2+{y_2}^2}\\
+\lambda ({y_1}^2+{y_2}^2)&\le\sqrt{\lambda^2({y_1}^2+{y_2}^2)}\sqrt{{y_1}^2+{y_2}^2}\\
+\lambda ({y_1}^2+{y_2}^2)&\le\lambda(\sqrt{{y_1}^2+{y_2}^2})^2\\
+\lambda ({y_1}^2+{y_2}^2)&=\lambda({y_1}^2+{y_2}^2)\\
+\end{align*}
+$$
+
+If $y1=y2=0$
+
+$$
+\begin{align*}
+x_1y_1+x_2y_2&\le\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}\\
+x_10+x_20&\le\sqrt{{x_1}^2+{x_2}^2}\sqrt{{0}^2+{0}^2}\\
+0&\le\sqrt{{x_1}^2+{x_2}^2}\cdot0\\
+0&=0
+\end{align*}
+$$
+
+Finally, if $x$ is not a multiple of $y$ and $y\ne0,$ then we know
+
+$$
+\begin{align*}
+0 &< (\lambda y_1-x_1)^2+(\lambda y_2-x_2)^2
+\end{align*}
+$$
+
+because squared numbers are always positive, and there is no $\lambda$ for which both terms cancel out. So
+
+$$
+\begin{align*}
+0 &< (\lambda y_1-x_1)^2+(\lambda y_2-x_2)^2\\
+0 &< (\lambda^2 {y_1}^2-2\lambda y_1x_1+{x_1}^2)+(\lambda^2 {y_2}^2-2\lambda y_2x_2+{x_2}^2)\\
+0 &< ({y_1}^2+{y_2}^2)\lambda^2-2(y_1x_1+y_2x_2)\lambda+({x_1}^2+{x_2}^2) \\
+\end{align*}
+$$
+
+this is the form Spivak was looking for, from here we know that the equation is always positive, so it has no real roots. This means $b^2-4ac<0$ so from the quadratic form we've found for $a\lambda^2+b\lambda+c$ we know
+
+$$
+\begin{align*}
+(-2(y_1x_1+y_2x_2))^2-4({y_1}^2+{y_2}^2)({x_1}^2+{x_2}^2)&<0\\
+4(y_1x_1+y_2x_2)^2-4({y_1}^2+{y_2}^2)({x_1}^2+{x_2}^2)&<0\\
+4(y_1x_1+y_2x_2)^2&<4({y_1}^2+{y_2}^2)({x_1}^2+{x_2}^2)\\
+(y_1x_1+y_2x_2)^2&<({y_1}^2+{y_2}^2)({x_1}^2+{x_2}^2)\\
+y_1x_1+y_2x_2&<\sqrt{{y_1}^2+{y_2}^2}\sqrt{{x_1}^2+{x_2}^2}\\
+\end{align*}
+$$
+
+And there we have the Schwarz inequality which holds equality when our two pairs are scaled equally by some $\lambda$ or $y_1=y_2=0$ and inequality otherwise. 🤌
+
+> 19. (b) Prove the Schwarz inequality by using $2xy\le x^2+y^2$ (how is this derived?) with
+>
+> $$
+> x=\frac{x_i}{\sqrt{{x_1}^2+{x_2}^2}},\quad y=\frac{y_i}{\sqrt{{y_1}^2+{y_2}^2}}
+> $$
+>
+> first for $i=1$ and then for $i=2.$
+
+First, observe that 
+
+$$
+\begin{align*}
+(x-y)^2&\ge0\\
+x^2-2xy+y^2&\ge0\\
+x^2+y^2&\ge2xy\\
+2xy&\le x^2+y^2\\
+\end{align*}
+$$
+
+From this we can sum inequalities for our terms
+
+$$
+\begin{align*}
+
+2\left(\frac{x_1}{\sqrt{{x_1}^2+{x_2}^2}}\cdot\frac{y_1}{\sqrt{{y_1}^2+{y_2}^2}}\right)
+&\le
+\left(\frac{x_1}{\sqrt{{x_1}^2+{x_2}^2}}\right)^2+\left(\frac{y_1}{\sqrt{{y_1}^2+{y_2}^2}}\right)^2\\
+
+2\left(\frac{x_2}{\sqrt{{x_1}^2+{x_2}^2}}\cdot\frac{y_2}{\sqrt{{y_1}^2+{y_2}^2}}\right)
+&\le
+\left(\frac{x_2}{\sqrt{{x_1}^2+{x_2}^2}}\right)^2+\left(\frac{y_2}{\sqrt{{y_1}^2+{y_2}^2}}\right)^2\\
+\hline
+
+2\left(\frac{x_1}{\sqrt{{x_1}^2+{x_2}^2}}\cdot\frac{y_1}{\sqrt{{y_1}^2+{y_2}^2}}\right)+
+2\left(\frac{x_2}{\sqrt{{x_1}^2+{x_2}^2}}\cdot\frac{y_2}{\sqrt{{y_1}^2+{y_2}^2}}\right)
+&\le
+\left(\frac{x_1}{\sqrt{{x_1}^2+{x_2}^2}}\right)^2+\left(\frac{y_1}{\sqrt{{y_1}^2+{y_2}^2}}\right)^2+
+\left(\frac{x_2}{\sqrt{{x_1}^2+{x_2}^2}}\right)^2+\left(\frac{y_2}{\sqrt{{y_1}^2+{y_2}^2}}\right)^2\\
+
+2\left(\frac{x_1y_1}{\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}}+\frac{x_2y_2}{\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}}\right)
+&\le
+\frac{{x_1}^2}{{x_1}^2+{x_2}^2}+\frac{{y_1}^2}{{y_1}^2+{y_2}^2}+ \frac{{x_2}^2}{{x_1}^2+{x_2}^2}+\frac{{y_2}^2}{{y_1}^2+{y_2}^2}\\
+
+2\frac{x_1y_1+x_2y_2}{\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}}
+&\le
+\frac{{x_1}^2+{x_2}^2}{{x_1}^2+{x_2}^2}+\frac{{y_1}^2+{y_2}^2}{{y_1}^2+{y_2}^2}\\
+
+2\frac{x_1y_1+x_2y_2}{\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}} &\le 1+1\\
+2\frac{x_1y_1+x_2y_2}{\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}} &\le 2\\
+\frac{x_1y_1+x_2y_2}{\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}} &\le 1\\
+x_1y_1+x_2y_2&\le \sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}
+\end{align*}
+$$
+
+And there we have our Schwarz inequality. 🤌
+
+> 19. (c) Prove the Schwarz inequality by first proving that
+>
+> $$
+> ({x_1}^2+{x_2}^2)({y_1}^2+{y_2}^2)=(x_1y_1+x_2y_2)^2+(x_1y_2-x_2y_1)^2.
+> $$
+
+If we start with the right it will be easier to see where the negative term comes in
+
+$$
+\begin{align*}
+(x_1y_1+x_2y_2)^2+(x_1y_2-x_2y_1)^2&=(x_1^2y_1^2+2x_1x_2y_1y_2+x_2^2y_2^2) + (x_1^2y_2^2-2x_1x_2y_1y_2+x_2^2y_1^2)\\
+&={x_1}^2{y_1}^2+{x_2}^2{y_2}^2 + {x_1}^2{y_2}^2+{x_2}^2{y_1}^2\\
+&={x_1}^2{y_1}^2+{x_2}^2{y_1}^2+{x_2}^2{y_2}^2 + {x_1}^2{y_2}^2\\
+&={y_1}^2({x_1}^2+{x_2}^2)+{y_2}^2 ({x_1}^2+ {x_2}^2)\\
+&=({y_1}^2+{y_2}^2)({x_1}^2+{x_2}^2)\\
+\end{align*}
+$$
+
+We know $(x_1y_2-x_2y_1)^2\ge0$ so by dropping it from our equality we get an inequality
+
+$$
+\begin{align*}
+(x_1y_1+x_2y_2)^2&\le({x_1}^2+{x_2}^2)({y_1}^2+{y_2}^2)\\
+x_1y_1+x_2y_2&\le\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}\\
+\end{align*}
+$$
+
+And we're back to our inequality. 🤌
+
+> 19. (d) Deduce, from each of these three proofs, that equality holds only when $y_1=y_2=0$ or when there is a number $\lambda\ge0$ such taht $x_1=\lambda y_1$ or $x_2=\lambda y_2$
+
+We already did this. Refer to part (a).

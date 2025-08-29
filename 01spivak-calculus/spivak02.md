@@ -2,7 +2,7 @@
 
 > 1. Prove the following formulas by induction.
 >
-> (i) $1^2+\cdots+n^2=\frac{n(n+1)(2n+1)}{6}.$
+> 1. (i) $1^2+\cdots+n^2=\frac{n(n+1)(2n+1)}{6}.$
 
 **Case 1**
 
