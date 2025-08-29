@@ -3,6 +3,8 @@
 > «Математика — это та часть физики, где эксперименты дешевы.»  
 > — В.И. Арнольд
 
+N.B. LaTeX rendering is trash on Github, vs code works great.
+
 - [Cheap Experiments for Leverage University 🔧🌎](#cheap-experiments-for-leverage-university-)
   - [Prospectus](#prospectus)
     - [Career Goals](#career-goals)
