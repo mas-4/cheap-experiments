@@ -13,7 +13,6 @@ N.B. LaTeX rendering is trash on Github, vs code works great.
     - [Philosophy](#philosophy)
     - [Methodology \& Tools](#methodology--tools)
   - [Syllabus](#syllabus)
-    - [Progress Tracking](#progress-tracking)
   - [Math Foundations — Two-Core Plan](#math-foundations--two-core-plan)
     - [Common base](#common-base)
     - [Goto Core (primary goal)](#goto-core-primary-goal)
@@ -111,6 +110,7 @@ This process will take years. But every book completed should add to performance
 
 ## Syllabus
 
+<!--
 ### Progress Tracking
 
 - Axler 01: 1 month ✔️
@@ -118,6 +118,7 @@ This process will take years. But every book completed should add to performance
 - Spivak 01: Started July 28, problem 18/25 on August 12
 - Spivak 02: 8/13/2025
 - Axler 03a: 8/14/2025
+-->
 
 Certainly this is a slow ramp up and will accelerate.
 

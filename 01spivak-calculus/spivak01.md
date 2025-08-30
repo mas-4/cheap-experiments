@@ -98,8 +98,6 @@ $$
 
 For the trick can just take $x^3+y^3$ to be $x^3-(-y)^3$ and apply (iv)
 
-***
-
 > 2. What is wrong with the following "proof"? Let x = y. Then
 > 
 > $$
@@ -114,8 +112,6 @@ For the trick can just take $x^3+y^3$ to be $x^3-(-y)^3$ and apply (iv)
 > $$
 
 If $x^2 = xy$, then $x = y$, which means $x-y = 0$ so the fourth step, dividing by $x-y$ is dividing by $0$ and is undefined.
-
-***
 
 > Prove the following.
 > 
@@ -207,8 +203,6 @@ a^2 &= b^2 \\
 a &= b  \quad 🤌\\
 \end{align*}
 $$
-
-***
 
 > Find all numbers $x$ for which
 > 
@@ -370,8 +364,6 @@ $x \in (0,1)$ since past 1 and below 0 the $x^2$ term will dominate.
 
 Well, it's undefined at $-1$. $x \in (-\infty,-1)\cup (1,\infty)$
 
-***
-
 > Prove the following:
 >
 > 5. (i) If $a < b$ and $c < d,$ then $a+c < b+d$
@@ -497,8 +489,6 @@ Assume $a^2 < b^2$ and $a>b$. Since $a,b\ge 0$ it also follows that $0\le b < a$
 
 This $a \le b$ decomposes into two cases. Assume $a=b.$ Then $a^2=b^2$ which contradicts our statement $a^2<b^2.$ Therefore $a<b.$ 🤌
 
-***
-
 > 6. (a) Prove that if $0\le x < y,$ then $x^n<y^n,n=1,2,3....$
 
 For a proof by induction, note that we already have the first case:
@@ -555,8 +545,6 @@ From $x^n=y^n, |x|^n = y^n.$ Since $|x|,y>0$, by our first case $|x|=y.$
 
 Therefore $x=-|x|=-y.$ 🤌
 
-***
-
 > 7.  Prove that if $0<a<b,$ then
 > 
 > $$
@@ -599,8 +587,6 @@ a+b&>2\sqrt{ab} \\
 \frac{a+b}{2}&>\sqrt{ab} 🤌 \\
 \end{align*}
 $$
-
-***
 
 > 8. Although the basic properties of inequalities were stated in terms of the collection $\mathbb{P}$ of all positive numbers, and $<$ was defined in terms of $\mathbb{P},$ this procedure can be reversed. Suppose that P10-P12 are replaced by
 > 
@@ -651,8 +637,6 @@ a\cdot0 &< a\cdot b \\
 0 &< ab \\
 \end{align*}
 $$
-
-***
 
 > Express each of the following with at least one less pair of absolute value signs.
 > 
@@ -709,8 +693,6 @@ $$
 \sqrt2+\sqrt3+\sqrt7-\sqrt5 \quad 🤌\\
 $$
 
-***
-
 > Express each of the following without absolute value signs, treating various cases separately when necessary.
 > 
 > 10. (i) $|a+b|-|b|.$
@@ -758,8 +740,6 @@ a,      & a \ge 0
 \end{cases}
 $$
 
-***
-
 > Find all numbers $x$ for which
 > 
 > 11. (i) $|x-3| = 8.$
@@ -803,8 +783,6 @@ $$
 > 11. (viii) $|x-1|\cdot|x+2|=3.$
 
 When $x>1$ or $x<-2$ both sides of the number line behave identically as $(x-1)(x+2)=3$ for which the solutions are $\frac{-1\pm\sqrt{21}}{2}.$ Between that range there are no real solutions.
-
-***
 
 > Prove the following:
 >
@@ -897,8 +875,6 @@ Backward cases, look at the triangle inequality applications:
 
 Therefore equality holds when if and only if three terms have the same sign. 🤌
 
-***
-
 > 13. The maximum of two numbers $x$ and $y$ is denoted by $\mathrm{max}(x,y).$ Thus $\mathrm{max}(-1,3)=\mathrm{max}(3,3)=3$ and $\mathrm{max}(-1,-4)=\mathrm{max}(-4,-1)=-1.$ The minimum of $x$ and $y$ is denoted by $\mathrm{min}(x,y).$ Prove that
 > 
 > $$
@@ -952,8 +928,6 @@ $$
 
 Hideous. 🤮. But 🤌 nonetheless.
 
-***
-
 > 14. (a) Prove that $|a|=|-a|.$ (The trick is to not become comfused by too many cases. First prove the statement for $a\ge0.$ Why is it then obvious for $a\le0$?)
 
 **Case 1** If $a\ge0,$ then $|a|=a$ and $|-a|=a$ and therefore $|a|=|-a|$ for $a\ge0.$
@@ -1005,8 +979,6 @@ $$
 
 Now, taking $a=a+b$ and $b=|a|+|b|$ we can see that $|a+b|=|a|\le b = |a|+|b|.$ 🤌
 
-***
-
 > 15. Prove that if $x$ and $y$ are not both $0,$ then
 > 
 > $$
@@ -1025,8 +997,6 @@ $$
 From 6(b) we know that $x^n<y^n$ if $x<y$ so the numerator and denominator are always the same sign and thus $x^2+xy+y^2>0.$ If $x=y\ne0,$ the statement reduces to $3x^2$ which is always greater than 0 because $x^2$ is positive.
 
 For, $x^4+x^3y+x^2y^2+xy^3+y^4$ the same proof applies using problem 1(v) since it's simply $\frac{x^5-y^5}{x-y}.$
-
-***
 
 > 16. (a) Show that
 > 
@@ -1131,8 +1101,6 @@ Yeah, so $x=0,y=0,$ or $x=-y.$ 🤌
 
 I don't know man, probably $x=0,y=0,$ or $x=-y.$ I'll prove it later.
 
-***
-
 > 17. (a) Find the smallest possible value of $2x^2-3x+4$. Hint: "Complete the square. ⏹"
 
 $$
@@ -1178,8 +1146,6 @@ x^2+4(y-1)x&+5y^2-6y+7\\
 $$
 
 By the same logic we see this one to be at least 2.
-
-***
 
 > 18. (a) Suppose that $b^2-4c\ge0.$ Show that the numbers
 >
@@ -1283,8 +1249,6 @@ We can see that when $x=-\frac{b}{2a}$ the smallest value is
 $$
 a\left(\frac{c}{a}-\frac{b^2}{4a^2}\right)=c-\frac{b^2}{4a}
 $$
-
-***
 
 > 19. The fact that $a^2\ge0$ for all numbers $a,$ elementary as it may seem, is nevertheless the fundamental idea upon which most important inequalities are ultimately based. The great-granddaddy of all inequalities is the *Schwarz inequality:*
 > 
@@ -1436,6 +1400,208 @@ $$
 
 And we're back to our inequality. 🤌
 
-> 19. (d) Deduce, from each of these three proofs, that equality holds only when $y_1=y_2=0$ or when there is a number $\lambda\ge0$ such taht $x_1=\lambda y_1$ or $x_2=\lambda y_2$
+> 19. (d) Deduce, from each of these three proofs, that equality holds only when $y_1=y_2=0$ or when there is a number $\lambda\ge0$ such that $x_1=\lambda y_1$ or $x_2=\lambda y_2$
 
-We already did this. Refer to part (a).
+We already did this. Refer to part (a). Both the right and left terms multiply to zero when $y_1=y_2=0$ and if the x's and y's are scaled check part (a).
+
+> 20. Prove that if
+>
+> $$
+> |x-x_0|<\frac{\epsilon}{2} \text{ and } |y-y_0|<\frac{\epsilon}{2},
+> $$
+>
+> then
+>
+> $$
+> |(x+y)-(x_0+y_0)|<\epsilon\\
+> |(x-y)-(x_0-y_0)|<\epsilon
+> $$
+
+If we add the formulas
+$$
+\begin{align*}
+|x-x_0|+|y-y_0|&<\frac{\epsilon}{2}+\frac{\epsilon}{2}\\
+|x-x_0|+|y-y_0|&<\epsilon,
+\end{align*}
+$$
+
+From $|a+b|\le|a|+|b|$ we know that 
+
+
+$$
+\begin{align*}
+|(x+y)-(x_0+y_0)|&\le|x-x_0|+|y-y_0|<\epsilon\\
+|(x+y)-(x_0+y_0)|&<\epsilon\\
+\end{align*}
+$$
+
+Now if we take from the previous equation $y'=-y$ and $y_0'=-y_0$ we get
+
+$$
+\begin{align*}
+|(x+y')-(x_0+y_0')|&<\epsilon\\
+|(x+(-y))-(x_0+(-y_0))|&<\epsilon\\
+|(x-y)-(x_0-y_0)|&<\epsilon\\
+\end{align*}
+$$
+
+> 21. Prove that if
+>
+> $$
+> |x-x_0|<\min\left(\frac{\epsilon}{2(|y_0|+1)},1\right)\quad\text{ and }\quad|y-y_0|<\frac{\epsilon}{2(|x_0|+1)}
+> $$
+>
+> then $|xy-x_0y_0|<\epsilon.$
+>
+> The notation "min" was defined in Problem 13, but the formula provided by that problem is irrelevant at the moment; the first inequality in the hypothesis just means that
+>
+> $$
+> |x-x_0|<\frac{\epsilon}{2(|y_0|+1)}\quad\text{ and }\quad|x-x_0|<1
+> $$
+>
+> at one point in the argument you will need the first inequality, and at another point you will need the second. One more word of advice: since the hypotheses only provide information about $x-x_0$ and $y-y_0,$ it is almost a foregone conclusion that the proof will depend upon writing $xy-x_0y_0$ in a way that involves $x-x_0$ and $y-y_0.$
+
+First observe 
+
+$$
+xy-x_0y_0=x(y-y_0)+y_0(x-x_0)
+$$
+
+Applying absolute value to both sides we get
+
+$$
+|xy-x_0y_0|=|x(y-y_0)+y_0(x-x_0)|
+$$
+
+Since $|a+b|\le|a|+|b|$ and $|a|\cdot|b|=|ab|$
+$$
+\begin{align*}
+|xy-x_0y_0|&=|x(y-y_0)+y_0(x-x_0)|\le|x(y-y_0)|+|y_0(x-x_0)|\\
+|xy-x_0y_0|&\le|x(y-y_0)|+|y_0(x-x_0)|\\
+|xy-x_0y_0|&\le|x|\cdot|y-y_0|+|y_0|\cdot|x-x_0|\\
+\end{align*}
+$$
+
+From our hypothesis $|x-x_0|<1$ and the triangle inequality we know that 
+
+$$
+\begin{align*}
+|x|=|(x-x_0)+x_0|\le|x-x_0|+|x_0|&<1+|x_0|=|x_0|+1\\
+|x|&<|x_0|+1\\
+\end{align*}
+$$
+
+Furthermore we know from our hypothesis $|y-y_0|<\frac{\epsilon}{2(|x_0|+1)}$ and $|x|<|x_0|+1$ that
+
+$$
+\begin{align*}
+|x|\cdot|y-y_0|&<(|x_0|+1)\cdot \frac{\epsilon}{2(|x_0|+1)}=\frac{\epsilon}{2}\\
+|x|\cdot|y-y_0|&<\frac{\epsilon}{2}
+\end{align*}
+$$
+
+And finally, that
+
+$$
+|y_0|\cdot|x-x_0|<|y_0|\frac{\epsilon}{2(|y_0|+1)}=\frac{\epsilon|y_0|}{2(|y_0|+1)}=\frac{\epsilon}{2}\cdot\frac{|y_0|}{|y_0|+1}
+$$
+
+But since any $a\cdot\frac{b}{b+1}<a$ since $\frac{b}{b+1}<1,$
+
+$$
+\begin{align*}
+\frac{\epsilon}{2}\cdot\frac{|y_0|}{|y_0|+1}&<\frac{\epsilon}{2}\\
+|y_0|\cdot|x-x_0|&<\frac{\epsilon}{2}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+|xy-x_0y_0|&\le|x|\cdot|y-y_0|+|y_0|\cdot|x-x_0|\\
+|xy-x_0y_0|&<\frac{\epsilon}{2}+|y_0|\cdot|x-x_0|\\
+|xy-x_0y_0|&<\frac{\epsilon}{2}+\frac{\epsilon}{2}\\
+|xy-x_0y_0|&<\epsilon \quad 🤌
+\end{align*}
+$$
+
+
+> 22. Prove that if $y_0\ne0$ and
+>
+> $$
+> |y-y_0|<\min\left(\frac{|y_0|}{2},\frac{\epsilon|y_0|^2}{2}\right),
+> $$
+>
+> then $y\ne0$ and
+>
+> $$
+> \left|\frac{1}{y}-\frac{1}{y_0}\right|<\epsilon.
+> $$
+
+> 23. Replace the question marks in the following statement by expressions involving $\epsilon,x_0,$ and $y_0$ so that the conclusion will be true:
+> If $y_0\ne0$ and
+>
+> $$
+> |y-y_0|<?\quad\text{ and }\quad|x-x_0|<?
+> $$
+>
+> then $y\ne0$ and
+>
+> $$
+> \left|\frac{x}{y}-\frac{x_0}{y_0}\right|<\epsilon.
+> $$
+>
+> This problem is trivial in the sense that its solution follows from Problems 21 and 22 with almost no work at all (notice that $x/y=x\cdot1/y$ ). The crucial point is not to become confused; decide which of the two problems should be used first, and don't panic if your answer looks unlikely.
+
+> 24. Let us agree for definiteness, and $a_1+\cdots+a_n$ will denote
+>
+> $$
+> a_1+(a_2+(a_3+\cdots+(a_{n-2}+(a_{n-1}+a_n)))\cdots).
+> $$
+>
+> Thus $a_1+a_2+a_3$ denotes $a_1+(a_2+a_3),$ and $a_1+a_2+a_3+a_4$ denotes $a_1+(a_2+(a_3+a_4)),$ etc.
+>
+> 24. (a) Prove that
+>
+> $$
+> (a_1+\cdots+a_k)+a_{k+1}=a_1+\cdots+a_{k+1}.
+> $$
+>
+> Hint: Use induction on $k.$
+
+> 24. (b) Prove that if $n\ge k,$ then
+>
+> $$
+> (a_1+\cdots+a_k)+(a_{k+1}+\cdots+a_n)=a_1+\cdots+a_n.
+> $$
+>
+> Hint: Use part (a) to give a proof by induction on $k.$
+
+> 24. (c) Let $s(a_1,...,a_k)$ be some sum formed from $a_1,...,a_k.$ Show that
+>
+> $$
+> s(a_1,...,a_k)=a_1+\cdots+a_k.
+> $$
+>
+> Hint: There must be two sums $s'(a_1,...,a_l)$ and $s''(a_{l+1},...,a_k)$ such that
+>
+> $$
+> s(a_1,...,a_k)=s'(a_1,...,a_l)+s''(a_{l+1},...,a_k).
+> $$
+
+> 25. Suppose we interpret "number" to mean either $0$ or $1,$ and $+$ and $\cdot$ to be the operations defined by the following two tables.
+> 
+> $$
+> \begin{array}{c|cc}
+> + & 0 & 1\\\hline
+> 0 & 0 & 1\\
+> 1 & 1 & 0
+> \end{array}
+> \quad\quad
+> \begin{array}{c|cc}
+> \cdot & 0 & 1\\\hline
+> 0 & 0 & 0\\
+> 1 & 0 & 1
+> \end{array}
+> $$
+> 
+> Check that properties P1-P9 all hold, even though $1+1=0.$
