@@ -118,9 +118,9 @@ This process will take years. But every book completed should add to performance
 - Spivak 01: Started July 28, problem 18/25 on August 12
 - Spivak 02: 8/13/2025
 - Axler 03a: 8/14/2025
--->
 
 Certainly this is a slow ramp up and will accelerate.
+-->
 
 - 🛍️: Still to buy
 - 🌐: Available Online
@@ -219,6 +219,7 @@ Certainly this is a slow ramp up and will accelerate.
 - Vaswani et al. — “Attention Is All You Need”: the Transformer architecture, parallelism-friendly ML.
 - Dean & Ghemawat — “MapReduce: Simplified Data Processing on Large Clusters”: distributed data processing at scale.
 
+---
 
 ## Domain Specific for Current Work
 
@@ -228,6 +229,8 @@ These might help with my current job directly.
 - Arnold's Mathematical Methods of Classical Mechanics ⚒️
 - 🛍️ Hecht's Optics
 - 🛍️ Griffiths – Introduction to Electrodynamics
+
+---
 
 ## Detours, Stretch Goals, Domain Specific 
 

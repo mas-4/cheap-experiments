@@ -200,7 +200,7 @@ b \cdot ab^{-1} &= ba^{-1} ab^{-1} \cdot b\\
 a &= b^2a^{-1} \\
 a \cdot a &= b^2a^{-1} \cdot a\\
 a^2 &= b^2 \\
-a &= b  \quad 🤌\\
+a &= \pm b  \quad 🤌\\
 \end{align*}
 $$
 
@@ -227,6 +227,8 @@ $$
 x^2&>-3 \\
 \end{align*}
 $$
+
+Since $x^2>0$ for all real $x,$ this is true for all real x.
 
 > 4. (iii) $5-x^2<-2.$
 
@@ -644,6 +646,14 @@ $$
 
 $\sqrt{(\sqrt2+\sqrt3-\sqrt5+\sqrt7)^2}$ 🤌
 
+If you want to nitpick, we know that the only negative term above is $\sqrt5$ and since $\sqrt7>\sqrt5\to\sqrt7-\sqrt5>0.$ The other terms are positive, so the whole statement is positive, so we can just simplify to 
+
+$$
+\sqrt2+\sqrt3-\sqrt5+\sqrt7
+$$
+
+but that's being too square.
+
 > 9. (ii) $|(|a+b|-|a|-|b|)|.$
 
 we observe from Theorem 1 that
@@ -700,10 +710,10 @@ $$
 $$
 |a+b|-|b|=
 \begin{cases}
-a,      & |a+b|\ge0,b\ge0\\
-a+2b,   & |a+b|\ge0,b<0\\
--(a+2b) & |a+b|<0,b\ge0\\
--a      & |a+b|<0,b<0
+a,      & a+b\ge0,b\ge0\\
+a+2b,   & a+b\ge0,b<0\\
+-(a+2b) & a+b<0,  b\ge0\\
+-a      & a+b<0,  b<0
 \end{cases}
 $$
 
@@ -733,10 +743,10 @@ $$
 > 10. (iv) $a-|(a-|a|)|.$
 
 $$
-a-|(a-|a|)|==
+a-|(a-|a|)|=
 \begin{cases}
-a,      & a \ge 0
--a,     & a < 0
+a,      & a \ge 0\\
+3a,     & a < 0
 \end{cases}
 $$
 
