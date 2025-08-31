@@ -1534,7 +1534,6 @@ $$
 \end{align*}
 $$
 
-
 > 22. Prove that if $y_0\ne0$ and
 >
 > $$
@@ -1546,6 +1545,71 @@ $$
 > $$
 > \left|\frac{1}{y}-\frac{1}{y_0}\right|<\epsilon.
 > $$
+
+Observe that
+
+$$
+\begin{align*}
+|y_0|=|y+y-y_0|&\le|y|+|y-y_0|\\
+|y|+|y-y_0|&\ge|y_0|\\
+|y|&\ge|y_0|-|y-y_0|\\
+\end{align*}
+$$
+
+and since
+
+$$
+\begin{align*}
+|y-y_0|&<\frac{|y_0|}{2}\\
+-|y-y_0|&>-\frac{|y_0|}{2}\\
+|y_0|-|y-y_0|&>|y_0|-\frac{|y_0|}{2}\\
+\end{align*}
+$$
+
+we find
+
+$$
+\begin{align*}
+|y|&\ge|y_0|-|y-y_0|>|y_0|-\frac{|y_0|}{2}\\
+|y|&>|y_0|-\frac{|y_0|}{2}=\frac{2|y_0|-|y_0|}{2}=\frac{|y_0|}{2}\\
+|y|&>\frac{|y_0|}{2}\\
+\frac{1}{|y|}&<\frac{2}{|y_0|}\\
+\end{align*}
+$$
+
+Since $y_0\ne0,\frac{|y_0|}{2}>0$ and so is $|y|>0$ and therefore $y\ne0.$
+
+We also find, 
+
+$$
+\begin{align*}
+\left|\frac{1}{y}-\frac{1}{y_0}\right|&=\frac{|y_0-y|}{|y|\cdot|y_0|}\\
+&=\frac{|y-y_0|}{|y|\cdot|y_0|}\\
+&=\frac{1}{|y|}\cdot\frac{|y-y_0|}{|y_0|}
+\end{align*}
+$$
+
+And then from the bounding $\frac{1}{|y|}<\frac{2}{|y_0|}$
+
+$$
+\begin{align*}
+\left|\frac{1}{y}-\frac{1}{y_0}\right|=\frac{1}{|y|}\cdot\frac{|y-y_0|}{|y_0|}&<\frac{2}{|y_0|}\cdot\frac{|y-y_0|}{|y_0|}\\
+&<\frac{|y-y_0|}{\frac{|y_0|}{2}\cdot|y_0|}\\
+&<\frac{|y-y_0|}{\frac{|y_0|^2}{2}}\\
+\end{align*}
+$$
+
+And finally, bounding from our hypothesis $|y-y_0|<\frac{\epsilon|y_0|^2}{2}$
+
+$$
+\begin{align*}
+\left|\frac{1}{y}-\frac{1}{y_0}\right|&<\frac{\frac{\epsilon|y_0|^2}{2}}{\frac{|y_0|^2}{2}}\\
+&<\epsilon\cdot\frac{\frac{|y_0|^2}{2}}{\frac{|y_0|^2}{2}}\\
+\left|\frac{1}{y}-\frac{1}{y_0}\right|&<\epsilon\\
+\end{align*}
+$$
+
+Badda bing badda boom. 🤌
 
 > 23. Replace the question marks in the following statement by expressions involving $\epsilon,x_0,$ and $y_0$ so that the conclusion will be true:
 > If $y_0\ne0$ and
