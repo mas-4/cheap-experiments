@@ -1475,8 +1475,8 @@ We can start by rearranging our goal statement looking for a bound with the tria
 
 $$
 \begin{align*}
-|xy-x_0y_0|=|x(y-y_0)+y(x_0-x)|&=|x(y-y_0)+y_0(x-x_0)|\\
-|xy-x_0y_0|=|x(y-y_0)+y(x-x_0)|&\le|x|\cdot|y-y_0|+|y_0|\cdot|x-x_0|\\
+|xy-x_0y_0|=|x(y-y_0)+y_0(x_0-x)|&=|x(y-y_0)+y_0(x-x_0)|\\
+|xy-x_0y_0|=|x(y-y_0)+y_0(x-x_0)|&\le|x|\cdot|y-y_0|+|y_0|\cdot|x-x_0|\\
 |xy-x_0y_0|&\le|x|\cdot|y-y_0|+|y_0|\cdot|x-x_0|\\
 |xy-x_0y_0|&<|x|\cdot\frac{\epsilon}{2(|x_0|+1)}+|y_0|\cdot|x-x_0|\\
 |xy-x_0y_0|&<|x|\cdot\frac{\epsilon}{2(|x_0|+1)}+|y_0|\cdot\frac{\epsilon}{2(|y_0|+1)}\\
