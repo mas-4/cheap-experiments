@@ -1,6 +1,44 @@
+- [Axler LADR 2a](#axler-ladr-2a)
+  - [p. 30](#p-30)
+    - [Commutativity](#commutativity)
+    - [Associativity](#associativity)
+    - [Additive Identity](#additive-identity)
+    - [Additive Inverse](#additive-inverse)
+    - [Multiplicative Identity](#multiplicative-identity)
+    - [Distributive Properties](#distributive-properties)
+  - [p. 33](#p-33)
+  - [p. 33](#p-33-1)
+- [Exercises](#exercises)
+  - [1.](#1)
+  - [2.](#2)
+  - [3.](#3)
+  - [4.](#4)
+    - [4. (a)](#4-a)
+    - [4. (b)](#4-b)
+  - [5.](#5)
+  - [6.](#6)
+  - [7.](#7)
+    - [7. (a)](#7-a)
+    - [7. (b)](#7-b)
+- [8.](#8)
+  - [9.](#9)
+  - [10.](#10)
+  - [11.](#11)
+  - [12.](#12)
+  - [13.](#13)
+  - [14.](#14)
+  - [15.](#15)
+  - [16.](#16)
+  - [17.](#17)
+  - [18.](#18)
+  - [19.](#19)
+  - [20.](#20)
+
 # Axler LADR 2a
 
-## p. 30: Verify $\mathcal{P}(\mathbb{F})$ is a vector space over $\mathbb{F}$.
+## p. 30
+
+> Verify $\mathcal{P}(\mathbb{F})$ is a vector space over $\mathbb{F}$.
 
 Assume
 
@@ -117,11 +155,15 @@ $$
 \end{align*}
 $$
 
-## p. 33 Verify that if some vectors are removed from a linearly independent list, the remaining list is also linearly independent.
+## p. 33 
+
+> Verify that if some vectors are removed from a linearly independent list, the remaining list is also linearly independent.
 
 We know that for a linearly independent list $v_1,...,v_m \in V$ $a_1v_1 + \cdots + a_mv_m$ if and only if $a_1 = \cdots = a_m = 0$. If this is the case, then it is also the case for $v_1,...,v_{m-1}$ that $a_1v_1 + \cdots + a_{m-1}v_{m-1} = 0$  if and only if $a_1 = \cdots = a_{m-1} = 0$.
 
-## p. 33 Verify that the list $(2,3,1),(1,-1,2),(7,3,c)$ is linearly dependent in $\mathbb{F}^3$ if and only if $c=8$.
+## p. 33 
+
+> Verify that the list $(2,3,1),(1,-1,2),(7,3,c)$ is linearly dependent in $\mathbb{F}^3$ if and only if $c=8$.
 
 We will examine the system of equations by adding them
 
@@ -182,11 +224,15 @@ So for the list to be linearly dependent, that is, where the trivial solution $a
 
 # Exercises
 
-## 1. Find a list of four distinct vectors in $F^3$ whose span equals $\{(x,y,z) \in \mathbb{F}^3 : x + y + z = 0 \}$.
+## 1. 
+
+> Find a list of four distinct vectors in $F^3$ whose span equals $\{(x,y,z) \in \mathbb{F}^3 : x + y + z = 0 \}$.
 
 $(0,0,0),(1,-1,0),(-1,1,0),(0,1,-1)$
 
-## 2. Prove or give a counterexample: If $v_1,v_2,v_3,v_4$ spans $V$, then the list $v_1-v_2,v_2-v_3,v_3-v_4,v_4$ also spans $V$.
+## 2. 
+
+> Prove or give a counterexample: If $v_1,v_2,v_3,v_4$ spans $V$, then the list $v_1-v_2,v_2-v_3,v_3-v_4,v_4$ also spans $V$.
 
 Let's consider rewriting the original set in terms of the others.
 
@@ -223,19 +269,27 @@ $$
 
 So, since the original list is a linear combination of the second, they are the same span.
 
-## 3. Suppose $v_1,...,v_m$ is a list of vectors in $V$. For $k \in \{1,...,m\}$, let $w_k = v_1 + \cdots + v_k$. Show that $\mathrm{span}(v_1,...,v_m) = \mathrm{span}(w_1,...,w_m)$.
+## 3. 
+
+> Suppose $v_1,...,v_m$ is a list of vectors in $V$. For $k \in \{1,...,m\}$, let $w_k = v_1 + \cdots + v_k$. Show that $\mathrm{span}(v_1,...,v_m) = \mathrm{span}(w_1,...,w_m)$.
 
 Well, if $w_k = v_1 + \cdots v_k$, then $w_m = v_1 + \cdots v_m$. Now, if every $w_k$ is a linear combination of the preceding $v_1+\cdots+v_k$ on up to $w_m = v_1 + \cdots v_m$, then every $w_k$ is in the $\mathrm{span}(v_1,...,v_m)$.
 
 On the other hand, every $v_k$ can be found as a linear combination from $\mathrm{span}(w_1,...,w_m)$ by setting each $a_{k-1}$ in the linear combination of $a_1w_1 + \cdots a_kw_k$ to 0 except for $a_k = 1$ and $a_{k-1} = -1$ so that $v_k = w_k - w_{k-1}$.
 
-### 4.a Show that a list of length one in a vector space is linearly independent if and only if the vector in that list is not 0.
+## 4. 
+
+### 4. (a) 
+
+> Show that a list of length one in a vector space is linearly independent if and only if the vector in that list is not 0.
 
 If the vector in the list is $\{0\}$, for $a \cdot v = 0$ any $a$ will do, so the list is not linearly independent.
 
 On the other hand, for any other vector $v \neq 0 \in V$, the only way for $a \cdot v = 0$ is for $a = 0$.
 
-### 4.b Show that a list of length two in a vector space is linearly independent if and only if neither of the two vectors is a scalar multiple of the other.
+### 4. (b)
+
+> Show that a list of length two in a vector space is linearly independent if and only if neither of the two vectors is a scalar multiple of the other.
 
 If $v_1,v_2 \in V$ are scalar multiples of each other, so that there exists some $b$ for which $bv_1 = v_2$, then for $a_1 = -1, a_2 = 1$ we can find $-1bv_1 + 1v_2 = 0$ showing that there exists some $a_1 \neq a_2 \neq 0$ for which $a_1v_1 + a_2v_2 = 0$, showing it not to be linearly independent.
 
@@ -251,7 +305,9 @@ $$
 
 So we see that $v_1$ is in fact a scalar multiple of $v_2$, namely $-\frac{a_2}{a_1}$ thus proving, that if neither is a scalar multiple of the other, they are linearly independent.
 
-## 5. Find a number $t$ such that $(3,1,4),(2,-3,5),(5,9,t)$ is not linearly independent in $\mathbb{R}^3$.
+## 5. 
+
+> Find a number $t$ such that $(3,1,4),(2,-3,5),(5,9,t)$ is not linearly independent in $\mathbb{R}^3$.
 
 We're going to do substitution here
 
@@ -301,13 +357,17 @@ $$
 
 So in conclusion, when $t=2$, the set is not linearly independent.
 
-## 6. Show that the list (2,3,1),(1,-1,2),(7,3,c) is linearly dependent in $\mathbb{F}^3$ if and only if c = 8
+## 6. 
+
+> Show that the list (2,3,1),(1,-1,2),(7,3,c) is linearly dependent in $\mathbb{F}^3$ if and only if c = 8
 
 Please refer to the answer to the same question from p.33 above.
 
-## 7
+## 7.
 
-### 7.a Show that if we think of $\mathbb{C}$ as a vector space over $\mathbb{R}$, then the list $1+i,1-i$ is linearly independent.
+### 7. (a) 
+
+> Show that if we think of $\mathbb{C}$ as a vector space over $\mathbb{R}$, then the list $1+i,1-i$ is linearly independent.
 
 We can represent $\mathbb{C}$ as a vector space in $\mathbb{R}^2$ so that $i+1,1-i$ are vectors $(1,1),(1,-1)$. As such, trying to solve for 0:
 
@@ -320,7 +380,9 @@ $$
 
 There is clearly no set $(a_1,a_2)$ for which both equations hold true besides $a_1=a_2=0$, so $1+i,1-i$ is linearly independent in $\mathbb{R}^2$.
 
-### 7.b Show that if we think of $\mathbb{C}$ as a vector space over $\mathbb{C}$, then the list $1+i,1-i$ is linearly dependent.
+### 7. (b)
+
+>  Show that if we think of $\mathbb{C}$ as a vector space over $\mathbb{C}$, then the list $1+i,1-i$ is linearly dependent.
 
 In $\mathbb{C}$ we have the vectors $(1+i),(1-i)$ so that
 
@@ -380,7 +442,9 @@ $$
 \end{align*}
 $$
 
-# 8. Suppose $v_1,v_2,v_3,v_4$ is linearly independent in $V$. Prove that the list $v_1-v_2,v_2-v_3,v_3-v_4,v_4$ is also linearly independent.
+# 8. 
+
+> Suppose $v_1,v_2,v_3,v_4$ is linearly independent in $V$. Prove that the list $v_1-v_2,v_2-v_3,v_3-v_4,v_4$ is also linearly independent.
 
 Suppose some $a_1,a_2,a_3,a_4$ exist which do not equal 0 such that a linear combination is possible.
 
@@ -394,7 +458,9 @@ $$
 
 Since $v_1,v_2,v_3,v_4$ are already linearly independent, their coefficients must be zero for this linear combination to equal 0.
 
-## 9. Prove or give a counterexample: If $v_1,v_2,...,v_m$ is a linearly independent list of vectors in $V$, then $5v_1-4v_2,v_2,v_3,...,v_m$ is linearly independent.
+## 9. 
+
+> Prove or give a counterexample: If $v_1,v_2,...,v_m$ is a linearly independent list of vectors in $V$, then $5v_1-4v_2,v_2,v_3,...,v_m$ is linearly independent.
 
 For $5v_1-4v_2,v_2,v_3,...,v_m$ to be linearly independent it suffices to show that the new vectors can be rearranged in the form of the old vectors.
 
@@ -415,7 +481,9 @@ $$
 
 where we know the coefficients must be 0. So in the new linear combination we know $5a_1 = a_2-4a_1 = a_3 = \cdots = a_m = 0$. And therefore the new system is linearly independent.
 
-## 10. Prove or give a counterexample: if $v_1,v_2,...,v_m$ is a linearly independent list of vectors in $V$ and $\lambda \in \mathbb{F}$ with $\lambda \neq 0$, then $\lambda v_1,\lambda v_2,...,\lambda v_m$ is linearly independent.
+## 10. 
+
+> Prove or give a counterexample: if $v_1,v_2,...,v_m$ is a linearly independent list of vectors in $V$ and $\lambda \in \mathbb{F}$ with $\lambda \neq 0$, then $\lambda v_1,\lambda v_2,...,\lambda v_m$ is linearly independent.
 
 We can see a similar pattern from the previous proof.
 
@@ -428,7 +496,9 @@ $$
 
 Having arranged the linear combination to match the linear combination of the original set, we can see that any set of $a_1,a_2,...,a_m$ must simply be scaled from the original set, which would necessitate $a_1 = a_2 = \cdots = a_m = 0$ and so the new set must be linearly independent.
 
-## 11. Prove or give a counterexample: If $v_1,...,v_m$ and $w_1,...,w_m$ are linearly independent lists of vectors in $V$, then the list $v_1+w_1,...,v_m+w_m$ is linearly independent.
+## 11. 
+
+> Prove or give a counterexample: If $v_1,...,v_m$ and $w_1,...,w_m$ are linearly independent lists of vectors in $V$, then the list $v_1+w_1,...,v_m+w_m$ is linearly independent.
 
 An obvious counter example is $(1,0),(0,1)$ for $v_1,v_2$ and $(0,1),(1,0)$ for $w_1,w_2$ with $a_1=1,a_2=-1$ so that
 
@@ -440,7 +510,9 @@ $$
 \end{align*}
 $$
 
-## 12. Suppose $v_1,...,v_m$ is linearly independent in $V$ and $w \in V$. Prove that if $v_1+w,...,v_m+w$ is linearly dependent, then $w \in \mathrm{span}(v_1,...,v_m)$.
+## 12. 
+
+> Suppose $v_1,...,v_m$ is linearly independent in $V$ and $w \in V$. Prove that if $v_1+w,...,v_m+w$ is linearly dependent, then $w \in \mathrm{span}(v_1,...,v_m)$.
 
 We can take
 
@@ -475,7 +547,9 @@ $$
 
 But in that case we see our original set, which is linearly independent, and thus $a_1=a_2=\cdots=a_m=0$, thus contradicting our claim that the new set is linearly dependent.
 
-## 13. Suppose $v_1,..,v_m$ is linearly independent in $V$ and $w \in V$. Show that $v_1,...,v_m,w$ is linearly independent $\iff w \notin \mathrm{span}(v_1,...,v_m)$.
+## 13. 
+
+> Suppose $v_1,..,v_m$ is linearly independent in $V$ and $w \in V$. Show that $v_1,...,v_m,w$ is linearly independent $\iff w \notin \mathrm{span}(v_1,...,v_m)$.
 
 If $w \in \mathrm{span}(v_1,...,v_m)$, then
 
@@ -490,7 +564,9 @@ But, by the definition of linear independence, for the linear combination to of 
 
 On the other hand, if $w \notin \mathrm{span}(v_1,...,v_m)$, then by the definition of linear independence, adding it to the span it will remain linearly independent.
 
-## 14. Suppose $v_1,...,v_m$ is a list of vectors in $V$. For $k \in \{1,...,m\}$, let $w_k = v_1 + \cdots + v_k$. Show that the list $v_1,...,v_m$ is linearly independent if and only if the list $w_1,...,w_m$ is linearly independent.
+## 14. 
+
+> Suppose $v_1,...,v_m$ is a list of vectors in $V$. For $k \in \{1,...,m\}$, let $w_k = v_1 + \cdots + v_k$. Show that the list $v_1,...,v_m$ is linearly independent if and only if the list $w_1,...,w_m$ is linearly independent.
 
 Suppose $v_1,...,v_m$ is linearly independent and $w_1,...,w_m$ is linearly dependent. Now consider any linear combination of $w_1,...,w_m$ summing to 0 where $a_1,...,a_m$ are not all 0.
 
@@ -528,7 +604,9 @@ $$
 
 And, since we know the linear combination of every coefficient for $w_1,...,w_m$ to be zero to sum to zero, we know $a_m=0$, and thus from $a_{m-1}-a_m=0$ we know $a_{m-1}=0$, backward to $a_1=0$. Thus contradicting the claim that $v_1,...,v_m$ is linearly independent.
 
-## 15. Explain why there does not exist a list of six polynomials that is linearly independent in $\mathcal{P}_4(F)$.
+## 15. 
+
+> Explain why there does not exist a list of six polynomials that is linearly independent in $\mathcal{P}_4(F)$.
 
 We know from lemma 2.22 that the length of every linearly independent list in a finite dimensional vector space is less than or equal to the length of every spanning list of vectors in that space.
 
@@ -537,25 +615,35 @@ I can find a list of five polynomials that span $\mathcal{P}_4(F)$, namely: $1, 
 Now we know that at least one list of five polynomials exists which span $\mathcal{P}_4(F)$. Therefore, no list of six polynomials can be linearly independent in the same space.
 
 
-## 16. Explain why no list of four polynomials spans $\mathcal{P}_4(F)$.
+## 16. 
+
+> Explain why no list of four polynomials spans $\mathcal{P}_4(F)$.
 
 I can find a list of five linearly independent polynomials in $\mathcal{P}_4(F)$: $1, x, x^2, x^3, x^4$. Now, from lemma 2.22 we know that no list of less than 5 polynomials can span $\mathcal{P}_4(F)$.
 
-## 17. Prove that $V$ is infinite-dimensional if and only if there is a sequence $v_1,v_2,...$ of vectors in $V$ such that $v_1,...,v_m$ is linearly independent for every positive integer $m$.
+## 17. 
+
+> Prove that $V$ is infinite-dimensional if and only if there is a sequence $v_1,v_2,...$ of vectors in $V$ such that $v_1,...,v_m$ is linearly independent for every positive integer $m$.
 
 To prove the forward direction, suppose $V$ is infite-dimensional. It is therefore not finite-dimensional, and no list exists which spans $V$. Consider $v_1,...,v_k$ which does not span $V$. Since there is no spanning list, we can find a $v_{k+1} \notin \mathrm{span}(v_1,...,v_k)$ which can be added to $v_1,...,v_k$, preservinv linear independence. Therefore there is a sequence of vectors $v_1,...,v_m$ that is linearly independent for every positive integer $m$.
 
 To prove the reverse, consider that in $V$ there is a sequence $v_1,v_2,...$ of vectors in $V$ such that $v_1,...,v_m$ is linearly independent for every positive integer $m$, but that $V$ is not infinite dimensional. In that case, $V$ is finite-dimensional and a spanning list in $V$ exists for $V$, $w_1,...,w_n$. But then $m \leq n$, so there does not exist an $m$ for every positive integer.
 
-## 18. Prove that $\mathbb{F}^\infty$ is infinite-dimensional.
+## 18. 
+
+> Prove that $\mathbb{F}^\infty$ is infinite-dimensional.
 
 Consider any list of vectors of $\mathbb{F}^\infty$. Let $m$ denote the rightmost position of nonzero numbers in any vector in this list. Thus the span of the list does not contain a vector with a nonzero number in the $m+1$ position. Therefore, there is no spanning list of $\mathbb{F}^\infty$ and it is infinite-dimensional.
 
-## 19. Prove that the real vector space of all continuous real-valued functions on the interval $[0,1]$ is infinite-dimensional.
+## 19. 
+
+> Prove that the real vector space of all continuous real-valued functions on the interval $[0,1]$ is infinite-dimensional.
 
 Consider any finite list of functions $f_1,f_2,\ldots,f_k$ where $f_i$ is a polynomial and the maximum degree of all these polynomials is $m$. We know these polynomials to be defined for the range $[0,1]$. Then $g(x) = x^{m+1}$ is not in the span of the list, and therefore there is no spanning list of continuous real-valued functions on the interval $[0,1]$ and the space is infinite.
 
-## 20. Suppose $p_0,p_1,\ldots,p_m$ are polynomials in $\mathcal{P}_m(\mathbb{F})$ such that $p_k(2) = 0$ for each $k \in \{0,\ldots,m\}$. Prove that $p_0,p_1,\ldots,p_m$ is not linearly independent in $\mathcal{P}_m(\mathbb{F})$
+## 20. 
+
+> Suppose $p_0,p_1,\ldots,p_m$ are polynomials in $\mathcal{P}_m(\mathbb{F})$ such that $p_k(2) = 0$ for each $k \in \{0,\ldots,m\}$. Prove that $p_0,p_1,\ldots,p_m$ is not linearly independent in $\mathcal{P}_m(\mathbb{F})$
 
 By the factor theorem we know that
 

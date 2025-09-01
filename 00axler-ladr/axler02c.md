@@ -1,6 +1,45 @@
+- [Axler LADR 2C Exercises](#axler-ladr-2c-exercises)
+  - [1.](#1)
+  - [2.](#2)
+  - [3.](#3)
+    - [3. (a)](#3-a)
+    - [3. (b)](#3-b)
+    - [3. (c)](#3-c)
+  - [4.](#4)
+    - [4. (a)](#4-a)
+    - [4. (b)](#4-b)
+    - [4. (c)](#4-c)
+  - [5.](#5)
+    - [5. (a)](#5-a)
+    - [5. (b)](#5-b)
+    - [5. (c)](#5-c)
+  - [6.](#6)
+    - [6. (a)](#6-a)
+    - [6. (b)](#6-b)
+    - [6. (c)](#6-c)
+  - [7.](#7)
+    - [7. (a)](#7-a)
+    - [7. (b)](#7-b)
+    - [7. (c)](#7-c)
+  - [8.](#8)
+  - [9.](#9)
+  - [10.](#10)
+  - [11.](#11)
+  - [12.](#12)
+  - [13.](#13)
+  - [14.](#14)
+  - [15.](#15)
+  - [16.](#16)
+  - [17.](#17)
+  - [18.](#18)
+  - [19.](#19)
+  - [20.](#20)
+
 # Axler LADR 2C Exercises
 
-1. Show that the subspaces of $\mathbb{R}^2$ are precisely $\{0\}$, all lines in $\mathbb{R}^2$ containing the origin, and $\mathbb{R}^2$.
+## 1.
+
+> Show that the subspaces of $\mathbb{R}^2$ are precisely $\{0\}$, all lines in $\mathbb{R}^2$ containing the origin, and $\mathbb{R}^2$.
 
 Any subspace $U \subseteq \mathbb{R}^2$ has $\dim U \leq \dim \mathbb{R}^2 = 2$ (by 2.37).
 
@@ -12,9 +51,9 @@ $\dim U = 1$. Then $U$ has a basis consisting of one non-zero vector $v$.  So $U
 
 $\dim U = 2$. Since $\dim U = \dim \mathbb{R}^2$ and $U \subseteq \mathbb{R}^2$, by 2.39 we have $U = \mathbb{R}^2$. $\mathbb{R}^2$ is a subspace of itself.  🤌
 
-***
+## 2.
 
-2. Show that the subspaces of $\mathbb{R}^3$ are precisely $\{0\}$, all lines in $\mathbb{R}^3$ containing the origin, all planes in $\mathbb{R}^3$ containing the origin, and $\mathbb{R}^3$ 
+> Show that the subspaces of $\mathbb{R}^3$ are precisely $\{0\}$, all lines in $\mathbb{R}^3$ containing the origin, all planes in $\mathbb{R}^3$ containing the origin, and $\mathbb{R}^3$ 
 
 Any subspace $U \subseteq \mathbb{R}^3$ has $\dim U \leq \dim \mathbb{R}^3 = 3$ (by 2.37).
 
@@ -28,13 +67,17 @@ $\dim U = 2$. Then $U$ has a basis consisting of two non-zero vectors $v,u$.  So
 
 $\dim U = 3$. Since $\dim U = \dim \mathbb{R}^3$ and $U \subseteq \mathbb{R}^3$, by 2.39 we have $U = \mathbb{R}^3$. $\mathbb{R}^3$ is a subspace of itself.  🤌
 
-***
+## 3.
 
-3. (a) Let $U = \{p \in \mathcal{P}_4(\mathbb{F}) : p(6) = 0\}$. Find a basis of $U$.
+### 3. (a)
+
+> Let $U = \{p \in \mathcal{P}_4(\mathbb{F}) : p(6) = 0\}$. Find a basis of $U$.
 
 Since $1$ is not in $U$, and $\dim U = 4$, and $(x-6)$ is a root in every polynomial in the space, a basis would be $x-6,(x-6)^2,(x-6)^3,(x-6)^4$.
 
-3. (b) Extend the basis in (a) to a basis of $\mathcal{P}_4(\mathcal{F})$.
+### 3. (b)
+
+> Extend the basis in (a) to a basis of $\mathcal{P}_4(\mathcal{F})$.
 
 Add $1$ to the previous basis, so 
 
@@ -42,19 +85,25 @@ $$
 \{1,x-6,(x-6)^2,(x-6)^3,(x-6)^4\}
 $$
 
-3. (c) Find a subspace $W$ of $\mathcal{P}_4(\mathcal{F})$ such that $\mathcal{P}_4(\mathcal{F}) = U \oplus W$.
+### 3. (c)
+
+> Find a subspace $W$ of $\mathcal{P}_4(\mathcal{F})$ such that $\mathcal{P}_4(\mathcal{F}) = U \oplus W$.
 
 $$
 W = \mathrm{span}(1)
 $$
 
-***
+## 4.
 
-4. (a) Let $U = \{p \in \mathcal{P}_4(\mathbb{R}) : p''(6) = 0\}$. Find a basis of $U$.
+### 4. (a)
+
+> Let $U = \{p \in \mathcal{P}_4(\mathbb{R}) : p''(6) = 0\}$. Find a basis of $U$.
 
 Our basis is $\{1, x, (x-6)^3, (x-6)^4\}$.
 
-4. (b) Extend the basis in (a) to a basis of $\mathcal{P}_4(\mathcal{F})$.
+### 4. (b)
+
+> Extend the basis in (a) to a basis of $\mathcal{P}_4(\mathcal{F})$.
 
 Just add $x^2$
 
@@ -62,15 +111,19 @@ $$
 \{1,x,x^2,(x-6)^3,(x-6)^4\}
 $$
 
-4. (c) Find a subspace of $W$ of $\mathcal{P}_4(\mathbb{R})$ such that $\mathcal{P}_4(\mathbb{R}) = U \oplus W$.
+### 4. (c)
+
+> Find a subspace of $W$ of $\mathcal{P}_4(\mathbb{R})$ such that $\mathcal{P}_4(\mathbb{R}) = U \oplus W$.
 
 $$
 W = \mathrm{span}(x^2)
 $$
 
-***
+## 5.
 
-5. (a) Let $U = \{p \in \mathcal{P}_4(\mathbb{F}) : p(2) = p(5)\}$. Find a basis of $U$.
+### 5. (a)
+
+> Let $U = \{p \in \mathcal{P}_4(\mathbb{F}) : p(2) = p(5)\}$. Find a basis of $U$.
 
 Since $p(x) = c + (x-2)(x-5)q(x)$, we must find a basis that contains the two roots. Our dimensionality is 4 instead of 5, which means a 4 length basis. We can start with the rooted forms
 
@@ -79,22 +132,28 @@ $$
 \{1,x^2-7x+10,x^3-7x^2+10x,x^4-7x^3+10x^2\}
 $$
 
-5. (b) Extend the basis in (a) to a basis of $\mathcal{P}_4(\mathcal{F})$.
+### 5. (b)
+
+> Extend the basis in (a) to a basis of $\mathcal{P}_4(\mathcal{F})$.
 
 Include one extra dimension, $x$, to find the full basis, as below:
 $$
 \{1,x,x^2-7x+10,x^3-7x^2+10x,x^4-7x^3+10x^2\}
 $$
 
-5. (c) Find a subspace of $W$ of $\mathcal{P}_4(\mathcal{F})$ such that $\mathcal{P}_4(\mathcal{F}) = U \oplus W$.
+### 5. (c)
+
+> Find a subspace of $W$ of $\mathcal{P}_4(\mathcal{F})$ such that $\mathcal{P}_4(\mathcal{F}) = U \oplus W$.
 
 $$
 W = \mathrm{span}(x) \\
 $$
 
-***
+## 6.
 
-6. (a) Let $U = \{p \in \mathcal{P}_4(\mathbb{F}) : p(2) = p(5) = p(6) \}$. Find a basis of $U$.
+### 6. (a)
+
+> Let $U = \{p \in \mathcal{P}_4(\mathbb{F}) : p(2) = p(5) = p(6) \}$. Find a basis of $U$.
 
 Dimensionality is reduced by 2 from 5 to 3. So the basis would be
 
@@ -103,7 +162,9 @@ $$
 \{1,x^3-13x^2+52x-60,x^4-13x^3+52x^2-60x\} \\
 $$
 
-6. (b) Extend the basis in (a) to a basis of $\mathcal{P}_4(\mathcal{F})$.
+### 6. (b)
+
+> Extend the basis in (a) to a basis of $\mathcal{P}_4(\mathcal{F})$.
 
 Add two more dimensions, $x,x^2$:
 
@@ -111,25 +172,33 @@ $$
 \{1,x,x^2,x^3-13x^2+52x-60,x^4-13x^3+52x^2-60x\} \\
 $$
 
-6. (c) Find a subspace of $W$ of $\mathcal{P}_4(\mathcal{F})$ such that $\mathcal{P}_4(\mathcal{F}) = U \oplus W$.
+### 6. (c)
+
+> Find a subspace of $W$ of $\mathcal{P}_4(\mathcal{F})$ such that $\mathcal{P}_4(\mathcal{F}) = U \oplus W$.
 
 $$
 W = \mathrm{span}(x,x^2) \\
 $$
 
-***
-
 #TODO I will do this problem after I get through some of Spivak
 
-7. (a) Let $U = \{p \in \mathcal{P}_4(\mathbb{R}) : \int_{-1}^1 p = 0\}$. Find a basis of $U$.
+## 7.
 
-7. (b) Extend the basis in (a) to a basis of $\mathcal{P}_4(\mathcal{R})$.
+### 7. (a)
 
-7. (c) Find a subspace of $W$ of $\mathcal{P}_4(\mathcal{R})$ such that $\mathcal{P}_4(\mathcal{R}) = U \oplus W$.
+> Let $U = \{p \in \mathcal{P}_4(\mathbb{R}) : \int_{-1}^1 p = 0\}$. Find a basis of $U$.
 
-***
+### 7. (b)
 
-8. Suppose $v_1,...,v_m$ is linearly independent in $V$ and $w \in V$. Prove that $\dim \mathrm{span}(v_1+w,...,v_m+w) \ge m - 1$.
+> Extend the basis in (a) to a basis of $\mathcal{P}_4(\mathcal{R})$.
+
+### 7. (c)
+
+> Find a subspace of $W$ of $\mathcal{P}_4(\mathcal{R})$ such that $\mathcal{P}_4(\mathcal{R}) = U \oplus W$.
+
+## 8.
+
+> Suppose $v_1,...,v_m$ is linearly independent in $V$ and $w \in V$. Prove that $\dim \mathrm{span}(v_1+w,...,v_m+w) \ge m - 1$.
 
 Consider the difference vectors $m - 1$ in our span:
 
@@ -155,9 +224,9 @@ $$
 
 Now we have a linear combination of our original set $v_1,...,v_m$ which we know to be linearly independent. This proves that our difference vectors are also linearly independent in our set. Therefore, because the  span $\mathrm{span}(v_1+w,...,v_m+w)$ contains a linearly independent set of vectors of length $m-1$, we know that the dimension of the span is at least $m-1$. 🤌
 
-***
+## 9.
 
-9. Suppose $m$ is a positive integer and $p_0,p_1,...,p_m \in \mathcal{P}(\mathbb{F})$ are such that each $p_k$ has degree $k$. Prove that $p_0,p_1,...,p_m$ is a basis of $\mathcal{P}_m(\mathbb{F})$.
+> Suppose $m$ is a positive integer and $p_0,p_1,...,p_m \in \mathcal{P}(\mathbb{F})$ are such that each $p_k$ has degree $k$. Prove that $p_0,p_1,...,p_m$ is a basis of $\mathcal{P}_m(\mathbb{F})$.
 
 We know from 4.8 (asserted by Axler) that the coefficients of a polynomial are uniquely determined by the polynomial. So that 
 
@@ -171,9 +240,9 @@ We also know that $p_0,p_1,...,p_m$ is length $m+1$, and $\dim \mathcal{P}_m(\ma
 
 Since we know any linearly independent list of length $\dim \mathcal{P}_m(\mathbb{F})$ is a basis of $\mathcal{P}_m(\mathbb{F})$, we know that the list is a basis of $\mathcal{P}_m(\mathbb{F})$. 🤌
 
-***
+## 10.
 
-10. Suppose $m$ is a positive integer. For $0 \le k \le m$, let
+> Suppose $m$ is a positive integer. For $0 \le k \le m$, let
 
 $$
 p_k(x) = x^k(1-x)^{m-k}.
@@ -189,9 +258,9 @@ $$
 p_k = a_{k+1}p_{k+1} + \cdots + a_mp_m 🤌
 $$
 
-***
+## 11.
 
-11. Suppose $U$ and $W$ are both four-dimensional subspaces of $\mathbb{C}^6$. Prove that there exist two vectors in $U \cap W$ such that neither of these vectors is a scalar multiple of the other.
+> Suppose $U$ and $W$ are both four-dimensional subspaces of $\mathbb{C}^6$. Prove that there exist two vectors in $U \cap W$ such that neither of these vectors is a scalar multiple of the other.
 
 We know that $U + W \subseteq C^6$ and therefore the $\dim (U + W) \le 6$. We therefore can identify
 
@@ -206,9 +275,9 @@ $$
 
 We therefore know that there is a linearly independent list of at least 2 in $U \cap W$. 🤌
 
-***
+## 12.
 
-12. Suppose that $U$ and $W$ are subspaces of $\mathbb{R}^8$ such that $\dim U = 3, \dim W = 5$, and $U + W = \mathbb{R}^8$. Prove that $\mathbb{R}^8 = U \oplus W$.
+> Suppose that $U$ and $W$ are subspaces of $\mathbb{R}^8$ such that $\dim U = 3, \dim W = 5$, and $U + W = \mathbb{R}^8$. Prove that $\mathbb{R}^8 = U \oplus W$.
 
 Since
 
@@ -222,10 +291,9 @@ $$
 
 we know that $U \cap W = \{0\}$. Therefore, $\mathbb{R}^8 = U \oplus W$. 🤌
 
+## 13.
 
-***
-
-13. Suppose $U$ and $W$ are both five-dimensional subspaces of $\mathbb{R}^9$. Prove that $U \cap W \ne \{0\}$.
+> Suppose $U$ and $W$ are both five-dimensional subspaces of $\mathbb{R}^9$. Prove that $U \cap W \ne \{0\}$.
 
 Since $U$ and $W$ are subspaces of $\mathbb{R}^9$, $\dim (U + W) <= 9$.
 
@@ -240,9 +308,9 @@ $$
 
 Therefore we know the dimension of the intersection of the spaces is greater than $0$ and it must contain more than $\{0\}$. 🤌
 
-***
+## 14.
 
-14. Suppose $V$ is a ten-dimensional vector space and $V_1,V_2,V_3$ are subspaces of $V$ with $\dim V_1 + \dim V_2 + \dim V_3 \gt 2 \dim V$. Prove that $V_1 \cap V_2 \cap V_3 \ne \{0\}$.
+> Suppose $V$ is a ten-dimensional vector space and $V_1,V_2,V_3$ are subspaces of $V$ with $\dim V_1 + \dim V_2 + \dim V_3 \gt 2 \dim V$. Prove that $V_1 \cap V_2 \cap V_3 \ne \{0\}$.
 
 We can identify $V_1 \cap V_2 \cap V_3$ iteratively by using the dimension formula.
 
@@ -274,9 +342,9 @@ $$
 
 Finally, we already know that $\dim V_1 + \dim V_2 + \dim V_3 > 2\dim V = 20$, that $\dim (V_1 \cap V_2 \cap V_3) > 0$, and so the intersection can not contain just the origin. 🤌
 
-***
+## 15.
 
-15. Suppose $V$ is finite-dimensional and $V_1,V_2,V_3$ are subspaces of $V$ with $\dim V_1 + \dim V_2 + \dim V_3 \gt 2 \dim V$. Prove that $V_1 \cap V_2 \cap V_3 \ne \{0\}$.
+> Suppose $V$ is finite-dimensional and $V_1,V_2,V_3$ are subspaces of $V$ with $\dim V_1 + \dim V_2 + \dim V_3 \gt 2 \dim V$. Prove that $V_1 \cap V_2 \cap V_3 \ne \{0\}$.
 
 We can identify $V_1 \cap V_2 \cap V_3$ iteratively by using the dimension formula.
 
@@ -319,17 +387,17 @@ $$
 
 Thus we know the intersection of the 3 subspaces has dimensionality greater than 0, and therefore does not equal the trivial subspace. 🤌
 
-***
+## 16.
 
-16. Suppose $V$ is finite-dimensional and $U$ is a subspace of $V$ with $U \ne V$. Let $n = \dim V$ and $m = \dim U$. Prove that there exist $n - m$ subspaces of $V$, each of dimension $n - 1$, whose intersection equals $U$.
+> Suppose $V$ is finite-dimensional and $U$ is a subspace of $V$ with $U \ne V$. Let $n = \dim V$ and $m = \dim U$. Prove that there exist $n - m$ subspaces of $V$, each of dimension $n - 1$, whose intersection equals $U$.
 
 Since $U \subseteq V$ we have a basis of $U$, $\{u_1,...,u_m\}$ which can be extended to a basis of $V$ by appending $\{u_1,...,u_m,v_1,...,v_{n-m}\}$.
 
 Now, let $W_i = \mathrm{span}(u_1,...,u_m,v_1,...,v_{i-1},v_{i+1},...,v_{n-m})$ such that it is constructed by removing the $i$-th element from that basis. We know that there are $n-m$ $W$ subspaces, and we know that it has one less dimension than the $V$. And we know that $W_1\cap ... \cap W_{n-m} = \mathrm{span}(u_1,...,u_m) = U$. 🤌
 
-***
+## 17.
 
-17. Suppose $V_1,...,V_m$ are finite-dimensional subspaces of $V$. Prove that $V_1+\cdots+V_m$ is finite-dimensional and $\dim(V_1+\cdots+V_m) \le \dim V_1 + \cdots + \dim V_m$.
+> Suppose $V_1,...,V_m$ are finite-dimensional subspaces of $V$. Prove that $V_1+\cdots+V_m$ is finite-dimensional and $\dim(V_1+\cdots+V_m) \le \dim V_1 + \cdots + \dim V_m$.
 
 Consider just two subspaces: $V_1$ and $W = V_2 + \cdots + V_m$.
 
@@ -378,15 +446,15 @@ $$
 
 Furthermore, since each $V_i$ is finite-dimensional, any finite union of their spanning sets gives a finite spanning set for $V_1 + \cdots + V_m$, so the sum is finite-dimensional. 🤌
 
-***
+## 18.
 
-18. Suppose $V$ is finite-dimensional, with $\dim V = n \ge 1$. Prove that there exist one-dimensional subspaces $V_1,...,V_n$ of $V$ such that $V = V_1 \oplus \cdots \oplus V_n$.
+> Suppose $V$ is finite-dimensional, with $\dim V = n \ge 1$. Prove that there exist one-dimensional subspaces $V_1,...,V_n$ of $V$ such that $V = V_1 \oplus \cdots \oplus V_n$.
 
 Since $V$ is finite-dimensional, there exists a basis $\{v_1,...,v_n\}$. Since $\dim \mathrm{span}(v_i) = 1$ (the basis of $v_i$ is $\{v_i\}$), and there are exactly $n$ $v_i$'s, there are exactly $n$ one dimensional subspaces of $V$ where $V_i = \mathrm{span}(v_i)$ who, since they form a basis, are also linearly independent. And we can therefore conclude $V = v_1 \oplus \cdots \oplus v_n$.
 
-***
+## 19.
 
-19. Explain why you might guess, motivated by analogy with the formula for the number of elements in the union of three sets, that if $V_1,V_2,V_3$ are subspaces of a finite-dimensional vector space, then
+> Explain why you might guess, motivated by analogy with the formula for the number of elements in the union of three sets, that if $V_1,V_2,V_3$ are subspaces of a finite-dimensional vector space, then
 
 $$
 \dim(V_1+V_2+V_3) = \dim V_1 + \dim V_2 + \dim V_3 - \dim(V_1 \cap V_2) - \dim(V_1 \cap V_3) - \dim(V_2 \cap V_3) + \dim(V_1\cap V_2\cap V_3).
@@ -439,9 +507,9 @@ $$
 \end{align*}
 $$
 
-***
+## 20.
 
-20. Prove that if $V_1,V_2,$ and $V_3$ are subspaces of a finite-dimensional vector space, then
+> Prove that if $V_1,V_2,$ and $V_3$ are subspaces of a finite-dimensional vector space, then
 
 $$
 \dim(V_1+V_2+V_3) = \dim V_1 + \dim V_2 + \dim V_3 - \frac{\dim(V_1 \cap V_2) + \dim(V_1 \cap V_3) + \dim(V_2 \cap V_3)}{3} - \frac{\dim((V_1+V_2)\cap V_3) + \dim((V_1+V_3)\cap V_2) + \dim((V_2+V_3) \cap V_1)}{3} \tag{0}

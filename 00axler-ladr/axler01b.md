@@ -1,6 +1,18 @@
+- [Axler LADR Exercises 1b](#axler-ladr-exercises-1b)
+  - [1.](#1)
+  - [2.](#2)
+  - [3.](#3)
+  - [4.](#4)
+  - [5.](#5)
+  - [6.](#6)
+  - [7.](#7)
+  - [8.](#8)
+
 # Axler LADR Exercises 1b
 
-## 1.  Prove that $-(-v) = v$ for every $v \in V$.
+## 1. 
+
+> Prove that $-(-v) = v$ for every $v \in V$.
 
 $$
 \begin{align*}
@@ -11,7 +23,10 @@ $$
 \end{align*}
 $$
 
-## 2. Suppose $a \in \mathbb{F}, v \in V$, and $av = 0$. Prove that $a = 0$ or $v = 0$.
+## 2. 
+
+> Suppose $a \in \mathbb{F}, v \in V$, and $av = 0$. Prove that $a = 0$ or $v = 0$.
+
 Assume the opposite, that $av=0$ and $a \neq 0, v \neq 0$.
 
 If $a \neq 0$, then we can multiply both sides by $a^{-1}$, the multiplicative inverse of $a$.
@@ -25,7 +40,9 @@ $$
 
 Therefore, if $av=0$ and $a \neq 0$, $v$ must equal $0$. Thus it is not the case that $av = 0, a \neq 0, v \neq 0$.
 
-## 3. Suppose $v,w \in V$. Explain why there exists a unique $x \in V$ such that $v + 3x = w$.
+## 3. 
+
+> Suppose $v,w \in V$. Explain why there exists a unique $x \in V$ such that $v + 3x = w$.
 
 $$
 \begin{align*}
@@ -35,11 +52,15 @@ x &= \frac{1}{3}(w - v)
 \end{align*}
 $$
 
-## 4. The empty set is not a vector space. The empty set fails to satisfy only one of the requirements listed in the definitions of a vector space (1.20). Which one?
+## 4. 
+
+> The empty set is not a vector space. The empty set fails to satisfy only one of the requirements listed in the definitions of a vector space (1.20). Which one?
 
 There's no additive identity. It explicitly states there exists an element $0 \in V$ satisfying the conditions. Since no elements exist, it does not.
 
-## 5. Show that in the definition of a vector space (1.20), the additive inverse can be replaced with the condition that $0v = 0$ for all $v \in V$.
+## 5. 
+
+> Show that in the definition of a vector space (1.20), the additive inverse can be replaced with the condition that $0v = 0$ for all $v \in V$.
 
 It would suffice to show that the new condition implies the previous condition, and vice versa.
 
@@ -51,7 +72,9 @@ $$
 
 Thus we see that the additive inverse and the condition $0v = 0$ are identical.
 
-## 6. Paraphrase: "Is $\mathbb{R} \cup \{ \infty, -\infty \}$ with $t \in R$ accomodating the listed properties a vector space over $\mathbb{R}$?"
+## 6. 
+
+> Paraphrase: "Is $\mathbb{R} \cup \{ \infty, -\infty \}$ with $t \in R$ accomodating the listed properties a vector space over $\mathbb{R}$?"
 
 Addition is not associative.
 
@@ -61,7 +84,9 @@ $$
 \end{align*}
 $$
 
-## 7. Suppose $S$ is a nonempty set. Let $V^S$ denote the set of functions from $S$ to $V$. Define a natural addition and scalar multiplication on $V^S$, and show that $V^S$ is a vector space with these definitions.
+## 7. 
+
+> Suppose $S$ is a nonempty set. Let $V^S$ denote the set of functions from $S$ to $V$. Define a natural addition and scalar multiplication on $V^S$, and show that $V^S$ is a vector space with these definitions.
 
 We define natural addition as on $F^S$
 
@@ -103,7 +128,9 @@ $$
 
 For the rest of the properties, note that the central operation occurs in V and therefore $V^S$ is a vector space.
 
-## 8. Prove that with the definitions of addition and scalar multiplication, $V_C$ is a complex vector space.
+## 8. 
+
+> Prove that with the definitions of addition and scalar multiplication, $V_C$ is a complex vector space.
 
 $\textbf{Commutativity.}$ Observe that, for $u_1,v_1,u_2,v_2 \in V$
 

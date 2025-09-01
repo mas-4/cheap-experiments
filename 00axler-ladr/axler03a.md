@@ -1,3 +1,25 @@
+- [Axler LADR 3A Vector Spaces of Linear Maps](#axler-ladr-3a-vector-spaces-of-linear-maps)
+  - [Chapter Assertions](#chapter-assertions)
+    - [Verify each example is a linear map](#verify-each-example-is-a-linear-map)
+- [Exercises](#exercises)
+  - [1.](#1)
+  - [2.](#2)
+  - [3.](#3)
+  - [4.](#4)
+  - [5.](#5)
+    - [commutativity](#commutativity)
+    - [associativity](#associativity)
+    - [distributivity](#distributivity)
+    - [additive inverse](#additive-inverse)
+    - [additive identity](#additive-identity)
+    - [multiplicative identity](#multiplicative-identity)
+  - [6.](#6)
+  - [7.](#7)
+  - [8.](#8)
+  - [9.](#9)
+  - [10.](#10)
+  - [11.](#11)
+
 # Axler LADR 3A Vector Spaces of Linear Maps
 
 ## Chapter Assertions
@@ -173,9 +195,11 @@ In this case, we see homogeneity from our definition 3.5 in the first step, and 
 Kinda tricky to think about this, but if we remember that $\mathcal{L}(V,W)$ is the set of all linear maps from $V\to W$ then we just established that combinations of linear maps are also linear maps. That's what this was all about.
 
 
-## Exercises
+# Exercises
 
-> 1. Suppose $b,c\in\mathbb{R}.$ Define $T:\mathbb{R}^3\to\mathbb{R}^2$ by
+## 1.
+
+> Suppose $b,c\in\mathbb{R}.$ Define $T:\mathbb{R}^3\to\mathbb{R}^2$ by
 > $$
 > T(x,y,z)=(2x-4y+3z+b,6x+cxyz).
 > $$
@@ -211,7 +235,9 @@ T(\lambda v)&=T(\lambda x,\lambda y,\lambda z)\\
 \end{align*}
 $$
 
-> 2. Suppose $b,c\in \mathbb{R}.$ Define $T:\mathcal{P}(\mathbb{R})\to \mathbb{R}^2$ by 
+## 2.
+
+> Suppose $b,c\in \mathbb{R}.$ Define $T:\mathcal{P}(\mathbb{R})\to \mathbb{R}^2$ by 
 >
 > $$
 > Tp=(3p(4)+5p'(6)+bp(1)p(2),\int^2_{-1}x^3p(x)dx+c\sin p(0)).
@@ -221,7 +247,9 @@ $$
 
 #TODO I still don't have a good sense for integration all my calculus skills have evaporated.
 
-> 3. Suppose that $T\in \mathcal{L}(\mathbb{F}^n,\mathbb{F}^m).$ Show that there exist scalars $A_{j,k}\in \mathbb{F}$ for $j=1,...,m$ and $k=1,...,n$ such that
+## 3.
+
+> Suppose that $T\in \mathcal{L}(\mathbb{F}^n,\mathbb{F}^m).$ Show that there exist scalars $A_{j,k}\in \mathbb{F}$ for $j=1,...,m$ and $k=1,...,n$ such that
 >
 > $$
 > T(x_1,...,x_n)=(A_{1,1}x_1+\cdots+A_{1,n}x_n,...,A_{m,1}x_1+\cdots+A_{m,n}x_n)
@@ -257,9 +285,13 @@ T(x_1,\ldots,x_n)&=x_1Te_1+\cdots+x_nTe_n\\
 \end{align*}
 $$
 
-> 4. Suppose $T \in \mathcal{L}(V,W)$ and $v_1,...,v_m$ is a list of vectors in $V$ such that $Tv_1,...,Tv_m$ is a linearly independent list in $W.$ Prove that $v_1,...,v_m$ is linearly independent.
+## 4.
 
-> 5. Prove that $\mathcal{L}(V,W)$ is a vector space, as was asserted in 3.6.
+> Suppose $T \in \mathcal{L}(V,W)$ and $v_1,...,v_m$ is a list of vectors in $V$ such that $Tv_1,...,Tv_m$ is a linearly independent list in $W.$ Prove that $v_1,...,v_m$ is linearly independent.
+
+## 5.
+
+> Prove that $\mathcal{L}(V,W)$ is a vector space, as was asserted in 3.6.
 
 In the following proofs assume for all $u,v\in V,$ all $w\in W$ and all $S,T\in \mathcal{L}(V,W).$ Take this to be your warning not to bother me about trivial bureaucratic statements of universality.
 
@@ -307,11 +339,17 @@ $$
 
 That's all required by Axler's definition, six properties. From that the other properties can be derived. 🤌
 
-> 6. Prove that multiplication of linear maps has the associative, identity, and distributive properties asserted in 3.8.
+## 6.
 
-> 7. Show that every linear map from a one-dimensional vector space to itself is multiplication by some scalar. More precisely, prove that if $\dim V=1$ and $T\in \mathcal{L}(V),$ then there exists $\lambda \in \mathbb{F}$ such that $Tv=\lambda v$ for all $v\in V.$
+> Prove that multiplication of linear maps has the associative, identity, and distributive properties asserted in 3.8.
 
-> 8. Give an example of a function $\phi:\mathbb{R}^2\to\mathbb{R}$ such that
+## 7.
+
+> Show that every linear map from a one-dimensional vector space to itself is multiplication by some scalar. More precisely, prove that if $\dim V=1$ and $T\in \mathcal{L}(V),$ then there exists $\lambda \in \mathbb{F}$ such that $Tv=\lambda v$ for all $v\in V.$
+
+## 8.
+
+> Give an example of a function $\phi:\mathbb{R}^2\to\mathbb{R}$ such that
 >
 > $$
 > \phi(av)=a\phi(v)
@@ -321,7 +359,9 @@ That's all required by Axler's definition, six properties. From that the other p
 >
 > > *This exercise and the next exercise show that neither homogeneity nor additivity alone is enough to imply that a function is a linear map.*
 
-> 9. Give an example of a function $\phi: \mathbb{C}\to\mathbb{C}$ such that
+## 9.
+
+> Give an example of a function $\phi: \mathbb{C}\to\mathbb{C}$ such that
 >
 > $$
 > \phi(w+z)=\phi(w)+\phi(z)
@@ -330,7 +370,11 @@ That's all required by Axler's definition, six properties. From that the other p
 > for all $w,z\in\mathbb{C}$ but $\phi$ is not linear. (Here $\mathbb{C}$ is thought of as a complex vector space.)
 > > There also exists a function $\phi:\mathbb{R}\to\mathbb{R}$ such that $\phi$ satisfies the additivity condition but $\phi$ is not linear. However, the existence of such a function involves considerably more advanced tools.
 
-> 10. Prove or give a counterexample: If $q\in \mathcal{P}(\mathbb{R})$ and $T:\mathcal{P}(\mathbb{R})\to\mathcal{P}(\mathbb{R})$ is defined by $Tp=q\circ p,$ then $T$ is a linear map.
+## 10.
+
+> Prove or give a counterexample: If $q\in \mathcal{P}(\mathbb{R})$ and $T:\mathcal{P}(\mathbb{R})\to\mathcal{P}(\mathbb{R})$ is defined by $Tp=q\circ p,$ then $T$ is a linear map.
 > > The function $T$ defined here differs from the function $T$ defined nit eh last bullet point of 3.3 by the order of the functions in the compositions.
 
-> 11. Suppose $V$ is finite-dimensional and $T\in\mathcal{L}(V).$ Prove that $T$ is a scalar multiple of the identity if and only if $ST=TS$ for every $S\in\mathcal{L}(V).$
+## 11.
+
+> Suppose $V$ is finite-dimensional and $T\in\mathcal{L}(V).$ Prove that $T$ is a scalar multiple of the identity if and only if $ST=TS$ for every $S\in\mathcal{L}(V).$

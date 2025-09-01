@@ -1,6 +1,26 @@
+- [Axler LADR Exercises 1a](#axler-ladr-exercises-1a)
+  - [1.](#1)
+  - [2.](#2)
+  - [3.](#3)
+  - [4.](#4)
+  - [5.](#5)
+  - [6.](#6)
+  - [7.](#7)
+  - [8.](#8)
+  - [9.](#9)
+  - [10.](#10)
+  - [11.](#11)
+  - [12.](#12)
+  - [13.](#13)
+  - [14.](#14)
+  - [15.](#15)
+
+
 # Axler LADR Exercises 1a
 
-## 1. Show that $\alpha + \beta = \beta + \alpha$ for all $\alpha, \beta \in \mathbb{C}$
+## 1.
+
+> Show that $\alpha + \beta = \beta + \alpha$ for all $\alpha, \beta \in \mathbb{C}$
 
 $$
 \begin{align*}
@@ -11,7 +31,9 @@ $$
 \end{align*}
 $$
 
-## 2. Show that $(\alpha + \beta) + \lambda = \alpha + (\beta + \lambda)$ for all $\alpha, \beta, \lambda \in \mathbb{C}$
+## 2. 
+
+> Show that $(\alpha + \beta) + \lambda = \alpha + (\beta + \lambda)$ for all $\alpha, \beta, \lambda \in \mathbb{C}$
 
 $$
 \begin{align*}
@@ -22,7 +44,9 @@ $$
 \end{align*}
 $$
 
-## 3. Show that $(\alpha \beta)\lambda = \alpha (\beta \lambda)$ for all $\alpha, \beta, \lambda \in \mathbb{C}$
+## 3. 
+
+> Show that $(\alpha \beta)\lambda = \alpha (\beta \lambda)$ for all $\alpha, \beta, \lambda \in \mathbb{C}$
 
 $$
 \begin{align*}
@@ -35,7 +59,9 @@ $$
 \end{align*}
 $$
 
-## 4. Show that $\lambda(\alpha + \beta) = \lambda\alpha + \lambda\beta$ for all $\alpha, \beta, \lambda \in \mathbb{C}$
+## 4. 
+
+> Show that $\lambda(\alpha + \beta) = \lambda\alpha + \lambda\beta$ for all $\alpha, \beta, \lambda \in \mathbb{C}$
 
 $$
 \begin{align*}
@@ -48,7 +74,9 @@ $$
 \end{align*}
 $$
 
-## 5. Show that for every $\alpha \in \mathbb{C}$ there exists a unique $\beta \in \mathbb{C}$ such that $\alpha + \beta = 0$.
+## 5. 
+
+> Show that for every $\alpha \in \mathbb{C}$ there exists a unique $\beta \in \mathbb{C}$ such that $\alpha + \beta = 0$.
 
 Assume 
 
@@ -80,7 +108,9 @@ $$
 \end{align*}
 $$
 
-## 6. Show that for every $\alpha \in \mathbb{C}$ with $\alpha \neq 0$, there exists a unique $\beta \in \mathbb{C}$ such that $\alpha\beta = 1$.
+## 6. 
+
+> Show that for every $\alpha \in \mathbb{C}$ with $\alpha \neq 0$, there exists a unique $\beta \in \mathbb{C}$ such that $\alpha\beta = 1$.
 
 Assume
 
@@ -108,7 +138,9 @@ therefore a multiplicative inverse exists.
 To show uniqueness, assume there are $\beta_1,\beta_2 \in C$ such that, $\alpha\beta_1=1$ and $\alpha\beta_2=1$. Then $\alpha\beta_1=1=\alpha\beta_2$ and $\beta_1=\beta_2=\frac{1}{\alpha}$
 
 
-## 7. Show that $ \frac{-1 + \sqrt{3}i}{2} $ is a cube root of 1 (meaning that its cube equals 1).
+## 7. 
+
+> Show that $ \frac{-1 + \sqrt{3}i}{2} $ is a cube root of 1 (meaning that its cube equals 1).
 
 $$
 \begin{align*}
@@ -119,7 +151,9 @@ $$
 \end{align*}
 $$
 
-## 8. Find two distinct square roots of $i$.
+## 8. 
+
+> Find two distinct square roots of $i$.
 
 
 $$
@@ -158,7 +192,9 @@ z_2 &= a + bi & &= -\frac{\sqrt2}{2} - \frac{\sqrt2}{2}i  & & = -\frac{\sqrt{2}}
 \end{align*}
 $$
 
-## 9. Find $x \in \mathbb{R}^4$ such that $ (4, -3, 1, 7) + 2x = (5, 9, -6, -8) $
+## 9. 
+
+> Find $x \in \mathbb{R}^4$ such that $ (4, -3, 1, 7) + 2x = (5, 9, -6, -8) $
 
 Solving for $x$:
 
@@ -170,7 +206,9 @@ x &= (\frac{1}{2}, 6, -3\frac{1}{2}, -7\frac{1}{2}) \\
 \end{align*}
 $$
 
-## 10. Explain why there does not exist $\lambda \in \mathbb{C}$ such that
+## 10. 
+
+> Explain why there does not exist $\lambda \in \mathbb{C}$ such that
 
 $$
 \lambda(2 - 3i, 5+4i, -6+7i) = (12-5i, 7+22i, -32-9i)
@@ -209,7 +247,9 @@ $$
 
 So it doesn't hold for the third.
 
-## 11. Show that $(x+y) + z = x + (y+z)$ for all $x,y,z \in \mathbb{F}^n$
+## 11. 
+
+> Show that $(x+y) + z = x + (y+z)$ for all $x,y,z \in \mathbb{F}^n$
 
 $$
 \begin{align*}
@@ -222,7 +262,9 @@ x+(y+z) &= (x_1,...,x_n) + ((y_1,...,y_n) + (z_1,...,z_n)) \\
 \end{align*}
 $$
 
-## 12. Show that $(ab)x=a(bx)$ for all $x \in \mathbb{F}^n$ and all $a,b \in \mathbb{F}$
+## 12. 
+
+> Show that $(ab)x=a(bx)$ for all $x \in \mathbb{F}^n$ and all $a,b \in \mathbb{F}$
 
 $$
 \begin{align*}
@@ -234,7 +276,9 @@ a(bx) &= a(b(x_1,...,x_n)) \\
 \end{align*}
 $$
 
-## 13. Show that $1x=x$ for all $x \in \mathbb{F}^n$
+## 13. 
+
+> Show that $1x=x$ for all $x \in \mathbb{F}^n$
 
 $$
 \begin{align*}
@@ -244,7 +288,9 @@ $$
 \end{align*}
 $$
 
-## 14. Show that $\lambda(x+y)=\lambda x + \lambda y$ for all $\lambda \in \mathbb{F}$ and all $x,y \in \mathbb{F}^n$
+## 14. 
+
+> Show that $\lambda(x+y)=\lambda x + \lambda y$ for all $\lambda \in \mathbb{F}$ and all $x,y \in \mathbb{F}^n$
 
 $$
 \begin{align*}
@@ -258,7 +304,9 @@ $$
 \end{align*}
 $$
 
-## 15. Show that $(a+b)x = ax + bx$ for all $a,b \in \mathbb{F}$ and all $x \in \mathbb{F}^n$
+## 15. 
+
+> Show that $(a+b)x = ax + bx$ for all $a,b \in \mathbb{F}$ and all $x \in \mathbb{F}^n$
 
 $$
 \begin{align*}
