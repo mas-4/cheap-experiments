@@ -5,6 +5,7 @@
     - [1. (iii)](#1-iii)
     - [1. (iv)](#1-iv)
     - [1. (v)](#1-v)
+    - [1. (vi)](#1-vi)
   - [2.](#2)
   - [3.](#3)
     - [3. (i)](#3-i)
@@ -43,6 +44,7 @@
     - [6. (a)](#6-a)
     - [6. (b)](#6-b)
     - [6. (c)](#6-c)
+    - [6. (d)](#6-d)
   - [7.](#7)
   - [8.](#8)
   - [9.](#9)
@@ -74,17 +76,14 @@
     - [12. (vi)](#12-vi)
     - [12. (vii)](#12-vii)
   - [13.](#13)
-  - [14.](#14)
     - [14. (a)](#14-a)
     - [14. (b)](#14-b)
     - [14. (c)](#14-c)
   - [15.](#15)
-  - [16.](#16)
     - [16. (a)](#16-a)
     - [16. (b)](#16-b)
     - [16. (c)](#16-c)
     - [16. (d)](#16-d)
-  - [17.](#17)
     - [17. (a)](#17-a)
     - [17. (b)](#17-b)
     - [17. (c)](#17-c)
@@ -209,7 +208,7 @@ x^n - y^n &= (x-y)(x^{n-1}+x^{n-2}y+\cdots+xy^{n-2}+y^{n-1}) \\
 \end{align*}
 $$
 
-## 1. (vi)
+### 1. (vi)
 
 > $x^3 + y^3 = (x+y)(x^2-xy+y^2).$
 
@@ -736,7 +735,7 @@ For the first case, note from (b) that $x^n<y^n$ contradicting $x^n=y^n.$
 
 For the second case, reverse $x$ and $y$ and notice the same contradiction. 🤌
 
-## 6. (d)
+### 6. (d)
 
 > Prove that if $x^n=y^n$ and $n$ is even, then $x=y$ or $x=-y.$
 
@@ -1073,7 +1072,7 @@ Now divide both sides by $|x|.$ 🤌
 
 NB: This proof is a little unsatisfying. It seems to leave some logic on the table.
 
-## 12. (iii)
+### 12. (iii)
 
 > $\frac{|x|}{|y|}=|\frac{x}{y}|,$ if $y\neq0.$
 
@@ -1086,7 +1085,7 @@ $$
 \end{align*}
 $$
 
-## 12. (iv)
+### 12. (iv)
 
 > $|x-y|\le|x|+|y|.$ (Give a very short proof)
 
@@ -1094,7 +1093,7 @@ $$
 |x-y|=|x+(-y)|\le|x|+|-y|=|x|+|y| \quad  🤌
 $$
 
-## 12. (v)
+### 12. (v)
 
 > $|x|-|y|\le|x-y|.$ (A very short proof is possible, if you write things in the right way.) 
 
@@ -1106,7 +1105,7 @@ $$
 \end{align*}
 $$
 
-## 12. (vi)
+### 12. (vi)
 
 > $|(|x|-|y|)|\le|x-y|.$ (Why does this follow immediately from (v)?)
 
@@ -1121,7 +1120,7 @@ $$
 
 Since both $|x|-|y|$ and its negative are less than $|x-y|,$ we know $|(|x|-|y|)|\le|x-y|.$ 🤌
 
-## 12. (vii)
+### 12. (vii)
 
 > $|x+y+z|\le|x|+|y|+|z|.$ Indicate when equality holds and prove your statement.
 
@@ -1203,7 +1202,7 @@ $$
 
 Hideous. 🤮. But 🤌 nonetheless.
 
-## 14. (a)
+### 14. (a)
 
 > Prove that $|a|=|-a|.$ (The trick is to not become comfused by too many cases. First prove the statement for $a\ge0.$ Why is it then obvious for $a\le0$?)
 
@@ -1211,7 +1210,7 @@ Hideous. 🤮. But 🤌 nonetheless.
 
 **Case 2** If $a<0,$ then $|a|=-a$ and $|-a|=-a$ and therefore $|a|=|-a|$ for $a<0.$
  
-## 14. (b)
+### 14. (b)
 
 > Prove that $-b\le a\le b$ if and only if $|a|\le b.$ In particular, it follows that $-|a|\le a \le|a|.$
 
@@ -1243,7 +1242,7 @@ Assume again that $a<0.$ Then $-a>b$ and $a<-b,$ contradicting $-b \le a \le b.$
 
 Furthermore, to prove $-|a|\le a \le |a|,$ assume $b=|a|.$ Then $|a|\le b=|a|.$ And $-|a|\le a \le |a|.$
 
-## 14. (c)
+### 14. (c)
 
 > Use this fact to give a new proof that $|a+b|\le|a|+|b|.$
 
@@ -1281,7 +1280,7 @@ From 6(b) we know that $x^n<y^n$ if $x<y$ so the numerator and denominator are a
 
 For, $x^4+x^3y+x^2y^2+xy^3+y^4$ the same proof applies using problem 1(v) since it's simply $\frac{x^5-y^5}{x-y}.$
 
-## 16. (a)
+### 16. (a)
 
 > Show that
 > 
@@ -1306,7 +1305,7 @@ $$
 
 Then $3x^2y+3xy^2=3xy(x+y)=0$ so $x=0$ or $y=0$ or $x=-y.$
 
-## 16. (b)
+### 16. (b)
 
 > Using the fact that
 > 
@@ -1332,7 +1331,7 @@ Subtracting these we find $xy\ge0.$ If neither $x$ nor $y$ is $0,$ then we must 
 
 Further, if only one of x or y i s0, then $x^2>0$ or $y^2>0,$ so the equation remains positive.
 
-## 16. (c)
+### 16. (c)
 
 > Use part (b) to find out when $(x+y)^4=x^4+y^4.$
 
@@ -1350,7 +1349,7 @@ $$
 
 So either $x=0,y=0,$ or $4x^2+6xy+4y^2=0,$ but we know from (b) $4x^2+6xy+4y^2=0$ only when $x=y=0,$ but then $x^4+y^4=0,$ so $x=0$ or $y=0$ but not both. 🤌
 
-## 16. (d)
+### 16. (d)
 
 > Find out when $(x+y)^5=x^5+y^5.$ Hint: From the assumption $(x+y)^5=x^5+y^5$ you should be able to derive the equation $x^3+2x^2y+2xy^2+y^3=0,$ if $xy\neq0.$ This implies $(x+y)^3=x^2y+xy^2=xy(x+y).$
 
@@ -1392,7 +1391,7 @@ Yeah, so $x=0,y=0,$ or $x=-y.$ 🤌
 
 I don't know man, probably $x=0,y=0,$ or $x=-y.$ I'll prove it later.
 
-## 17. (a)
+### 17. (a)
 
 > Find the smallest possible value of $2x^2-3x+4$. Hint: "Complete the square. ⏹"
 
@@ -1410,7 +1409,7 @@ $$
 
 Since $2(x-\frac{3}{4})^2$ is at least zero, the smallest value is $\frac{23}{8}$ when $x=\frac{3}{4}$
 
-## 17. (b)
+### 17. (b)
 
 > Find the smallest possible value of $x^2-3x+2y^2+4y+2.$
 
@@ -1424,7 +1423,7 @@ $$
 
 Since the first 2 terms are always positive the smallest possible value is $-\frac{9}{4}.$
 
-## 17. (c)
+### 17. (c)
 
 > Find the smallest possible value of $x^2+4xy+5y^2-4x-6y+7.$
 
@@ -1444,7 +1443,9 @@ $$
 
 By the same logic we see this one to be at least 2.
 
-## 18. (a)
+## 18.
+
+### 18. (a)
 
 > Suppose that $b^2-4c\ge0.$ Show that the numbers
 >
@@ -1465,7 +1466,7 @@ x^2+bx+c&=0 \\
 \end{align*}
 $$
 
-## 18. (b)
+### 18. (b)
 
 > Suppose $b^2-4c<0.$ Show that there are no numbers $x$ satisfying $x^2+bx+c=0$
 
@@ -1487,7 +1488,7 @@ $$
 
 Since this is the form, if $b^2-4c<0,$ then the square root of it is complex and no real number exists to satisfy.
 
-## 18. (c)
+### 18. (c)
 
 > Use this fact to give another proof that if $x$ and $y$ are not both $0,$ then $x^2+xy+y^2>0.$
 
@@ -1500,7 +1501,7 @@ $$
 
 At this point, however, we see that $y^2\ge0$ and so $-3y^2<0$ if $y\ne0.$ Since no $x$ satisfies the equation when $y\ne0,$ for $x^2+xy+y^2=0,$ both $x=y=0.$ Since we're told this is not the case, the equation can never equal zero.
 
-## 18. (d)
+### 18. (d)
 
 > For which numbers $\alpha$ is it true that $x^2+\alpha xy+y^2>0$ whenever $x$ and $y$ are not both $0$?
 
@@ -1528,7 +1529,7 @@ $$
 
 Therefore, it is always positive when $|\alpha|<2.$
 
-## 18. (e)
+### 18. (e)
 
 > Find the smallest possible value of $x^2+bx+c$ and of $ax^2+bx+c,$ for $a>0.$
 
@@ -1566,8 +1567,8 @@ $$
 > $$
 > 
 > (A more general form occurs in Problem 2-21.) The three proofs of the Schwarz inequality outlined below have only one thing in common—their reliance on the fact that $a^2\ge0$ for all $a.$
->
-## 19. (a)
+
+### 19. (a)
 
 > Prove that if $x_1=\lambda y_1$ and $x_2=\lambda y_2$ for some $\lambda \ge0,$ then equality holds in the Schwarz inequality. Prove the same thing if $y_1=y_2=0$. Now suppose that $y_1$ and $y_2$ are not both $0,$ and that there is no number $\lambda$ such that $x_1=\lambda y_1$ and that $x_2=\lambda y_2.$ Then
 >
@@ -1632,7 +1633,7 @@ $$
 
 And there we have the Schwarz inequality which holds equality when our two pairs are scaled equally by some $\lambda$ or $y_1=y_2=0$ and inequality otherwise. 🤌
 
-## 19. (b)
+### 19. (b)
 
 > Prove the Schwarz inequality by using $2xy\le x^2+y^2$ (how is this derived?) with
 >
@@ -1684,7 +1685,7 @@ $$
 
 And there we have our Schwarz inequality. 🤌
 
-## 19. (c)
+### 19. (c)
 
 > Prove the Schwarz inequality by first proving that
 >
@@ -1715,7 +1716,7 @@ $$
 
 And we're back to our inequality. 🤌
 
-## 19. (d)
+### 19. (d)
 
 > Deduce, from each of these three proofs, that equality holds only when $y_1=y_2=0$ or when there is a number $\lambda\ge0$ such that $x_1=\lambda y_1$ or $x_2=\lambda y_2$
 
@@ -1919,41 +1920,55 @@ And badda bing badda boom. 🤌
 >
 > This problem is trivial in the sense that its solution follows from Problems 21 and 22 with almost no work at all (notice that $x/y=x\cdot1/y$ ). The crucial point is not to become confused; decide which of the two problems should be used first, and don't panic if your answer looks unlikely.
 
-We want to use the previous 2 problems to cash out the $|y|$ reciprocals to the preconditions for our multiplication $|x\frac{1}{y}-x_0\frac{1}{y_0}|\le\epsilon$
-
-This means we need
+Spivak gave us a tip so let's observe that
 
 $$
-\left|\frac{1}{y}-\frac{1}{y_0}\right|<\frac{\epsilon}{2(|x_0|+1)}.\tag{1}
+\left|\frac{x}{y}-\frac{x_0}{y_0}\right|=\left|x\cdot\frac{1}{y}-x_0\cdot\frac{1}{y_0}\right|
 $$
 
-So if we take
+Which is the same form as $xy-x_0y_0,$ which we know to be smaller than $\epsilon$ given the conditions of problem 21. So in this case, we need the cancellation to work out with our reciprocal $y$ cases. So for $|x-x_0|$ we need
 
-$$
-|y-y_0|<\min\left(\frac{|y_0|}{2},\frac{\epsilon|y_0|^2}{2}\right),\tag{2}
-$$
 
-and plug (1) in for the $\epsilon$ in (2) we get there.
 $$
 \begin{align*}
-|y-y_0|&<\min\left(\frac{|y_0|}{2},\frac{\epsilon|y_0|^2}{2}\right)\\
+|x-x_0|<\min\left(\frac{\epsilon}{2(|\frac{1}{y_0}|+1)},1\right)
+\end{align*}
+$$
+
+Our $y$ conditions are more complicated because we're bounding $|y-y_0|$ but we need it to cash out for $\left|\frac{1}{y}-\frac{1}{y_0}\right|.$ So we need to alter the y conditions to take stock of our problem set. Let's look at the problem technique for $xy-x_0y_0.$
+
+$$
+\begin{align*}
+|xy-x_0y_0|&\le|x|\cdot|y-y_0|+|y_0|\cdot|x-x_0|\\
+|xy-x_0y_0|&<|x|\cdot\frac{\epsilon}{2(|x_0|+1)}+|y_0|\cdot|x-x_0|\\
+\end{align*}
+$$
+
+We know we can cash $|x|$ out to $|x_0|+1$ so we need 
+
+$$
+\begin{align*}
+\left|\frac{1}{y}-\frac{1}{y_0}\right|&<\frac{\epsilon}{2(|x_0|+1)}\\
+\end{align*}
+$$
+
+By problem 22 we can cash $|y-y_0|$ out to $|y-y_0|<\epsilon$ so if we instead replace $\epsilon$ with our weird $\epsilon$ fraction we can get our conditions
+
+$$
+\begin{align*}
 |y-y_0|&<\min\left(\frac{|y_0|}{2},\frac{\frac{\epsilon}{2(|x_0|+1)}|y_0|^2}{2}\right)\\
-|y-y_0|&<\min\left(\frac{|y_0|}{2},\frac{\epsilon}{2(|x_0|+1)}\cdot\frac{|y_0|^2}{2}\right)\\
-|y-y_0|&<\min\left(\frac{|y_0|}{2},\frac{\epsilon|y_0|^2}{4(|x_0|+1)}\right)\\
+|y-y_0|&<\min\left(\frac{|y_0|}{2},\frac{\frac{\epsilon|y_0|^2}{2(|x_0|+1)}}{2}\right)\\
+|y-y_0|&<\min\left(\frac{|y_0|}{2},\frac{\epsilon|y_0|^2}{2(|x_0|+1)}\cdot\frac{1}{2}\right)\\
+|y-y_0|&<\min\left(\frac{|y_0|}{2},\frac{\epsilon|y_0|^2}{4(|x_0|+1)}\right)
 \end{align*}
 $$
 
-Then we can evaluate to our expected condition using the logic from 23.
+Honestly that's a little wild! our conditions just require a teensy bit of modification! The answers are
+
 
 $$
-\begin{align*}
-\left|\frac{x}{y}-\frac{x_0}{y_0}\right|&=\left|x\cdot\frac{1}{y}-x_0\cdot\frac{1}{y_0}\right|\\
-&=\left|x\left(\frac{1}{y}-\frac{1}{y_0}\right)+\frac{1}{y_0}(x-x_0)\right| \le \left|x\left(\frac{1}{y}-\frac{1}{y_0}\right)\right|+\left|\frac{1}{y_0}(x-x_0)\right| \\
-&\le |x|\cdot\left|\frac{1}{y}-\frac{1}{y_0}\right|+\frac{1}{|y_0|}\cdot|x-x_0|
-\end{align*}
+|y-y_0|<\min\left(\frac{|y_0|}{2},\frac{\epsilon|y_0|^2}{4(|x_0|+1)}\right)\quad\text{ and }\quad|x-x_0|<\min\left(\frac{\epsilon}{2(|\frac{1}{y_0}|+1)},1\right)
 $$
-
-
 
 
 ## 24.
@@ -1965,8 +1980,8 @@ $$
 > $$
 >
 > Thus $a_1+a_2+a_3$ denotes $a_1+(a_2+a_3),$ and $a_1+a_2+a_3+a_4$ denotes $a_1+(a_2+(a_3+a_4)),$ etc.
->
-## 24. (a)
+
+### 24. (a)
 
 > Prove that
 >
@@ -1976,7 +1991,25 @@ $$
 >
 > Hint: Use induction on $k.$
 
-## 24. (b)
+Set $S_k=a_1+\cdots+a_k$
+
+For the base step:
+
+$$
+(a_1)+a_2=a_1+a_2
+$$
+
+For the inductive step.
+
+$$
+\begin{align*}
+(a_1+\cdots+a_k)+a_{k+1}&=(S_k)+a_{k+1}\\
+&=S_k+a_{k+1}\\
+&=a_1+\cdots+a_k+a_{k+1}\\
+\end{align*}
+$$
+
+### 24. (b)
 
 > Prove that if $n\ge k,$ then
 >
@@ -1986,7 +2019,7 @@ $$
 >
 > Hint: Use part (a) to give a proof by induction on $k.$
 
-## 24. (c)
+### 24. (c)
 
 > Let $s(a_1,...,a_k)$ be some sum formed from $a_1,...,a_k.$ Show that
 >
