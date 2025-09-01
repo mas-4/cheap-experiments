@@ -68,6 +68,46 @@
   - [12.](#12)
     - [12. (i)](#12-i)
     - [12. (ii)](#12-ii)
+    - [12. (iii)](#12-iii)
+    - [12. (iv)](#12-iv)
+    - [12. (v)](#12-v)
+    - [12. (vi)](#12-vi)
+    - [12. (vii)](#12-vii)
+  - [13.](#13)
+  - [14.](#14)
+    - [14. (a)](#14-a)
+    - [14. (b)](#14-b)
+    - [14. (c)](#14-c)
+  - [15.](#15)
+  - [16.](#16)
+    - [16. (a)](#16-a)
+    - [16. (b)](#16-b)
+    - [16. (c)](#16-c)
+    - [16. (d)](#16-d)
+  - [17.](#17)
+    - [17. (a)](#17-a)
+    - [17. (b)](#17-b)
+    - [17. (c)](#17-c)
+  - [18.](#18)
+    - [18. (a)](#18-a)
+    - [18. (b)](#18-b)
+    - [18. (c)](#18-c)
+    - [18. (d)](#18-d)
+    - [18. (e)](#18-e)
+  - [19.](#19)
+    - [19. (a)](#19-a)
+    - [19. (b)](#19-b)
+    - [19. (c)](#19-c)
+    - [19. (d)](#19-d)
+  - [20.](#20)
+  - [21.](#21)
+  - [22.](#22)
+  - [23.](#23)
+  - [24.](#24)
+    - [24. (a)](#24-a)
+    - [24. (b)](#24-b)
+    - [24. (c)](#24-c)
+  - [25.](#25)
 
 
 # Spivak Chapter 01 Basic Properties of Numbers Exercises
@@ -169,7 +209,9 @@ x^n - y^n &= (x-y)(x^{n-1}+x^{n-2}y+\cdots+xy^{n-2}+y^{n-1}) \\
 \end{align*}
 $$
 
-> 1. (vi) $x^3 + y^3 = (x+y)(x^2-xy+y^2).$
+## 1. (vi)
+
+> $x^3 + y^3 = (x+y)(x^2-xy+y^2).$
 
 $$
 \begin{align*}
@@ -694,7 +736,9 @@ For the first case, note from (b) that $x^n<y^n$ contradicting $x^n=y^n.$
 
 For the second case, reverse $x$ and $y$ and notice the same contradiction. 🤌
 
-> 6. (d) Prove that if $x^n=y^n$ and $n$ is even, then $x=y$ or $x=-y.$
+## 6. (d)
+
+> Prove that if $x^n=y^n$ and $n$ is even, then $x=y$ or $x=-y.$
 
 If $x,y\ge 0$ then $x<y,x>y,$ or $x=y$. If $x<y$ then by (a) $x^n<y^n$ contradicting our premise. Likewise from (a) for $x>y.$ Therefore $x=y.$
 
@@ -1029,7 +1073,9 @@ Now divide both sides by $|x|.$ 🤌
 
 NB: This proof is a little unsatisfying. It seems to leave some logic on the table.
 
-> 12. (iii) $\frac{|x|}{|y|}=|\frac{x}{y}|,$ if $y\neq0.$
+## 12. (iii)
+
+> $\frac{|x|}{|y|}=|\frac{x}{y}|,$ if $y\neq0.$
 
 $$
 \begin{align*}
@@ -1040,13 +1086,17 @@ $$
 \end{align*}
 $$
 
-> 12. (iv) $|x-y|\le|x|+|y|.$ (Give a very short proof)
+## 12. (iv)
+
+> $|x-y|\le|x|+|y|.$ (Give a very short proof)
 
 $$
 |x-y|=|x+(-y)|\le|x|+|-y|=|x|+|y| \quad  🤌
 $$
 
-> 12. (v) $|x|-|y|\le|x-y|.$ (A very short proof is possible, if you write things in the right way.) 
+## 12. (v)
+
+> $|x|-|y|\le|x-y|.$ (A very short proof is possible, if you write things in the right way.) 
 
 $$
 \begin{align*}
@@ -1056,7 +1106,9 @@ $$
 \end{align*}
 $$
 
-> 12. (vi) $|(|x|-|y|)|\le|x-y|.$ (Why does this follow immediately from (v)?)
+## 12. (vi)
+
+> $|(|x|-|y|)|\le|x-y|.$ (Why does this follow immediately from (v)?)
 
 Since $|x-y|=|y-x|,$ swapping $x,y$ from (v) we get
 
@@ -1069,7 +1121,9 @@ $$
 
 Since both $|x|-|y|$ and its negative are less than $|x-y|,$ we know $|(|x|-|y|)|\le|x-y|.$ 🤌
 
-> 12. (vii) $|x+y+z|\le|x|+|y|+|z|.$ Indicate when equality holds and prove your statement.
+## 12. (vii)
+
+> $|x+y+z|\le|x|+|y|+|z|.$ Indicate when equality holds and prove your statement.
 
 Supposing $y=y+z$ and applying the triangle inequality we see $|x+(y+z)|\le|x|+|y+z|.$ However, applying the triangle inequality to $|y+z|$ we see again $|y+z|\le|y|+|z|$ and so we can susbstitute the right hand of the inequality again to derive
 
@@ -1094,7 +1148,9 @@ Backward cases, look at the triangle inequality applications:
 
 Therefore equality holds when if and only if three terms have the same sign. 🤌
 
-> 13. The maximum of two numbers $x$ and $y$ is denoted by $\mathrm{max}(x,y).$ Thus $\mathrm{max}(-1,3)=\mathrm{max}(3,3)=3$ and $\mathrm{max}(-1,-4)=\mathrm{max}(-4,-1)=-1.$ The minimum of $x$ and $y$ is denoted by $\mathrm{min}(x,y).$ Prove that
+## 13.
+
+> The maximum of two numbers $x$ and $y$ is denoted by $\mathrm{max}(x,y).$ Thus $\mathrm{max}(-1,3)=\mathrm{max}(3,3)=3$ and $\mathrm{max}(-1,-4)=\mathrm{max}(-4,-1)=-1.$ The minimum of $x$ and $y$ is denoted by $\mathrm{min}(x,y).$ Prove that
 > 
 > $$
 > \begin{align}
@@ -1147,13 +1203,17 @@ $$
 
 Hideous. 🤮. But 🤌 nonetheless.
 
-> 14. (a) Prove that $|a|=|-a|.$ (The trick is to not become comfused by too many cases. First prove the statement for $a\ge0.$ Why is it then obvious for $a\le0$?)
+## 14. (a)
+
+> Prove that $|a|=|-a|.$ (The trick is to not become comfused by too many cases. First prove the statement for $a\ge0.$ Why is it then obvious for $a\le0$?)
 
 **Case 1** If $a\ge0,$ then $|a|=a$ and $|-a|=a$ and therefore $|a|=|-a|$ for $a\ge0.$
 
 **Case 2** If $a<0,$ then $|a|=-a$ and $|-a|=-a$ and therefore $|a|=|-a|$ for $a<0.$
  
-> 14. (b) Prove that $-b\le a\le b$ if and only if $|a|\le b.$ In particular, it follows that $-|a|\le a \le|a|.$
+## 14. (b)
+
+> Prove that $-b\le a\le b$ if and only if $|a|\le b.$ In particular, it follows that $-|a|\le a \le|a|.$
 
 For $|a|\le b \implies -b \le a \le b,$ we know that $|a|\ge0$ so $b\ge0.$
 
@@ -1183,7 +1243,9 @@ Assume again that $a<0.$ Then $-a>b$ and $a<-b,$ contradicting $-b \le a \le b.$
 
 Furthermore, to prove $-|a|\le a \le |a|,$ assume $b=|a|.$ Then $|a|\le b=|a|.$ And $-|a|\le a \le |a|.$
 
-> 14. (c) Use this fact to give a new proof that $|a+b|\le|a|+|b|.$
+## 14. (c)
+
+> Use this fact to give a new proof that $|a+b|\le|a|+|b|.$
 
 First, take any $a,b.$ From (b) we can sum these inequalities:
 
@@ -1198,7 +1260,9 @@ $$
 
 Now, taking $a=a+b$ and $b=|a|+|b|$ we can see that $|a+b|=|a|\le b = |a|+|b|.$ 🤌
 
-> 15. Prove that if $x$ and $y$ are not both $0,$ then
+## 15.
+
+> Prove that if $x$ and $y$ are not both $0,$ then
 > 
 > $$
 > x^2+xy+y^2>0 \\
@@ -1217,7 +1281,9 @@ From 6(b) we know that $x^n<y^n$ if $x<y$ so the numerator and denominator are a
 
 For, $x^4+x^3y+x^2y^2+xy^3+y^4$ the same proof applies using problem 1(v) since it's simply $\frac{x^5-y^5}{x-y}.$
 
-> 16. (a) Show that
+## 16. (a)
+
+> Show that
 > 
 > $$
 > \begin{align*}
@@ -1240,7 +1306,9 @@ $$
 
 Then $3x^2y+3xy^2=3xy(x+y)=0$ so $x=0$ or $y=0$ or $x=-y.$
 
-> 16. (b) Using the fact that
+## 16. (b)
+
+> Using the fact that
 > 
 > $$
 > x^2+2xy+y^2=(x+y)^2\ge0,
@@ -1264,7 +1332,9 @@ Subtracting these we find $xy\ge0.$ If neither $x$ nor $y$ is $0,$ then we must 
 
 Further, if only one of x or y i s0, then $x^2>0$ or $y^2>0,$ so the equation remains positive.
 
-> 16. (c) Use part (b) to find out when $(x+y)^4=x^4+y^4.$
+## 16. (c)
+
+> Use part (b) to find out when $(x+y)^4=x^4+y^4.$
 
 If
 
@@ -1280,7 +1350,9 @@ $$
 
 So either $x=0,y=0,$ or $4x^2+6xy+4y^2=0,$ but we know from (b) $4x^2+6xy+4y^2=0$ only when $x=y=0,$ but then $x^4+y^4=0,$ so $x=0$ or $y=0$ but not both. 🤌
 
-> 16. (d) Find out when $(x+y)^5=x^5+y^5.$ Hint: From the assumption $(x+y)^5=x^5+y^5$ you should be able to derive the equation $x^3+2x^2y+2xy^2+y^3=0,$ if $xy\neq0.$ This implies $(x+y)^3=x^2y+xy^2=xy(x+y).$
+## 16. (d)
+
+> Find out when $(x+y)^5=x^5+y^5.$ Hint: From the assumption $(x+y)^5=x^5+y^5$ you should be able to derive the equation $x^3+2x^2y+2xy^2+y^3=0,$ if $xy\neq0.$ This implies $(x+y)^3=x^2y+xy^2=xy(x+y).$
 
 First, note that
 
@@ -1320,7 +1392,9 @@ Yeah, so $x=0,y=0,$ or $x=-y.$ 🤌
 
 I don't know man, probably $x=0,y=0,$ or $x=-y.$ I'll prove it later.
 
-> 17. (a) Find the smallest possible value of $2x^2-3x+4$. Hint: "Complete the square. ⏹"
+## 17. (a)
+
+> Find the smallest possible value of $2x^2-3x+4$. Hint: "Complete the square. ⏹"
 
 $$
 \begin{align*}
@@ -1336,7 +1410,9 @@ $$
 
 Since $2(x-\frac{3}{4})^2$ is at least zero, the smallest value is $\frac{23}{8}$ when $x=\frac{3}{4}$
 
-> 17. (b) Find the smallest possible value of $x^2-3x+2y^2+4y+2.$
+## 17. (b)
+
+> Find the smallest possible value of $x^2-3x+2y^2+4y+2.$
 
 $$
 \begin{align*}
@@ -1348,7 +1424,9 @@ $$
 
 Since the first 2 terms are always positive the smallest possible value is $-\frac{9}{4}.$
 
-> 17. (c) Find the smallest possible value of $x^2+4xy+5y^2-4x-6y+7.$
+## 17. (c)
+
+> Find the smallest possible value of $x^2+4xy+5y^2-4x-6y+7.$
 
 $$
 \begin{align*}
@@ -1366,7 +1444,9 @@ $$
 
 By the same logic we see this one to be at least 2.
 
-> 18. (a) Suppose that $b^2-4c\ge0.$ Show that the numbers
+## 18. (a)
+
+> Suppose that $b^2-4c\ge0.$ Show that the numbers
 >
 > $$
 > \frac{-b+\sqrt{b^2-4c}}{2},\quad\frac{-b-\sqrt{b^2-4c}}{2}
@@ -1385,7 +1465,9 @@ x^2+bx+c&=0 \\
 \end{align*}
 $$
 
-> 18. (b) Suppose $b^2-4c<0.$ Show that there are no numbers $x$ satisfying $x^2+bx+c=0$
+## 18. (b)
+
+> Suppose $b^2-4c<0.$ Show that there are no numbers $x$ satisfying $x^2+bx+c=0$
 
 I mean, I guess I could rederive the formula but why man?
 
@@ -1405,7 +1487,9 @@ $$
 
 Since this is the form, if $b^2-4c<0,$ then the square root of it is complex and no real number exists to satisfy.
 
-> 18. (c) Use this fact to give another proof that if $x$ and $y$ are not both $0,$ then $x^2+xy+y^2>0.$
+## 18. (c)
+
+> Use this fact to give another proof that if $x$ and $y$ are not both $0,$ then $x^2+xy+y^2>0.$
 
 $$
 \begin{align*}
@@ -1416,7 +1500,9 @@ $$
 
 At this point, however, we see that $y^2\ge0$ and so $-3y^2<0$ if $y\ne0.$ Since no $x$ satisfies the equation when $y\ne0,$ for $x^2+xy+y^2=0,$ both $x=y=0.$ Since we're told this is not the case, the equation can never equal zero.
 
-> 18. (d) For which numbers $\alpha$ is it true that $x^2+\alpha xy+y^2>0$ whenever $x$ and $y$ are not both $0$?
+## 18. (d)
+
+> For which numbers $\alpha$ is it true that $x^2+\alpha xy+y^2>0$ whenever $x$ and $y$ are not both $0$?
 
 Since we're looking for when there are no real solutions (i.e., roots, when the equation equals $0$), we want to find
 
@@ -1442,7 +1528,9 @@ $$
 
 Therefore, it is always positive when $|\alpha|<2.$
 
-> 18. (e) Find the smallest possible value of $x^2+bx+c$ and of $ax^2+bx+c,$ for $a>0.$
+## 18. (e)
+
+> Find the smallest possible value of $x^2+bx+c$ and of $ax^2+bx+c,$ for $a>0.$
 
 Well,
 
@@ -1469,7 +1557,9 @@ $$
 a\left(\frac{c}{a}-\frac{b^2}{4a^2}\right)=c-\frac{b^2}{4a}
 $$
 
-> 19. The fact that $a^2\ge0$ for all numbers $a,$ elementary as it may seem, is nevertheless the fundamental idea upon which most important inequalities are ultimately based. The great-granddaddy of all inequalities is the *Schwarz inequality:*
+## 19.
+
+> The fact that $a^2\ge0$ for all numbers $a,$ elementary as it may seem, is nevertheless the fundamental idea upon which most important inequalities are ultimately based. The great-granddaddy of all inequalities is the *Schwarz inequality:*
 > 
 > $$
 > x_1y_1+x_2y_2\le\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}
@@ -1477,7 +1567,9 @@ $$
 > 
 > (A more general form occurs in Problem 2-21.) The three proofs of the Schwarz inequality outlined below have only one thing in common—their reliance on the fact that $a^2\ge0$ for all $a.$
 >
-> 19. (a) Prove that if $x_1=\lambda y_1$ and $x_2=\lambda y_2$ for some $\lambda \ge0,$ then equality holds in the Schwarz inequality. Prove the same thing if $y_1=y_2=0$. Now suppose that $y_1$ and $y_2$ are not both $0,$ and that there is no number $\lambda$ such that $x_1=\lambda y_1$ and that $x_2=\lambda y_2.$ Then
+## 19. (a)
+
+> Prove that if $x_1=\lambda y_1$ and $x_2=\lambda y_2$ for some $\lambda \ge0,$ then equality holds in the Schwarz inequality. Prove the same thing if $y_1=y_2=0$. Now suppose that $y_1$ and $y_2$ are not both $0,$ and that there is no number $\lambda$ such that $x_1=\lambda y_1$ and that $x_2=\lambda y_2.$ Then
 >
 > $$
 > 0 < (\lambda y_1-x_1)^2+(\lambda y_2-x_2)^2=\lambda^2({y_1}^2+{y_2}^2)-2\lambda(x_1y_1+x_2y_2)+({x_1}^2+{x_2}^2).
@@ -1540,7 +1632,9 @@ $$
 
 And there we have the Schwarz inequality which holds equality when our two pairs are scaled equally by some $\lambda$ or $y_1=y_2=0$ and inequality otherwise. 🤌
 
-> 19. (b) Prove the Schwarz inequality by using $2xy\le x^2+y^2$ (how is this derived?) with
+## 19. (b)
+
+> Prove the Schwarz inequality by using $2xy\le x^2+y^2$ (how is this derived?) with
 >
 > $$
 > x=\frac{x_i}{\sqrt{{x_1}^2+{x_2}^2}},\quad y=\frac{y_i}{\sqrt{{y_1}^2+{y_2}^2}}
@@ -1590,7 +1684,9 @@ $$
 
 And there we have our Schwarz inequality. 🤌
 
-> 19. (c) Prove the Schwarz inequality by first proving that
+## 19. (c)
+
+> Prove the Schwarz inequality by first proving that
 >
 > $$
 > ({x_1}^2+{x_2}^2)({y_1}^2+{y_2}^2)=(x_1y_1+x_2y_2)^2+(x_1y_2-x_2y_1)^2.
@@ -1619,11 +1715,15 @@ $$
 
 And we're back to our inequality. 🤌
 
-> 19. (d) Deduce, from each of these three proofs, that equality holds only when $y_1=y_2=0$ or when there is a number $\lambda\ge0$ such that $x_1=\lambda y_1$ or $x_2=\lambda y_2$
+## 19. (d)
+
+> Deduce, from each of these three proofs, that equality holds only when $y_1=y_2=0$ or when there is a number $\lambda\ge0$ such that $x_1=\lambda y_1$ or $x_2=\lambda y_2$
 
 We already did this. Refer to part (a). Both the right and left terms multiply to zero when $y_1=y_2=0$ and if the x's and y's are scaled check part (a).
 
-> 20. Prove that if
+## 20.
+
+> Prove that if
 >
 > $$
 > |x-x_0|<\frac{\epsilon}{2} \text{ and } |y-y_0|<\frac{\epsilon}{2},
@@ -1664,7 +1764,9 @@ $$
 \end{align*}
 $$
 
-> 21. Prove that if
+## 21.
+
+> Prove that if
 >
 > $$
 > |x-x_0|<\min\left(\frac{\epsilon}{2(|y_0|+1)},1\right)\quad\text{ and }\quad|y-y_0|<\frac{\epsilon}{2(|x_0|+1)}
@@ -1724,7 +1826,9 @@ $$
 \end{align*}
 $$
 
-> 22. Prove that if $y_0\ne0$ and
+## 22.
+
+> Prove that if $y_0\ne0$ and
 >
 > $$
 > |y-y_0|<\min\left(\frac{|y_0|}{2},\frac{\epsilon|y_0|^2}{2}\right),
@@ -1798,7 +1902,9 @@ $$
 
 And badda bing badda boom. 🤌
 
-> 23. Replace the question marks in the following statement by expressions involving $\epsilon,x_0,$ and $y_0$ so that the conclusion will be true:
+## 23.
+
+> Replace the question marks in the following statement by expressions involving $\epsilon,x_0,$ and $y_0$ so that the conclusion will be true:
 > If $y_0\ne0$ and
 >
 > $$
@@ -1850,7 +1956,9 @@ $$
 
 
 
-> 24. Let us agree for definiteness, and $a_1+\cdots+a_n$ will denote
+## 24.
+
+> Let us agree for definiteness, and $a_1+\cdots+a_n$ will denote
 >
 > $$
 > a_1+(a_2+(a_3+\cdots+(a_{n-2}+(a_{n-1}+a_n)))\cdots).
@@ -1858,7 +1966,9 @@ $$
 >
 > Thus $a_1+a_2+a_3$ denotes $a_1+(a_2+a_3),$ and $a_1+a_2+a_3+a_4$ denotes $a_1+(a_2+(a_3+a_4)),$ etc.
 >
-> 24. (a) Prove that
+## 24. (a)
+
+> Prove that
 >
 > $$
 > (a_1+\cdots+a_k)+a_{k+1}=a_1+\cdots+a_{k+1}.
@@ -1866,7 +1976,9 @@ $$
 >
 > Hint: Use induction on $k.$
 
-> 24. (b) Prove that if $n\ge k,$ then
+## 24. (b)
+
+> Prove that if $n\ge k,$ then
 >
 > $$
 > (a_1+\cdots+a_k)+(a_{k+1}+\cdots+a_n)=a_1+\cdots+a_n.
@@ -1874,7 +1986,9 @@ $$
 >
 > Hint: Use part (a) to give a proof by induction on $k.$
 
-> 24. (c) Let $s(a_1,...,a_k)$ be some sum formed from $a_1,...,a_k.$ Show that
+## 24. (c)
+
+> Let $s(a_1,...,a_k)$ be some sum formed from $a_1,...,a_k.$ Show that
 >
 > $$
 > s(a_1,...,a_k)=a_1+\cdots+a_k.
@@ -1886,7 +2000,9 @@ $$
 > s(a_1,...,a_k)=s'(a_1,...,a_l)+s''(a_{l+1},...,a_k).
 > $$
 
-> 25. Suppose we interpret "number" to mean either $0$ or $1,$ and $+$ and $\cdot$ to be the operations defined by the following two tables.
+## 25.
+
+> Suppose we interpret "number" to mean either $0$ or $1,$ and $+$ and $\cdot$ to be the operations defined by the following two tables.
 > 
 > $$
 > \begin{array}{c|cc}
