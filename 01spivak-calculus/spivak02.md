@@ -1,8 +1,61 @@
+- [Spivak's Calculus Chapter 02 Exercises](#spivaks-calculus-chapter-02-exercises)
+  - [1.](#1)
+    - [1. (i)](#1-i)
+    - [1. (ii)](#1-ii)
+  - [2.](#2)
+    - [2. (i)](#2-i)
+    - [2. (ii)](#2-ii)
+  - [3.](#3)
+    - [3. (a)](#3-a)
+    - [3. (b)](#3-b)
+    - [3. (c)](#3-c)
+    - [3. (d)](#3-d)
+    - [3. (e)](#3-e)
+      - [3. (e) (i)](#3-e-i)
+      - [3. (e) (ii)](#3-e-ii)
+      - [3. (e) (iii)](#3-e-iii)
+      - [3. (e) (iv)](#3-e-iv)
+  - [4.](#4)
+    - [4. (a)](#4-a)
+    - [4. (b)](#4-b)
+    - [5. (a)](#5-a)
+    - [5. (b)](#5-b)
+  - [6.](#6)
+    - [7. (i)](#7-i)
+    - [7. (ii)](#7-ii)
+    - [7. (iii)](#7-iii)
+    - [7. (iv)](#7-iv)
+  - [7.](#7)
+  - [8.](#8)
+  - [9.](#9)
+  - [12.](#12)
+    - [12. (a)](#12-a)
+    - [12. (b)](#12-b)
+    - [12. (c)](#12-c)
+    - [12. (d)](#12-d)
+  - [13.](#13)
+    - [13. (a)](#13-a)
+    - [13. (b)](#13-b)
+  - [14.](#14)
+    - [14. (a)](#14-a)
+    - [14. (b)](#14-b)
+  - [15.](#15)
+    - [15. (a)](#15-a)
+    - [15. (b)](#15-b)
+  - [16.](#16)
+    - [16. (a)](#16-a)
+    - [16. (b)](#16-b)
+
+
 # Spivak's Calculus Chapter 02 Exercises
 
-> 1. Prove the following formulas by induction.
->
-> 1. (i) $1^2+\cdots+n^2=\frac{n(n+1)(2n+1)}{6}.$
+## 1.
+
+> Prove the following formulas by induction.
+
+### 1. (i)
+
+> $1^2+\cdots+n^2=\frac{n(n+1)(2n+1)}{6}.$
 
 **Case 1**
 
@@ -31,7 +84,9 @@ $$
 \end{align*}
 $$
 
-> (ii) $1^3+\cdots+n^3=(1+\cdots+n)^2$
+### 1. (ii)
+
+> $1^3+\cdots+n^3=(1+\cdots+n)^2$
 
 **Case 1**
 
@@ -69,13 +124,15 @@ $$
 \end{align*}
 $$
 
-***
+## 2.
 
-> 2. Find a formula for
+> Find a formula for
 >
 > Hint: What do these expressions have to do with $1+2+3+\cdots+2n$ and $1^2+2^2+3^2+\cdots+(2n)^2$
->
-> (i) $\sum^{n}_{i=1}(2i-1)=1+3+5+\cdots+(2n-1).$
+
+### 2. (i)
+
+> $\sum^{n}_{i=1}(2i-1)=1+3+5+\cdots+(2n-1).$
 
 $$
 \begin{align*}
@@ -96,7 +153,9 @@ $$\begin{align}
 &= n^2 \quad 🤌
 \end{align}$$
 
-> (ii) $\sum^{n}_{i=1}(2i-1)^2=1^2+3^2+5^2+\cdots+(2n-1)^2.$
+### 2. (ii)
+
+> $\sum^{n}_{i=1}(2i-1)^2=1^2+3^2+5^2+\cdots+(2n-1)^2.$
 
 $$
 \begin{align*}
@@ -113,7 +172,9 @@ $$
 \end{align*}
 $$
 
-> 3. If $0\le k\le n,$ the "binomial coefficient" $\binom{n}{k}$ is defined by
+## 3.
+
+> If $0\le k\le n,$ the "binomial coefficient" $\binom{n}{k}$ is defined by
 >
 > $$
 > \begin{align*}
@@ -123,8 +184,10 @@ $$
 > $$
 >
 > and for $k<0$ or $k>n$ we just define the binomial coefficient to be $0.$
->
-> (a) Prove that 
+
+### 3. (a)
+
+> Prove that 
 >
 > $$
 > \binom{n+1}{k}=\binom{n}{k-1}+\binom{n}{k}.
@@ -155,7 +218,9 @@ $$
 \end{align*}
 $$
 
-> (b) Notice that all the numbers in Pascal's triangle are natural numbers. Use part (a) to prove by induction that $\binom{n}{k}$ is always a natural number. (Your entire proof by induction will, in a sense, be summed up in a glance by Pascal's triangle.)
+### 3. (b)
+
+> Notice that all the numbers in Pascal's triangle are natural numbers. Use part (a) to prove by induction that $\binom{n}{k}$ is always a natural number. (Your entire proof by induction will, in a sense, be summed up in a glance by Pascal's triangle.)
 
 Alright, we know for the basecase that $\binom{1}{1}=\binom{1}{0}=1$ is natural. For the inductive step, suppose $\binom{n}{p}$ is natural for all $p\le n.$ From part (a) we know
 
@@ -165,7 +230,9 @@ $$
 
 And therefore, the sum of two known natural numbers is also natural. So we have $\binom{n+1}{p}$ is natural for all $p\le n.$ But we also know that $\binom{n}{n}=\binom{n+1}{n+1}=1$ so we also have that as natural. Thus $\binom{n+1}{p}$ is natural for all $p\le n+1.$ 🤌
 
-> (c) Give another proof that $\binom{n}{k}$ is a natural number by showing that $\binom{n}{k}$ is the number of sets of exactly $k$ integers chosen from $1,...,n.$
+### 3. (c)
+
+> Give another proof that $\binom{n}{k}$ is a natural number by showing that $\binom{n}{k}$ is the number of sets of exactly $k$ integers chosen from $1,...,n.$
 
 Let $C(n,k)$ be the number of sets of $k$ length chosen from $n$ elements.
 
@@ -179,7 +246,9 @@ If they contain $n+1,$ then there are $k-1$ slots left to fill from the elements
 
 If they do not contain $n+1,$ then they are equal to $C(n,k).$ So now we know that $C(n+1,k)=C(n,k-1)+C(n,k).$ Since we are counting, we are using natural numbers, and since $C(n,k-1)$ and $C(n,k)$ are natural, we know $C(n+1,k),$ the sum of two natural numbers, to be natural. 🤌
 
-> (d) Prove the "binomial theorem": If $a$ and $b$ are any numbers and $n$ is a natural number, then
+### 3. (d)
+
+> Prove the "binomial theorem": If $a$ and $b$ are any numbers and $n$ is a natural number, then
 >
 > $$
 > \begin{align*}
@@ -206,15 +275,21 @@ $$
 
 Fuck me that was not straightforward. But I guess I started to understand these summations.
 
-> (e) Prove that
->
-> (i) $\sum_{j=0}^n\binom{n}{j}=\binom{n}{0}+\cdots+\binom{n}{n}=2^n$
+### 3. (e)
+
+> Prove that
+
+#### 3. (e) (i)
+
+> $\sum_{j=0}^n\binom{n}{j}=\binom{n}{0}+\cdots+\binom{n}{n}=2^n$
 
 $$
 2^n=(1+1)^n=\sum^n_{j=0}\binom{n}{j}1^{n-j}1^j=\sum^n_{j=0}\binom{n}{j} \quad🤌
 $$
 
-> (ii) $\sum^n_{j=0}(-1)^j\binom{n}{j}=\binom{n}{0}-\binom{n}{1}+\cdots\pm\binom{n}{n}=0$
+#### 3. (e) (ii)
+
+> $\sum^n_{j=0}(-1)^j\binom{n}{j}=\binom{n}{0}-\binom{n}{1}+\cdots\pm\binom{n}{n}=0$
 
 
 $$
@@ -226,7 +301,9 @@ $$
 \end{align*}
 $$
 
-> (iii) $\sum_{l\text{ odd}}\binom{n}{l}=\binom{n}{1}+\binom{n}{3}+\cdots=2^{n-1}.$
+#### 3. (e) (iii)
+
+> $\sum_{l\text{ odd}}\binom{n}{l}=\binom{n}{1}+\binom{n}{3}+\cdots=2^{n-1}.$
 
 $$
 \begin{align*}
@@ -240,13 +317,17 @@ $$
 \end{align*}
 $$
 
-> (iv) $\sum_{l\text{ even}}\binom{n}{l}=\binom{n}{0}+\binom{n}{2}+\cdots=2^{n-1}.$
+#### 3. (e) (iv)
+
+> $\sum_{l\text{ even}}\binom{n}{l}=\binom{n}{0}+\binom{n}{2}+\cdots=2^{n-1}.$
 
 The same proof above follows from $(1+1)^n+(1-1)^n.$
 
-***
+## 4.
 
-> 4. (a) Prove that
+### 4. (a)
+
+> Prove that
 >
 > $$
 > \sum^l_{k=0}\binom{n}{k}\binom{m}{l-k}=\binom{n+m}{l}.
@@ -268,7 +349,9 @@ $$
 \sum_{k=0}^l\binom{n}{k}\binom{m}{l-k}=\binom{n+m}{l} \quad 🤌
 $$
 
-> (b) Prove that
+### 4. (b)
+
+> Prove that
 >
 > $$
 > \sum_{k=0}^n\binom{n}{k}^2=\binom{2n}{n}.
@@ -295,7 +378,9 @@ $$
 \end{align*}
 $$
 
-> 5. (a) Prove by induction on $n$ that
+### 5. (a)
+
+> Prove by induction on $n$ that
 >
 > $$
 > 1+r+r^2+\cdots+r^n=\frac{1-r^{n+1}}{1-r} \\
@@ -316,7 +401,9 @@ $$
 \end{align*}
 $$
 
-> (b) Derive this result by setting $S=1+r+\cdots+r^n,$ multiplying this equation by $r,$ and solving the two equations for $S.$
+### 5. (b)
+
+> Derive this result by setting $S=1+r+\cdots+r^n,$ multiplying this equation by $r,$ and solving the two equations for $S.$
 
 $$
 \begin{align*}
@@ -329,7 +416,9 @@ S&=\frac{1-r^{n+1}}{1-r}\\
 \end{align*}
 $$
 
-> 6. The formula $1^2+\cdots+n^2$ may be derived as follows. We begin with the formula $(k+1)^3-k^3=3k^2+3k+1$ and add the iterative equations.
+## 6.
+
+> The formula $1^2+\cdots+n^2$ may be derived as follows. We begin with the formula $(k+1)^3-k^3=3k^2+3k+1$ and add the iterative equations.
 > 
 > $$
 > \begin{align*}
@@ -364,8 +453,10 @@ $$
 > Thus we can find $\sum^n_{k=1}k^2$ if we already know $\sum_{k=1}^n$ (which could have been found in a similar way).
 >
 > Use this method to find
->
-> (i) $1^3+\cdots+n^3$
+
+### 7. (i)
+
+> $1^3+\cdots+n^3$
 
 If we use
 
@@ -421,7 +512,9 @@ $$
 That's the solution he had, I see it now.
 
 
-> (ii) $1^4+\cdots+n^4.$
+### 7. (ii)
+
+> $1^4+\cdots+n^4.$
 
 Using,
 
@@ -462,7 +555,9 @@ $$
 \end{align*}
 $$
 
->(iii) $\frac{1}{1\cdot2}+\frac{1}{2\cdot3}+\cdots+\frac{1}{n(n+1)}.$
+### 7. (iii)
+
+> $\frac{1}{1\cdot2}+\frac{1}{2\cdot3}+\cdots+\frac{1}{n(n+1)}.$
 
 Let's start by decomposing the fraction
 
@@ -507,8 +602,9 @@ $$
 \end{align*}
 $$
 
+### 7. (iv)
 
-> (iv) $\frac{3}{1^2\cdot2^2}+\frac{5}{2^2\cdot3^2}+\cdots+\frac{2n+1}{n^2(n+1)^2}$
+> $\frac{3}{1^2\cdot2^2}+\frac{5}{2^2\cdot3^2}+\cdots+\frac{2n+1}{n^2(n+1)^2}$
 
 $$
 \frac{3}{1^2\cdot2^2}+\frac{5}{2^2\cdot3^2}+\cdots+\frac{2n+1}{n^2(n+1)^2}=\sum_{k=1}^n\frac{2k+1}{k^2(k+1)^2}
@@ -533,7 +629,9 @@ $$
 
 Dang man, getting a sense for this stuff is tough.
 
-> 7. Use the method of Problem 6 to show that $\sum_{i=1}^nk^p$ can always be written in the form
+## 7.
+
+> Use the method of Problem 6 to show that $\sum_{i=1}^nk^p$ can always be written in the form
 >
 > $$
 > \frac{n^{p+1}}{p+1} + An^p+Bn^{p-1}+Cn^{p-2}+\cdots.
@@ -613,8 +711,9 @@ $$
 
 So we see that if it's true for $j<p,$ it's also true for $p$. 🤌
 
+## 8.
 
-> 8. Prove that every natural number is either even or odd.
+> Prove that every natural number is either even or odd.
 
 Well, our base case 1 is obviously odd, so the statement `even(1) or odd(1)==True` works.
 
@@ -628,7 +727,9 @@ Either $2$ is a factor of $n$ or it is not.
 
 Therefore, if $n$ is odd or even, $n+1$ is odd or even.
 
-> 9. Prove that if a set $A$ of natural numbers contains $n_0$ and contains $k+1$ whenever it contains $k,$ then $A$ contains all natural numbers $\ge n_0.$
+## 9.
+
+> Prove that if a set $A$ of natural numbers contains $n_0$ and contains $k+1$ whenever it contains $k,$ then $A$ contains all natural numbers $\ge n_0.$
 
 To symbolize this,
 
@@ -643,51 +744,79 @@ From $n_0\in A,$ we know $n_0+1\in A.$ And since $n_0+1\in A,(n_0+1)+1=n_0+2\in 
 This means $m-1\in A.$ We therefore know $(m-1)+1=m\in A.$ This is a contradiction. Therefore our statement is true.
 
 ***
->  Skip 10, 11 for redundancy
+>  TODO 10,11
 ***
 
-> 12. (a) If $a$ is rational and $b$ is irrational, is $a+b$ necessarily irrational? What if $a$ and $b$ are both irrational?
+## 12.
+
+### 12. (a)
+
+> If $a$ is rational and $b$ is irrational, is $a+b$ necessarily irrational? What if $a$ and $b$ are both irrational?
 
 Yes, $a+b$ is necessarily irrational if only $b$ is irrational because otherwise $b=(a+b)-a$ would be rational, being the sum of two rational numbers.
 
 If both $a,b$ are irrational, then $a+b$ could be rational since $b=r-a$ could be the case.
 
-> (b) If $a$ is rational and $b$ is irrational, is $ab$ necessarily irrational? (Careful!)
+### 12. (b)
+
+> If $a$ is rational and $b$ is irrational, is $ab$ necessarily irrational? (Careful!)
 
 If $a=0,ab=0$ which would be rational, otherwise $ab$ is irrational since $b=a^{-1}ab$ cannot be rational.
 
-> (c) Is there a number $a$ such that $a^2$ is irrational, but $a^4$ is rational?
+### 12. (c)
+
+> Is there a number $a$ such that $a^2$ is irrational, but $a^4$ is rational?
 
 Yes, $a=\sqrt[4]2$
 
-> (d) Are there two irrational numbers whose sum and product are both rational?
+### 12. (d)
+
+> Are there two irrational numbers whose sum and product are both rational?
 
 Yes, consider $a=-\sqrt2,b=\sqrt2,$ for which $-\sqrt2\sqrt2=-2$ and $-\sqrt2+\sqrt2=0.$
 
-> 13. (a) Prove that $\sqrt3,\sqrt5,\sqrt6$ are irrational. Hint: To treat $\sqrt3,$ for example, use the fact that every integer is of the form $3n$ or $3n+1$ or $3n+2.$ Why doesn't this proof work for $\sqrt4$?
+## 13.
 
+### 13. (a)
 
+> Prove that $\sqrt3,\sqrt5,\sqrt6$ are irrational. Hint: To treat $\sqrt3,$ for example, use the fact that every integer is of the form $3n$ or $3n+1$ or $3n+2.$ Why doesn't this proof work for $\sqrt4$?
 
-> (b) Prove that $\sqrt[3]2$ and $\sqrt[3]3$ are irrational.
+### 13. (b)
 
-> 14. Prove that
->
-> (a) $\sqrt2+\sqrt6$ is irrational.
+> Prove that $\sqrt[3]2$ and $\sqrt[3]3$ are irrational.
 
-> (b) $\sqrt2+\sqrt3$ is irrational.
+## 14.
 
-> 15. (a) Prove that if $x=p+\sqrt q$ where $p$ and $q$ are rational, and $m$ is a natural number, then $x^m=a+b\sqrt q$ for some rational $a$ and $b.$
+> Prove that
 
-> (b) Prove also that $(p-\sqrt q)^m=a-b\sqrt q.$
+### 14. (a)
 
-> 16. (a) Prove that if $m$ and $n$ are natural numbers and $\frac{m^2}{n^2}\le2,$ then $\frac{(m+2n)^2}{(m+n)^2}>2;$ show, moreover, that
+> $\sqrt2+\sqrt6$ is irrational.
+
+### 14. (b)
+
+> $\sqrt2+\sqrt3$ is irrational.
+
+## 15.
+
+### 15. (a)
+
+> Prove that if $x=p+\sqrt q$ where $p$ and $q$ are rational, and $m$ is a natural number, then $x^m=a+b\sqrt q$ for some rational $a$ and $b.$
+
+### 15. (b)
+
+> Prove also that $(p-\sqrt q)^m=a-b\sqrt q.$
+
+## 16.
+
+### 16. (a)
+
+> Prove that if $m$ and $n$ are natural numbers and $\frac{m^2}{n^2}\le2,$ then $\frac{(m+2n)^2}{(m+n)^2}>2;$ show, moreover, that
 > 
 > $$
 > \frac{(m+2n)^2}{(m+n)^2}-2<2-\frac{m^2}{n^2}.
 > $$
 
-> (b) Prove the same result with all inequality signs reversed.
+### 16. (b)
 
-***
-
-> Skip 17-27 for redundancy
+> Prove the same result with all inequality signs reversed.
