@@ -1471,66 +1471,45 @@ $$
 >
 > at one point in the argument you will need the first inequality, and at another point you will need the second. One more word of advice: since the hypotheses only provide information about $x-x_0$ and $y-y_0,$ it is almost a foregone conclusion that the proof will depend upon writing $xy-x_0y_0$ in a way that involves $x-x_0$ and $y-y_0.$
 
-First observe 
+We can start by rearranging our goal statement looking for a bound with the triangle inequality and then get a strict upper bound on our supposition.
 
-$$
-xy-x_0y_0=x(y-y_0)+y_0(x-x_0)
-$$
-
-Applying absolute value to both sides we get
-
-$$
-|xy-x_0y_0|=|x(y-y_0)+y_0(x-x_0)|
-$$
-
-Since $|a+b|\le|a|+|b|$ and $|a|\cdot|b|=|ab|$
 $$
 \begin{align*}
-|xy-x_0y_0|&=|x(y-y_0)+y_0(x-x_0)|\le|x(y-y_0)|+|y_0(x-x_0)|\\
-|xy-x_0y_0|&\le|x(y-y_0)|+|y_0(x-x_0)|\\
+|xy-x_0y_0|=|x(y-y_0)+y(x_0-x)|&=|x(y-y_0)+y_0(x-x_0)|\\
+|xy-x_0y_0|=|x(y-y_0)+y(x-x_0)|&\le|x|\cdot|y-y_0|+|y_0|\cdot|x-x_0|\\
 |xy-x_0y_0|&\le|x|\cdot|y-y_0|+|y_0|\cdot|x-x_0|\\
+|xy-x_0y_0|&<|x|\cdot\frac{\epsilon}{2(|x_0|+1)}+|y_0|\cdot|x-x_0|\\
+|xy-x_0y_0|&<|x|\cdot\frac{\epsilon}{2(|x_0|+1)}+|y_0|\cdot\frac{\epsilon}{2(|y_0|+1)}\\
 \end{align*}
 $$
 
-From our hypothesis $|x-x_0|<1$ and the triangle inequality we know that 
+Then we can look for a bound on $|x|,$ and make it stricter with $|x-x_0|<1$ from our supposition again.
 
 $$
 \begin{align*}
-|x|=|(x-x_0)+x_0|\le|x-x_0|+|x_0|&<1+|x_0|=|x_0|+1\\
-|x|&<|x_0|+1\\
+|x|=|x-x_0+x_0|&\le|x-x_0|+|x_0|\\
+|x|&\le|x-x_0|+|x_0|\\
+|x|&<1+|x_0|=|x_0|+1\\
 \end{align*}
 $$
 
-Furthermore we know from our hypothesis $|y-y_0|<\frac{\epsilon}{2(|x_0|+1)}$ and $|x|<|x_0|+1$ that
+So we can tighten our mainline bound and do some rearranging
 
 $$
 \begin{align*}
-|x|\cdot|y-y_0|&<(|x_0|+1)\cdot \frac{\epsilon}{2(|x_0|+1)}=\frac{\epsilon}{2}\\
-|x|\cdot|y-y_0|&<\frac{\epsilon}{2}
+|xy-x_0y_0|&<|x|\cdot\frac{\epsilon}{2(|x_0|+1)}+|y_0|\cdot\frac{\epsilon}{2(|y_0|+1)}\\
+|xy-x_0y_0|&<(|x_0|+1)\cdot\frac{\epsilon}{2(|x_0|+1)}+|y_0|\cdot\frac{\epsilon}{2(|y_0|+1)}\\
+|xy-x_0y_0|&<\frac{\epsilon}{2}+|y_0|\cdot\frac{\epsilon}{2(|y_0|+1)}\\
+|xy-x_0y_0|&<\frac{\epsilon}{2}+|y_0|\cdot\frac{1}{|y_0|+1}\cdot\frac{\epsilon}{2}\\
+|xy-x_0y_0|&<\frac{\epsilon}{2}+\frac{|y_0|}{|y_0|+1}\cdot\frac{\epsilon}{2}\\
 \end{align*}
 $$
 
-And finally, that
-
-$$
-|y_0|\cdot|x-x_0|<|y_0|\frac{\epsilon}{2(|y_0|+1)}=\frac{\epsilon|y_0|}{2(|y_0|+1)}=\frac{\epsilon}{2}\cdot\frac{|y_0|}{|y_0|+1}
-$$
-
-But since any $a\cdot\frac{b}{b+1}<a$ since $\frac{b}{b+1}<1,$
+Next, because $\frac{b}{b+1}<1,$ we know $a\cdot\frac{b}{b+1}<a,$ so
 
 $$
 \begin{align*}
-|y_0|\cdot|x-x_0|<\frac{\epsilon}{2}\cdot\frac{|y_0|}{|y_0|+1}&<\frac{\epsilon}{2}\\
-|y_0|\cdot|x-x_0|&<\frac{\epsilon}{2}
-\end{align*}
-$$
-
-and then combining these bounds
-
-$$
-\begin{align*}
-|xy-x_0y_0|&\le|x|\cdot|y-y_0|+|y_0|\cdot|x-x_0|\\
-|xy-x_0y_0|&<\frac{\epsilon}{2}+|y_0|\cdot|x-x_0|\\
+|xy-x_0y_0|&<\frac{\epsilon}{2}+\frac{|y_0|}{|y_0|+1}\cdot\frac{\epsilon}{2}<\frac{\epsilon}{2}+\frac{\epsilon}{2}\\
 |xy-x_0y_0|&<\frac{\epsilon}{2}+\frac{\epsilon}{2}\\
 |xy-x_0y_0|&<\epsilon \quad 🤌
 \end{align*}
@@ -1548,71 +1527,67 @@ $$
 > \left|\frac{1}{y}-\frac{1}{y_0}\right|<\epsilon.
 > $$
 
-Observe that
+Since
 
 $$
 \begin{align*}
 |y_0|=|y_0-y+y|&\le|y|+|y_0-y|=|y|+|y-y_0|\\
-|y_0|&\le|y_0|+|y-y_0|\\
-|y|-|y-y_0|&\ge|y_0|\\
-|y_0|&\ge|y|-|y-y_0|\\
+|y_0|&\le|y|+|y-y_0|\\
+|y_0|-|y-y_0|&\le|y|\\
+|y|&\ge|y_0|-|y-y_0|
 \end{align*}
 $$
 
-and since
+we have a lower bound on $|y|$ and using our supposition we get
 
 $$
 \begin{align*}
-|y-y_0|&<\frac{|y_0|}{2}\\
--|y-y_0|&>-\frac{|y_0|}{2}\\
-|y_0|-|y-y_0|&>|y_0|-\frac{|y_0|}{2}\\
-\end{align*}
-$$
-
-we find
-
-$$
-\begin{align*}
-|y|&\ge|y_0|-|y-y_0|>|y_0|-\frac{|y_0|}{2}\\
-|y|&>|y_0|-\frac{|y_0|}{2}=\frac{2|y_0|-|y_0|}{2}=\frac{|y_0|}{2}\\
+|y|&\ge|y_0|-|y-y_0|\\
+|y|&>|y_0|-\frac{|y_0|}{2}\\
 |y|&>\frac{|y_0|}{2}\\
-\frac{1}{|y|}&<\frac{2}{|y_0|}\\
 \end{align*}
 $$
 
-Since $y_0\ne0,\frac{|y_0|}{2}>0$ and so is $|y|>0$ and therefore $y\ne0.$
+Since $y_0\ne0$ we have $\frac{|y_0|}{2}>0$ and transitively $|y|>0$ and so $y\ne0,$ proving one of our goals. Next, if we rewrite our second goal 
 
-We also find, 
+$$
+\left|\frac{1}{y}-\frac{1}{y_0}\right|=\frac{|y_0-y|}{|y|\cdot|y_0|}=\frac{|y-y_0|}{|y|\cdot|y_0|}=|y-y_0|\cdot\frac{1}{|y|\cdot|y_0|}\\
+$$
+
+We can get a strict upper bound on our goal term.
 
 $$
 \begin{align*}
-\left|\frac{1}{y}-\frac{1}{y_0}\right|&=\frac{|y_0-y|}{|y|\cdot|y_0|}\\
-&=\frac{|y-y_0|}{|y|\cdot|y_0|}\\
-&=\frac{1}{|y|}\cdot\frac{|y-y_0|}{|y_0|}
+\left|\frac{1}{y}-\frac{1}{y_0}\right|=|y-y_0|\cdot\frac{1}{|y|\cdot|y_0|}&<\frac{\epsilon|y_0|^2}{2}\cdot\frac{1}{|y|\cdot|y_0|}\\
+\left|\frac{1}{y}-\frac{1}{y_0}\right|&<\frac{\epsilon|y_0|^2}{2}\cdot\frac{1}{|y|\cdot|y_0|}\\
+\left|\frac{1}{y}-\frac{1}{y_0}\right|&<\epsilon\cdot\frac{|y_0|}{2}\cdot\frac{1}{|y|}\\
 \end{align*}
 $$
 
-And then from the bounding $\frac{1}{|y|}<\frac{2}{|y_0|}$
+Now let's look at our right term from the bound we established earlier
 
 $$
 \begin{align*}
-\left|\frac{1}{y}-\frac{1}{y_0}\right|=\frac{1}{|y|}\cdot\frac{|y-y_0|}{|y_0|}&<\frac{2}{|y_0|}\cdot\frac{|y-y_0|}{|y_0|}\\
-&<\frac{|y-y_0|}{\frac{|y_0|}{2}\cdot|y_0|}\\
-&<\frac{|y-y_0|}{\frac{|y_0|^2}{2}}\\
+|y|&>\frac{|y_0|}{2}\\
+2|y|&>|y_0|\\
+\frac{2|y|}{|y_0|}&>1\\
+\frac{2}{|y_0|}&>\frac{1}{|y|}\\
+\frac{1}{|y|}&<\frac{2}{|y_0|}&\\
 \end{align*}
 $$
 
-And finally, bounding from our hypothesis $|y-y_0|<\frac{\epsilon|y_0|^2}{2}$
+So we can make another inequality bounding pinch in that larger goal inequality.
 
 $$
 \begin{align*}
-\left|\frac{1}{y}-\frac{1}{y_0}\right|&<\frac{\frac{\epsilon|y_0|^2}{2}}{\frac{|y_0|^2}{2}}\\
-&<\epsilon\cdot\frac{\frac{|y_0|^2}{2}}{\frac{|y_0|^2}{2}}\\
+\left|\frac{1}{y}-\frac{1}{y_0}\right|&<\epsilon\cdot\frac{|y_0|}{2}\cdot\frac{1}{|y|}\\
+\left|\frac{1}{y}-\frac{1}{y_0}\right|&<\epsilon\cdot\frac{|y_0|}{2}\cdot\frac{2}{|y_0|}\\
 \left|\frac{1}{y}-\frac{1}{y_0}\right|&<\epsilon\\
 \end{align*}
 $$
 
-Badda bing badda boom. 🤌
+
+And badda bing badda boom. 🤌
 
 > 23. Replace the question marks in the following statement by expressions involving $\epsilon,x_0,$ and $y_0$ so that the conclusion will be true:
 > If $y_0\ne0$ and
@@ -1629,7 +1604,7 @@ Badda bing badda boom. 🤌
 >
 > This problem is trivial in the sense that its solution follows from Problems 21 and 22 with almost no work at all (notice that $x/y=x\cdot1/y$ ). The crucial point is not to become confused; decide which of the two problems should be used first, and don't panic if your answer looks unlikely.
 
-We want to use the previous 2 problems to cache out the $|y|$ reciprocals to the preconditions for our multiplication $|x\frac{1}{y}-x_0\frac{1}{y_0}|\le\epsilon$
+We want to use the previous 2 problems to cash out the $|y|$ reciprocals to the preconditions for our multiplication $|x\frac{1}{y}-x_0\frac{1}{y_0}|\le\epsilon$
 
 This means we need
 
