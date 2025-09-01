@@ -1993,21 +1993,24 @@ $$
 
 Set $S_k=a_1+\cdots+a_k$
 
-For the base step:
+For the base step, by association
 
 $$
 (a_1)+a_2=a_1+a_2
 $$
 
-For the inductive step.
+For the inductive step, assume it holds for $k,$
 
 $$
 \begin{align*}
-(a_1+\cdots+a_k)+a_{k+1}&=(S_k)+a_{k+1}\\
-&=S_k+a_{k+1}\\
-&=a_1+\cdots+a_k+a_{k+1}\\
+(a_1+\cdots+a_{k+1})+a_{k+2}&=[(a_1+\cdots+a_k)+a_{k+1}]+a_{k+2}\\
+&=(a_1+\cdots+a_k)+(a_{k+1}+a_{k+2})\tag{by P1}\\
+&=a_1+\cdots+a_k+(a_{k+1}+a_{k+2}) \tag{by hypothesis}\\
+&=a_1+\cdots+a_{k+2} \tag{by definition}
 \end{align*}
 $$
+
+Honestly, this one I took from Spivak and I don't like it at all. These bureaucratic proofs are so irritating.
 
 ### 24. (b)
 
