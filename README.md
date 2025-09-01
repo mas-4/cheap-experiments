@@ -118,6 +118,7 @@ This process will take years. But every book completed should add to performance
 - Spivak 01: Started July 28, problem 18/25 on August 12
 - Spivak 02: 8/13/2025
 - Axler 03a: 8/14/2025
+- Spivak 01 22/25 on August 31 (went back after 10 chapter 2 problems)
 
 Certainly this is a slow ramp up and will accelerate.
 -->

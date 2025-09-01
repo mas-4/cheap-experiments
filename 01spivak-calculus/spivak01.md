@@ -1520,10 +1520,12 @@ But since any $a\cdot\frac{b}{b+1}<a$ since $\frac{b}{b+1}<1,$
 
 $$
 \begin{align*}
-\frac{\epsilon}{2}\cdot\frac{|y_0|}{|y_0|+1}&<\frac{\epsilon}{2}\\
+|y_0|\cdot|x-x_0|<\frac{\epsilon}{2}\cdot\frac{|y_0|}{|y_0|+1}&<\frac{\epsilon}{2}\\
 |y_0|\cdot|x-x_0|&<\frac{\epsilon}{2}
 \end{align*}
 $$
+
+and then combining these bounds
 
 $$
 \begin{align*}
@@ -1550,9 +1552,10 @@ Observe that
 
 $$
 \begin{align*}
-|y_0|=|y+y-y_0|&\le|y|+|y-y_0|\\
-|y|+|y-y_0|&\ge|y_0|\\
-|y|&\ge|y_0|-|y-y_0|\\
+|y_0|=|y_0-y+y|&\le|y|+|y_0-y|=|y|+|y-y_0|\\
+|y_0|&\le|y_0|+|y-y_0|\\
+|y|-|y-y_0|&\ge|y_0|\\
+|y_0|&\ge|y|-|y-y_0|\\
 \end{align*}
 $$
 
@@ -1625,6 +1628,43 @@ Badda bing badda boom. 🤌
 > $$
 >
 > This problem is trivial in the sense that its solution follows from Problems 21 and 22 with almost no work at all (notice that $x/y=x\cdot1/y$ ). The crucial point is not to become confused; decide which of the two problems should be used first, and don't panic if your answer looks unlikely.
+
+We want to use the previous 2 problems to cache out the $|y|$ reciprocals to the preconditions for our multiplication $|x\frac{1}{y}-x_0\frac{1}{y_0}|\le\epsilon$
+
+This means we need
+
+$$
+\left|\frac{1}{y}-\frac{1}{y_0}\right|<\frac{\epsilon}{2(|x_0|+1)}.\tag{1}
+$$
+
+So if we take
+
+$$
+|y-y_0|<\min\left(\frac{|y_0|}{2},\frac{\epsilon|y_0|^2}{2}\right),\tag{2}
+$$
+
+and plug (1) in for the $\epsilon$ in (2) we get there.
+$$
+\begin{align*}
+|y-y_0|&<\min\left(\frac{|y_0|}{2},\frac{\epsilon|y_0|^2}{2}\right)\\
+|y-y_0|&<\min\left(\frac{|y_0|}{2},\frac{\frac{\epsilon}{2(|x_0|+1)}|y_0|^2}{2}\right)\\
+|y-y_0|&<\min\left(\frac{|y_0|}{2},\frac{\epsilon}{2(|x_0|+1)}\cdot\frac{|y_0|^2}{2}\right)\\
+|y-y_0|&<\min\left(\frac{|y_0|}{2},\frac{\epsilon|y_0|^2}{4(|x_0|+1)}\right)\\
+\end{align*}
+$$
+
+Then we can evaluate to our expected condition using the logic from 23.
+
+$$
+\begin{align*}
+\left|\frac{x}{y}-\frac{x_0}{y_0}\right|&=\left|x\cdot\frac{1}{y}-x_0\cdot\frac{1}{y_0}\right|\\
+&=\left|x\left(\frac{1}{y}-\frac{1}{y_0}\right)+\frac{1}{y_0}(x-x_0)\right| \le \left|x\left(\frac{1}{y}-\frac{1}{y_0}\right)\right|+\left|\frac{1}{y_0}(x-x_0)\right| \\
+&\le |x|\cdot\left|\frac{1}{y}-\frac{1}{y_0}\right|+\frac{1}{|y_0|}\cdot|x-x_0|
+\end{align*}
+$$
+
+
+
 
 > 24. Let us agree for definiteness, and $a_1+\cdots+a_n$ will denote
 >
