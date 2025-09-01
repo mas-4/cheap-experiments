@@ -1,3 +1,75 @@
+- [Spivak Chapter 01 Basic Properties of Numbers Exercises](#spivak-chapter-01-basic-properties-of-numbers-exercises)
+  - [1.](#1)
+    - [1. (i)](#1-i)
+    - [1. (ii)](#1-ii)
+    - [1. (iii)](#1-iii)
+    - [1. (iv)](#1-iv)
+    - [1. (v)](#1-v)
+  - [2.](#2)
+  - [3.](#3)
+    - [3. (i)](#3-i)
+    - [3. (ii)](#3-ii)
+    - [3. (iii)](#3-iii)
+    - [3. (iv)](#3-iv)
+    - [3. (v)](#3-v)
+    - [3. (vi)](#3-vi)
+  - [4.](#4)
+    - [4. (i)](#4-i)
+    - [4. (ii)](#4-ii)
+    - [4. (iii)](#4-iii)
+    - [4. (iv)](#4-iv)
+    - [4. (v)](#4-v)
+    - [4. (vi)](#4-vi)
+    - [4. (vi)](#4-vi-1)
+    - [4. (viii)](#4-viii)
+    - [4. (ix)](#4-ix)
+    - [4. (x)](#4-x)
+    - [4. (xi)](#4-xi)
+    - [4. (xii)](#4-xii)
+    - [4. (xiii)](#4-xiii)
+    - [4. (xiv)](#4-xiv)
+  - [5.](#5)
+    - [5. (i)](#5-i)
+    - [5. (ii)](#5-ii)
+    - [5. (iii)](#5-iii)
+    - [5. (iv)](#5-iv)
+    - [5. (v)](#5-v)
+    - [5. (vi)](#5-vi)
+    - [5. (vii)](#5-vii)
+    - [5. (viii)](#5-viii)
+    - [5. (ix)](#5-ix)
+    - [5. (x)](#5-x)
+  - [6.](#6)
+    - [6. (a)](#6-a)
+    - [6. (b)](#6-b)
+    - [6. (c)](#6-c)
+  - [7.](#7)
+  - [8.](#8)
+  - [9.](#9)
+    - [9. (i)](#9-i)
+    - [9. (ii)](#9-ii)
+    - [9. (iii)](#9-iii)
+    - [9. (iv)](#9-iv)
+    - [9. (v)](#9-v)
+  - [10.](#10)
+    - [10. (i)](#10-i)
+    - [10. (ii)](#10-ii)
+    - [10. (iii)](#10-iii)
+    - [10. (iv)](#10-iv)
+  - [11.](#11)
+    - [11. (i)](#11-i)
+    - [11. (ii)](#11-ii)
+    - [11. (iii)](#11-iii)
+    - [11. (iv)](#11-iv)
+    - [11. (v)](#11-v)
+    - [11. (vi)](#11-vi)
+    - [11. (vii)](#11-vii)
+    - [11. (viii)](#11-viii)
+  - [12.](#12)
+    - [12. (i)](#12-i)
+    - [12. (ii)](#12-ii)
+
+
 # Spivak Chapter 01 Basic Properties of Numbers Exercises
 
 | Proposition | Name                                   | Law                                                                                                 |
@@ -17,10 +89,13 @@
 
 
 ***
+## 1.
+
+### 1. (i)
 
 > Prove the following:
 >
-> 1. (i) If $ax=a$ for some number $a \neq 0$, then $x = 1$. 🙄
+> If $ax=a$ for some number $a \neq 0$, then $x = 1$. 🙄
 
 $$
 \begin{align*}
@@ -31,7 +106,9 @@ x &= 1 \quad🤌\tag{P6} \\
 \end{align*}
 $$
 
-> 1. (ii) $x^2 - y^2 = (x-y)(x+y).$
+### 1. (ii)
+
+> $x^2 - y^2 = (x-y)(x+y).$
 
 $$
 \begin{align*}
@@ -43,7 +120,9 @@ x^2 - y^2 &= (x-y)(x+y) \\
 \end{align*}
 $$
 
-> 1. (iii) If $x^2=y^2,$ then $x=y$ or $x = -y.$
+### 1. (iii) 
+
+> If $x^2=y^2,$ then $x=y$ or $x = -y.$
 
 $$
 \begin{align*}
@@ -64,7 +143,9 @@ x &= -y \quad🤌\\
 \end{align*}
 $$
 
-> 1. (iv) $x^3 - y^3 = (x-y)(x^2 + xy + y^2).$
+### 1. (iv)
+
+> $x^3 - y^3 = (x-y)(x^2 + xy + y^2).$
 
 $$
 \begin{align*}
@@ -75,7 +156,9 @@ x^3 - y^3 &= (x-y)(x^2 + xy + y^2) \\
 \end{align*}
 $$
 
-> v. $x^n - y^n = (x-y)(x^{n-1}+x^{n-2}y+\cdots+xy^{n-2}+y^{n-1}).$
+### 1. (v)
+
+> $x^n - y^n = (x-y)(x^{n-1}+x^{n-2}y+\cdots+xy^{n-2}+y^{n-1}).$
 
 $$
 \begin{align*}
@@ -98,7 +181,9 @@ $$
 
 For the trick can just take $x^3+y^3$ to be $x^3-(-y)^3$ and apply (iv)
 
-> 2. What is wrong with the following "proof"? Let x = y. Then
+## 2.
+
+> What is wrong with the following "proof"? Let x = y. Then
 > 
 > $$
 > \begin{align*}
@@ -113,9 +198,13 @@ For the trick can just take $x^3+y^3$ to be $x^3-(-y)^3$ and apply (iv)
 
 If $x^2 = xy$, then $x = y$, which means $x-y = 0$ so the fourth step, dividing by $x-y$ is dividing by $0$ and is undefined.
 
+## 3.
+
 > Prove the following.
-> 
-> 3. (i) $\frac{a}{b} = \frac{ac}{bc},$ if $b,c \neq 0.$
+
+### 3. (i)
+
+> $\frac{a}{b} = \frac{ac}{bc},$ if $b,c \neq 0.$
 
 $$
 \begin{align*}
@@ -126,7 +215,9 @@ $$
 \end{align*}
 $$
 
-> 3. (ii) $\frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd},$ if $b,d \neq 0.$
+### 3. (ii)
+
+> $\frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd},$ if $b,d \neq 0.$
 
 $$
 \begin{align*}
@@ -138,7 +229,9 @@ $$
 \end{align*}
 $$
 
-> 3. (iii) $(ab)^{-1} = a^{-1}b^{-1},$ if $a,b \neq 0.$ (To do this you must remember the defining property of $(ab)^{-1}.$)
+### 3. (iii)
+
+> $(ab)^{-1} = a^{-1}b^{-1},$ if $a,b \neq 0.$ (To do this you must remember the defining property of $(ab)^{-1}.$)
 
 Since $(ab)^{-1}$ is defined as satisfying $(ab)(ab)^{-1}$ it suffices to show that $a^{-1}b^{-1}$ also satisfies this property.
 
@@ -150,7 +243,9 @@ $$
 \end{align*}
 $$
 
-> 3. (iv) $\frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{db},$ if $b,d \neq 0.$
+### 3. (iv)
+
+> $\frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{db},$ if $b,d \neq 0.$
 
 $$
 \begin{align*}
@@ -161,7 +256,9 @@ $$
 \end{align*}
 $$
 
-> 3. (v) $\frac{a}{b} / \frac{c}{d} = \frac{ad}{bc},$ if $b,c,d \neq 0.$
+### 3. (v)
+
+> $\frac{a}{b} / \frac{c}{d} = \frac{ad}{bc},$ if $b,c,d \neq 0.$
 
 $$
 \begin{align*}
@@ -175,7 +272,9 @@ $$
 \end{align*}
 $$
 
-> 3. (vi) If $b,d \neq 0,$ then $\frac{a}{b} = \frac{c}{d}$ if and only if $ad = bc.$ Also determine when $\frac{a}{b} = \frac{b}{a}$.
+### 3. (vi) 
+
+> If $b,d \neq 0,$ then $\frac{a}{b} = \frac{c}{d}$ if and only if $ad = bc.$ Also determine when $\frac{a}{b} = \frac{b}{a}$.
 
 Since
 
@@ -204,9 +303,13 @@ a &= \pm b  \quad 🤌\\
 \end{align*}
 $$
 
+## 4.
+
 > Find all numbers $x$ for which
-> 
-> 4. (i) $4 - x < 3 - 2x.$
+
+### 4. (i) 
+
+> $4 - x < 3 - 2x.$
 
 $$
 \begin{align*}
@@ -217,7 +320,9 @@ x &< -1
 \end{align*}
 $$
 
-> 4. (ii) $5-x^2<8.$
+### 4. (ii) 
+
+> $5-x^2<8.$
 
 $$
 \begin{align*}
@@ -230,7 +335,9 @@ $$
 
 Since $x^2>0$ for all real $x,$ this is true for all real x.
 
-> 4. (iii) $5-x^2<-2.$
+### 4. (iii) 
+
+> $5-x^2<-2.$
 
 $$
 \begin{align*}
@@ -242,7 +349,9 @@ $$
 
 Which means $|x| > \sqrt 7$
 
-> 4. (iv) $(x-1)(x-3)>0$
+### 4. (iv) 
+
+> $(x-1)(x-3)>0$
 
 Since the inequality only holds when the left side is not zero, both terms $(x-1),(x-3)$ need to evaluate to a non zero identity and the pair need to multiply to a positive number.
 
@@ -252,7 +361,9 @@ We also know that they are both positive only when $x > 3$.
 
 So we have $x \in (-\infty, 1)\cup(3,\infty)$.
 
-> 4. (v) $x^2 - 2x + 2 > 0$
+### 4. (v) 
+
+> $x^2 - 2x + 2 > 0$
 
 After completing the square we get
 
@@ -266,7 +377,9 @@ $$
 
 In this case we can see that $(x-1)^2$ is at least $0$, and with the addition of $1$ we see this inequality holds for all real numbers.
 
-> 4. (vi) $x^2+x+1>2$ 
+### 4. (vi) 
+
+> $x^2+x+1>2$ 
 $$
 \begin{align*}
 x^2+x+1&>2\\
@@ -285,7 +398,9 @@ $$
 x \in (-\infty, \frac{-\sqrt 5 - 1}{2}) \cup (\frac{\sqrt5-1}{2}, \infty)
 $$
 
-> 4. (vi) $x^2-x+10>16$
+### 4. (vi) 
+
+> $x^2-x+10>16$
 
 $$
 \begin{align*}
@@ -306,7 +421,9 @@ $$
 x \in (-\infty, -2) \cup (3,\infty)
 $$
 
-> 4. (viii) $x^2+x+1>0$
+### 4. (viii) 
+
+> $x^2+x+1>0$
 
 $$
 \begin{align*}
@@ -318,7 +435,9 @@ $$
 
 Since $(x+\frac{1}{2})^2$ is always positive and is at least $0$, the smallest possible value on the left is $\frac{3}{4}$ so $x \in (-\infty,\infty).$
 
-> 4. (ix) $(x-\pi)(x+5)(x-3)>0.$
+### 4. (ix) 
+
+> $(x-\pi)(x+5)(x-3)>0.$
 
 In this case, since it's 3 terms, the calculus is significantly more complicated.
 
@@ -338,37 +457,51 @@ We must table this!
 
 Now we can see that $x \in (-5,3) \cup (\pi, \infty)$
 
-> 4. (x) $(x - \sqrt[3]2)(x-\sqrt 2) > 0$
+### 4. (x) 
+
+> $(x - \sqrt[3]2)(x-\sqrt 2) > 0$
 
 $$
 x \in (-\infty, \sqrt[3]2) \cup (\sqrt 2, \infty)
 $$
 
-> 4. (xi) $2^x < 8$
+### 4. (xi) 
+
+> $2^x < 8$
 
 $$
 x < 3
 $$
 
-> 4. (xii) $x+3^x < 4$
+### 4. (xii) 
+
+> $x+3^x < 4$
 
 $$
 x < 1
 $$
 
-> 4. (xiii) $\frac{1}{x}+\frac{1}{1-x}>0.$
+### 4. (xiii) 
+
+> $\frac{1}{x}+\frac{1}{1-x}>0.$
 
 This simplifies to $\frac{1}{x-x^2} > 0$
 
 $x \in (0,1)$ since past 1 and below 0 the $x^2$ term will dominate.
 
-> 4. (xiv) $\frac{x-1}{x+1} > 0.$
+### 4. (xiv) 
+
+> $\frac{x-1}{x+1} > 0.$
 
 Well, it's undefined at $-1$. $x \in (-\infty,-1)\cup (1,\infty)$
 
+## 5. 
+
 > Prove the following:
->
-> 5. (i) If $a < b$ and $c < d,$ then $a+c < b+d$
+
+### 5. (i) 
+
+> If $a < b$ and $c < d,$ then $a+c < b+d$
 
 Well, there's this trick I know of, adding equations. Why don't we try it with an inequality with identical operators
 
@@ -382,7 +515,9 @@ $$
 
 Whoa! it worked! 🤌
 
-> 5. (ii) If $a < b$, then $-b < -a.$
+### 5. (ii) 
+
+> If $a < b$, then $-b < -a.$
 
 From $a < b$ we know $b - a \in \mathbb{P}$. So, watch this 👀
 
@@ -396,7 +531,9 @@ $$
 
 And there we know $-a-(-b)\in \mathbb{P}$ means $-b < -a.$ 🤌
 
-> 5. (iii) If $a<b$ and $c>d,$ then $a-c<b-d.$
+### 5. (iii) 
+
+> If $a<b$ and $c>d,$ then $a-c<b-d.$
 
 Translating our statements into $b-a \in \mathbb{P}$ and $c-d \in \mathbb{P}$ we then see that adding two positive numbers is still positive so
 
@@ -411,11 +548,15 @@ $$
 
 Since the last statement fits our pattern we know it to say $b-d>a-c.$ 🤌
 
-> 5. (iv) If $a < b$ and $c > 0$, then $ac < bc.$
+### 5. (iv) 
+
+> If $a < b$ and $c > 0$, then $ac < bc.$
 
 Since $\mathbb{P}$ is closed under multiplication and both $b-a \in \mathbb{P}$ and $c \in \mathbb{P}$, then $c(b-a) \in \mathbb{P}$ so $bc-ac \in \mathbb{P}$ and $bc > ac$ and $ac < bc.$ 🤌
 
-> 5. (v) If $a<b$ and $c<0,$ then $ac > bc$.
+### 5. (v) 
+
+> If $a<b$ and $c<0,$ then $ac > bc$.
 
 Since $b-a \in \mathbb{P}$ and $0-c\in \mathbb{P}$ we can see multiply again.
 
@@ -432,7 +573,9 @@ $$
 
 And from that we can see $ac>bc.$ 🤌
 
-> 5. (vi) If $a>1,$ then $a^2>a.$
+### 5. (vi) 
+
+> If $a>1,$ then $a^2>a.$
 
 We know that $\mathbb{P}$ is closed under multiplication so
 
@@ -446,7 +589,9 @@ $$
 
 From this we see $a^2>a.$ 🤌
 
-> 5. (vii) If $0 < a < 1,$ then $a^2<a.$
+### 5. (vii) 
+
+> If $0 < a < 1,$ then $a^2<a.$
 
 $$
 \begin{align*}
@@ -465,7 +610,9 @@ a-a^2 &\in \mathbb{P} 🤌\\
 \end{align*}
 $$
 
-> 5. (viii) If $0\le a <b$ and $0\le c <d,$ then $ac<bd.$
+### 5. (viii) 
+
+> If $0\le a <b$ and $0\le c <d,$ then $ac<bd.$
 
 Let's examine our term $ac<bd.$
 
@@ -481,17 +628,25 @@ We also know $a$ is at least $0$ and $d-c$ is positive, so the term $a(d-c)$ is 
 
 Therefore the whole term $d(b-a)+a(d-c)$ must be positive because it is at least $d(b-a)$ which is positive. 🤌
 
-> 5. (ix) If $0 \le a <b,$ then $a^2<b^2.$ (Use (viii).)
+### 5. (ix) 
+
+> If $0 \le a <b,$ then $a^2<b^2.$ (Use (viii).)
 
 Take the terms $c=a$ and $d=b$ from the previous proof. We know $ac<bd,$ and applying our equalities we get $aa<bb$ and therefore $a^2<b^2.$ 🤌
 
-> 5. (x) If $a,b \ge 0$ and $a^2 < b^2,$ then $a<b.$ (Use (ix), backwards.)
+### 5. (x) 
+
+> If $a,b \ge 0$ and $a^2 < b^2,$ then $a<b.$ (Use (ix), backwards.)
 
 Assume $a^2 < b^2$ and $a>b$. Since $a,b\ge 0$ it also follows that $0\le b < a$. But then $b^2<a^2$ by (ix) contradicting our assumption. So $a \le b.$
 
 This $a \le b$ decomposes into two cases. Assume $a=b.$ Then $a^2=b^2$ which contradicts our statement $a^2<b^2.$ Therefore $a<b.$ 🤌
 
-> 6. (a) Prove that if $0\le x < y,$ then $x^n<y^n,n=1,2,3....$
+## 6. 
+
+### 6. (a) 
+
+> Prove that if $0\le x < y,$ then $x^n<y^n,n=1,2,3....$
 
 For a proof by induction, note that we already have the first case:
 
@@ -511,7 +666,9 @@ x^{k+1}&<y^{k+1} 🤌\\
 \end{align*}
 $$
 
-> 6. (b) Prove that if $x<y$ and $n$ is odd, then $x^n<y^n.$
+### 6. (b) 
+
+> Prove that if $x<y$ and $n$ is odd, then $x^n<y^n.$
 
 Let's separate into three separate cases, $0\le x<y, x<y\le0,$ and $x<0<y.$
 
@@ -523,7 +680,9 @@ For the second case, from (5-ii) we know from $x<y\le0$ that $-x>-y\ge0$ which m
 
 Finally, because odd $n$ preserve sign, from $x<0\le y$ we know $x^n<0\le y.$ 🤌
 
-> 6. (c) Prove that if $x^n=y^n$ and $n$ is odd, then $x=y.$ 
+### 6. (c) 
+
+> Prove that if $x^n=y^n$ and $n$ is odd, then $x=y.$ 
 
 Assume for the sake of contradiction that $x \neq y$.
 
@@ -547,7 +706,9 @@ From $x^n=y^n, |x|^n = y^n.$ Since $|x|,y>0$, by our first case $|x|=y.$
 
 Therefore $x=-|x|=-y.$ 🤌
 
-> 7.  Prove that if $0<a<b,$ then
+## 7. 
+
+> Prove that if $0<a<b,$ then
 > 
 > $$
 > a < \sqrt{ab} < \frac{a+b}{2} < b.
@@ -590,7 +751,9 @@ a+b&>2\sqrt{ab} \\
 \end{align*}
 $$
 
-> 8. Although the basic properties of inequalities were stated in terms of the collection $\mathbb{P}$ of all positive numbers, and $<$ was defined in terms of $\mathbb{P},$ this procedure can be reversed. Suppose that P10-P12 are replaced by
+## 8.
+
+> Although the basic properties of inequalities were stated in terms of the collection $\mathbb{P}$ of all positive numbers, and $<$ was defined in terms of $\mathbb{P},$ this procedure can be reversed. Suppose that P10-P12 are replaced by
 > 
 > (P'10) For any numbers $a$ and $b$ one, and only one, of the following holds:
 > 
@@ -640,9 +803,13 @@ a\cdot0 &< a\cdot b \\
 \end{align*}
 $$
 
+## 9.
+
 > Express each of the following with at least one less pair of absolute value signs.
-> 
-> 9. (i) $|\sqrt2+\sqrt3-\sqrt5+\sqrt7|.$
+
+### 9. (i) 
+
+> $|\sqrt2+\sqrt3-\sqrt5+\sqrt7|.$
 
 $\sqrt{(\sqrt2+\sqrt3-\sqrt5+\sqrt7)^2}$ 🤌
 
@@ -654,7 +821,9 @@ $$
 
 but that's being too square.
 
-> 9. (ii) $|(|a+b|-|a|-|b|)|.$
+### 9. (ii) 
+
+> $|(|a+b|-|a|-|b|)|.$
 
 we observe from Theorem 1 that
 
@@ -667,15 +836,21 @@ $$
 
 Therefore the equation within the outer absolute value bars is always negative or 0 and can rewrite it as $-(|a+b|-|a|-|b|).$ 🤌
 
-> 9. (iii) $|(|a+b|+|c|-|a+b+c|)|.$
+### 9. (iii) 
+
+> $|(|a+b|+|c|-|a+b+c|)|.$
 
 Taking $d=a+b$ we can rewrite out equation as $|(|d|+|c|-|d+c|)|.$ We then observe the same fact as before, but in this case we know $|d|+|c|\ge|d+c|$ so can conclude the number is always positive and can rewrite it as $|d|+|c|-|d+c|$ and thence substitute back our original terms $|a+b|+|c|-|a+b+c|.$ 🤌
 
-> 9. (iv) $|x^2-2xy+y^2|.$
+### 9. (iv) 
+
+> $|x^2-2xy+y^2|.$
 
 The statement reduces to $(x-y)^2$ which is always positive. 🤌
 
-> 9. (v) $|(|\sqrt2+\sqrt3|-|\sqrt5-\sqrt7|)|.$
+### 9. (v) 
+
+> $|(|\sqrt2+\sqrt3|-|\sqrt5-\sqrt7|)|.$
 
 We know both $\sqrt 2,\sqrt 3 \in \mathbb{P}$ so
 
@@ -703,9 +878,13 @@ $$
 \sqrt2+\sqrt3+\sqrt7-\sqrt5 \quad 🤌\\
 $$
 
+## 10. 
+
 > Express each of the following without absolute value signs, treating various cases separately when necessary.
-> 
-> 10. (i) $|a+b|-|b|.$
+
+### 10. (i) 
+
+> $|a+b|-|b|.$
 
 $$
 |a+b|-|b|=
@@ -717,7 +896,9 @@ a+2b,   & a+b\ge0,b<0\\
 \end{cases}
 $$
 
-> 10. (ii) $|(|x|-1)|.$
+### 10. (ii) 
+
+> $|(|x|-1)|.$
 
 Let $S=|x|-1$
 
@@ -730,7 +911,9 @@ x+1,    & 0\le x<1\\
 \end{cases}
 $$
 
-> 10. (iii) $|x|-|x^2|.$
+### 10. (iii) 
+
+> $|x|-|x^2|.$
 
 $$
 |x|-|x^2| =
@@ -740,7 +923,9 @@ x-x^2,      & x\ge0 \\
 \end{cases}
 $$
 
-> 10. (iv) $a-|(a-|a|)|.$
+### 10. (iv) 
+
+> $a-|(a-|a|)|.$
 
 $$
 a-|(a-|a|)|=
@@ -750,53 +935,75 @@ a,      & a \ge 0\\
 \end{cases}
 $$
 
+## 11.
+
 > Find all numbers $x$ for which
-> 
-> 11. (i) $|x-3| = 8.$
+
+### 11. (i) 
+
+> $|x-3| = 8.$
 
 $$
 x=\{-5\}\cup\{11\}
 $$
 
-> 11. (ii) $|x-3|<8.$
+### 11. (ii) 
+
+> $|x-3|<8.$
 
 $$
 -5<x<11
 $$
 
-> 11. (iii) $|x+4|<2.$
+### 11. (iii) 
+
+> $|x+4|<2.$
 
 $$
 -6<x<-2
 $$
 
-> 11. (iv) $|x-1|+|x-2|>1.$
+### 11. (iv) 
+
+> $|x-1|+|x-2|>1.$
 
 $$
 x<0\text{ or }x>2.
 $$
 
-> 11. (v) $|x-1|+|x+1|<2.$
+### 11. (v) 
+
+> $|x-1|+|x+1|<2.$
 
 No x.
 
-> 11. (vi) $|x-1|+|x+1|<1.$
+### 11. (vi) 
+
+> $|x-1|+|x+1|<1.$
 
 No x.
 
-> 11. (vii) $|x-1| \cdot |x+1| = 0.$
+### 11. (vii) 
+
+> $|x-1| \cdot |x+1| = 0.$
 
 $$
 x=-1\text{ or }x=1
 $$
 
-> 11. (viii) $|x-1|\cdot|x+2|=3.$
+### 11. (viii)
+
+> $|x-1|\cdot|x+2|=3.$
 
 When $x>1$ or $x<-2$ both sides of the number line behave identically as $(x-1)(x+2)=3$ for which the solutions are $\frac{-1\pm\sqrt{21}}{2}.$ Between that range there are no real solutions.
 
+## 12.
+
 > Prove the following:
->
-> 12. (i) $|xy|=|x|\cdot|y|.$
+
+### 12. (i) 
+
+> $|xy|=|x|\cdot|y|.$
 
 $$
 \begin{align*}
@@ -806,7 +1013,9 @@ $$
 
 Since both $|xy|$ and $|x|,|y|\ge0$ this shows equivalence.
 
-> 12. (ii) $|\frac{1}{x}|=\frac{1}{|x|},$ if $x \neq 0.$ Best to remember what $|x|^{-1}$ is.
+### 12. (ii) 
+
+> $|\frac{1}{x}|=\frac{1}{|x|},$ if $x \neq 0.$ Best to remember what $|x|^{-1}$ is.
 
 $$
 \begin{align*}
