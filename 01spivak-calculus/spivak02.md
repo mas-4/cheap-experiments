@@ -28,6 +28,8 @@
   - [7.](#7)
   - [8.](#8)
   - [9.](#9)
+  - [10.](#10)
+  - [11.](#11)
   - [12.](#12)
     - [12. (a)](#12-a)
     - [12. (b)](#12-b)
@@ -743,9 +745,13 @@ From $n_0\in A,$ we know $n_0+1\in A.$ And since $n_0+1\in A,(n_0+1)+1=n_0+2\in 
 
 This means $m-1\in A.$ We therefore know $(m-1)+1=m\in A.$ This is a contradiction. Therefore our statement is true.
 
-***
->  TODO 10,11
-***
+## 10.
+
+> Prove the principle of mathematical induction from the well-ordering principle.
+
+## 11.
+
+> Prove the principle of complete induction from the ordinary principle of induction. Hint: If $A$ contains $1$ and $A$ contains $n+1$ whenever it contains $1,...,n,$ consider the set $B$ of all $k$ such that $1,...,k$ are all in $A.$
 
 ## 12.
 
