@@ -743,15 +743,19 @@ Assume for contradiction the antecedent and deny the consequent. That is, that t
 
 From $n_0\in A,$ we know $n_0+1\in A.$ And since $n_0+1\in A,(n_0+1)+1=n_0+2\in A.$ The same is true of every $n_k<m.$
 
-This means $m-1\in A.$ We therefore know $(m-1)+1=m\in A.$ This is a contradiction. Therefore our statement is true.
+This means $m-1\in A.$ We therefore know $(m-1)+1=m\in A.$ This is a contradiction. Therefore our statement is true. 🤌
 
 ## 10.
 
 > Prove the principle of mathematical induction from the well-ordering principle.
 
+Suppose any set A of natural numbers contains $1$ and contains $n+1$ any time it contains $n.$ If A does not contain all natural numbers, then there is some set $B$ of natural numbers not in $A.$ Consider the smallest $n_0\in B.$ We know $n_0\ne1$ because $1\in A.$ $n_0-1$ we also know to not be in $B$ because $n_0$ is the smallest element in $B$, so it must be in $A.$ Now Because $n_0-1\in A,$ by hypothesis, $(n_0-1)+1\in A.$ Now we have a contradiction, because $(n_0-1)+1=n_0,$ and Bob's your uncle. 🤌
+
 ## 11.
 
 > Prove the principle of complete induction from the ordinary principle of induction. Hint: If $A$ contains $1$ and $A$ contains $n+1$ whenever it contains $1,...,n,$ consider the set $B$ of all $k$ such that $1,...,k$ are all in $A.$
+
+
 
 ## 12.
 
@@ -786,6 +790,8 @@ Yes, consider $a=-\sqrt2,b=\sqrt2,$ for which $-\sqrt2\sqrt2=-2$ and $-\sqrt2+\s
 ### 13. (a)
 
 > Prove that $\sqrt3,\sqrt5,\sqrt6$ are irrational. Hint: To treat $\sqrt3,$ for example, use the fact that every integer is of the form $3n$ or $3n+1$ or $3n+2.$ Why doesn't this proof work for $\sqrt4$?
+
+
 
 ### 13. (b)
 

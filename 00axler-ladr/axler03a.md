@@ -289,6 +289,26 @@ $$
 
 > Suppose $T \in \mathcal{L}(V,W)$ and $v_1,...,v_m$ is a list of vectors in $V$ such that $Tv_1,...,Tv_m$ is a linearly independent list in $W.$ Prove that $v_1,...,v_m$ is linearly independent.
 
+Assume for contradiction that $v_1,...,v_m$ is not linearly independent in $V.$ Then 
+
+$$
+a_1v_1+\cdots+a_mv_m=0
+$$
+
+for some set of $a_1,...,a_m$ with not every $a_i=0.$
+
+Applying $T$ to both sides we see
+
+$$
+\begin{align*}
+T(a_1v_1+\cdots+a_mv_m)=T(0)\\
+a_1Tv_1+\cdots+a_mTv_m=0\\
+\end{align*}
+$$
+
+But since $Tv_1,\ldots,Tv_m$ is linearly independent we know $a_1=\cdots=a_m=0,$ so we have a contradiction. 🤌
+
+
 ## 5.
 
 > Prove that $\mathcal{L}(V,W)$ is a vector space, as was asserted in 3.6.
