@@ -136,7 +136,6 @@ Certainly this is a slow ramp up and will accelerate.
    - Supplement: Gelfand’s Lectures on Linear Algebra
 2. Spivak — Calculus
    - Supplement: Schaum’s Outline (exercises)
-3. Spivak — Calculus on Manifolds
 
 ### Goto Core (primary goal)
 
@@ -151,15 +150,16 @@ Certainly this is a slow ramp up and will accelerate.
 
 ### Modeling Core (secondary goal)
 
-1. Arnold — Ordinary Differential Equations
-2. 🛍️ Durrett — Probability: Theory and Examples
-3. Kolmogorov & Fomin — Elements of the Theory of Functions and Functional Analysis
+1. Spivak — Calculus on Manifolds
+2. Arnold — Ordinary Differential Equations
+3. 🛍️ Durrett — Probability: Theory and Examples
+4. Kolmogorov & Fomin — Elements of the Theory of Functions and Functional Analysis
    - Supplement: Kreyszig
-4. 🛍️ Samarskii — Theory of Difference Schemes
-5. Tikhonov & Samarskii — Equations of Mathematical Physics
-6. 🛍️ Körner — Fourier Analysis
-7. 🛍️ Ahlfors — Complex Analysis
-8. 🛍️ Trefethen — Spectral Methods in MATLAB
+5. 🛍️ Samarskii — Theory of Difference Schemes
+6. Tikhonov & Samarskii — Equations of Mathematical Physics
+7. 🛍️ Körner — Fourier Analysis
+8. 🛍️ Ahlfors — Complex Analysis
+9. 🛍️ Trefethen — Spectral Methods in MATLAB
 
 ---
 
