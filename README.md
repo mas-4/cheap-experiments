@@ -133,9 +133,11 @@ Certainly this is a slow ramp up and will accelerate.
 
 1. Axler — Linear Algebra Done Right
    - Supplement: Shilov
-   - Supplement: Gelfand’s Lectures on Linear Algebra
+   - Supplement: Gelfand’s Lectures
 2. Spivak — Calculus
    - Supplement: Schaum’s Outline (exercises)
+   - Supplement: Shilov's Elementary Real & Complex Analysis
+   - Supplement: Courant & John Introduction to Calculus & Analysis I
 
 ### Goto Core (primary goal)
 
@@ -178,6 +180,8 @@ Certainly this is a slow ramp up and will accelerate.
 10. 🛍️ Hastie & Tibshirani – Elements of Statistical Learning
 11. 🛍️ Warren – Hacker's Delight
 12. 🛍️ OSTEP
+13. 🛍️ Brendan Gregg – Systems Performance
+14. 🛍️ Fog Agner – Optimizing Software in C++
 
 ---
 

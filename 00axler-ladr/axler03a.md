@@ -14,6 +14,9 @@
     - [additive identity](#additive-identity)
     - [multiplicative identity](#multiplicative-identity)
   - [6.](#6)
+    - [associativity](#associativity-1)
+    - [identity](#identity)
+    - [distribution](#distribution)
   - [7.](#7)
   - [8.](#8)
   - [9.](#9)
@@ -363,9 +366,72 @@ That's all required by Axler's definition, six properties. From that the other p
 
 > Prove that multiplication of linear maps has the associative, identity, and distributive properties asserted in 3.8.
 
+### associativity
+
+Consider $R,S,T\in\mathcal{L}(V,W).$ and $u\in V$
+
+$$
+\begin{align*}
+(R(ST))(u)&=R(S(Tu))\\
+&=(RS)(Tu)\\
+&=((RS)T)(u)\\
+\end{align*}
+$$
+
+Each step in this proof applies Axler's definition 3.7 for product of linear maps.
+
+### identity
+
+Consider $I_V\in V, I_W\in W, u\in V, T\in \mathcal{L}(V,W)$
+
+$$
+T(I_V(u))=(TI_V)(u)=Tu\\
+I_W(T(u))=(I_WT)(u)=Tu
+$$
+
+The top shows association in $V$, the bottom shows association in $W.$
+
+### distribution
+
+Consider $R,S\in\mathcal{L}(W,X),T\in\mathcal{L}(V,W).$ and $u\in V$
+
+$$
+\begin{align*}
+((R+S)T)(u)&=(R+S)(T(u))\\
+&=R(T(u))+S(T(u))\\
+&=(RT)(u)+(ST)(u)\\
+&=(RT+ST)(u)\\
+\end{align*}
+$$
+
+The steps are as follows:
+
+1. Apply $T$ to $u$
+2. Definition 3.5 of additivity on $\mathcal{L}(W,X)$
+3. Definition 3.7 of the product of linear maps
+4. Definition 3.5 of additivity
+
 ## 7.
 
 > Show that every linear map from a one-dimensional vector space to itself is multiplication by some scalar. More precisely, prove that if $\dim V=1$ and $T\in \mathcal{L}(V),$ then there exists $\lambda \in \mathbb{F}$ such that $Tv=\lambda v$ for all $v\in V.$
+
+We know that every linear map $\mathcal{L}(V,W)$ can be represented by 
+
+$$
+T(x_1,...,x_n)=(A_{1,1}x_1+\cdots+A_{1,n}x_n,...,A_{m,1}x_1+\cdots+A_{m,n}x_n)
+$$
+
+Since we're dealing with $T\in\mathcal{L}(\mathbb{F}^1).$ 
+
+$$
+T(x_1)=(A_{1,1}x_1)
+$$
+
+More precisely, since $v=\alpha e_0$ for some basis $e_0 \in \mathbb{F}^1,$ and moreover every $u \in \mathbb{F^1}$ is equal to $\lambda e_0$ for some basis, so that $T(v)=\lambda e_0$
+
+$$
+T(v)=T(\alpha e_0)=\alpha T(e_0)=\alpha \lambda e_0
+$$
 
 ## 8.
 
