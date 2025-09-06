@@ -157,7 +157,23 @@ Extrapolating from the previous proof, we know that two vectors in $\mathbb{F}^n
 > (Tp)(x)=p(q(x)).
 > $$
 
-We already know polynomials distribute scalars and additivity. This works and the proof is trivial. 🤌
+Take $p_1,p_2\in\mathcal{P}(\mathbb{R}).$ With $q$ fixed in $\mathcal{P}(\mathbb{R})$
+
+$$
+\begin{align*}
+T(p_1+p_2)&=(p_1+p_2)(q(x))\\
+T(p_1)+T(p_2)=p_1(q(x))+p_2(q(x))&=(p_1+p_2)(q(x))
+\end{align*}
+$$
+
+and
+
+$$
+\begin{align*}
+T(\alpha\cdot p_1)&=\alpha\cdot p_1(q(x))\\
+\alpha\cdot T(\cdot p_1)&=\alpha \cdot p_1(q(x)) 🤌\\
+\end{align*}
+$$
 
 ***
 
@@ -445,6 +461,24 @@ $$
 >
 > > *This exercise and the next exercise show that neither homogeneity nor additivity alone is enough to imply that a function is a linear map.*
 
+Observe for $\phi(x,y)=\frac{x^2}{y}$ that
+
+$$
+\begin{align*}
+\phi(\alpha v)=\phi(\alpha x, \alpha y) = \frac{\alpha^2x^2}{\alpha y} = \frac{\alpha x^2}{y} &=\alpha \frac{x^2}{y}\\
+\alpha \phi(v)=\alpha\phi(x,y)&=\alpha\frac{x^2}{y}
+\end{align*}
+$$
+
+but
+
+$$
+\begin{align*}
+\phi(u + v)=\phi(x_1+x_2,y_1+y_2)&=\frac{(x_1+x_2)^2}{y_1+y_2}\\
+\phi(u) + \phi(v)&=\frac{{x_1}^2}{y_1}+\frac{{x_2}^2}{y_2}
+\end{align*}
+$$
+
 ## 9.
 
 > Give an example of a function $\phi: \mathbb{C}\to\mathbb{C}$ such that
@@ -456,10 +490,37 @@ $$
 > for all $w,z\in\mathbb{C}$ but $\phi$ is not linear. (Here $\mathbb{C}$ is thought of as a complex vector space.)
 > > There also exists a function $\phi:\mathbb{R}\to\mathbb{R}$ such that $\phi$ satisfies the additivity condition but $\phi$ is not linear. However, the existence of such a function involves considerably more advanced tools.
 
+Consider $\phi(v)=Re(v)=Re(a+bi)=a.$
+
+$$
+\begin{align*}
+\phi(u+v)=\phi(a+bi+c+di)=\phi((a+c)+(b+d)i)&=a+c\\
+\phi(u)+(v)=\phi(a+bi)+\phi(c+di)&=a+c
+\end{align*}
+$$
+
+But observe for $\alpha=i,v = 1$
+
+$$
+\begin{align*}
+\phi(\alpha v)=\phi(i\cdot1)=Re(i)&=0\\
+\alpha\phi(v)=i\phi(1)=i\cdot1&=i
+\end{align*}
+$$
+
 ## 10.
 
 > Prove or give a counterexample: If $q\in \mathcal{P}(\mathbb{R})$ and $T:\mathcal{P}(\mathbb{R})\to\mathcal{P}(\mathbb{R})$ is defined by $Tp=q\circ p,$ then $T$ is a linear map.
-> > The function $T$ defined here differs from the function $T$ defined nit eh last bullet point of 3.3 by the order of the functions in the compositions.
+> > The function $T$ defined here differs from the function $T$ defined in the last bullet point of 3.3 by the order of the functions in the compositions.
+
+Fix a polynomial $q(x)=a x^j.$ Take any two polynomials $p_1(x)=b x^k,p_2(x)=c x^k.$ Define $T:q(p(x))$
+
+$$
+\begin{align*}
+T(p_1+p_2)=T(bx^k+cx^k)=T((b+c)x^k)=a((b+c)x^k)^j&=a(b+c)^jx^{k+j}\\
+T(p_1)+T(p_2)=T(bx^k)+T(cx^k)=a(bx^k)^j+a(cx^k)=ab^jx^{k+j}+ac^jx^{k+j}&=a(b^j+c^j)x^{k+j}
+\end{align*}
+$$
 
 ## 11.
 
