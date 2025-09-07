@@ -22,6 +22,12 @@
   - [9.](#9)
   - [10.](#10)
   - [11.](#11)
+  - [12.](#12)
+  - [13.](#13)
+  - [14.](#14)
+  - [15.](#15)
+  - [16.](#16)
+  - [17.](#17)
 
 # Axler LADR 3A Vector Spaces of Linear Maps
 
@@ -339,7 +345,7 @@ In the following proofs assume for all $u,v\in V,$ all $w\in W$ and all $S,T\in 
 Take any two $S,T\in\mathcal{L}(V,W).$
 
 $$
-(S+T)(v)=(S+T)v=Sv+Tv=Tv+Sv=(T+S)v=(T+S)(v)
+(S+T)(v)=Sv+Tv=Tv+Sv=(T+S)(v)
 $$
 
 ### associativity
@@ -347,33 +353,33 @@ $$
 Take any three $R,S,T\in\mathcal{L}(V,W).$
 
 $$
-R(v)+(S+T)(v)=Rv+(S+T)v=Rv+Sv+Tv=(R+S)v+Tv=(R+S)(v)+T(v)
+Rv+(S+T)(v)=Rv+(Sv+Tv)=Rv+Sv+Tv=(Rv+Sv)+Tv=(R+S)(v)+Tv
 $$
 
 ### distributivity
 
 $$
-\lambda (S+T)(v)=\lambda(Sv+Tv)=\lambda Sv+\lambda Tv=\lambda S(v)+\lambda T(v)
+\lambda (S+T)(v)=\lambda(Sv+Tv)=\lambda Sv+\lambda Tv
 $$
 
 ### additive inverse
 
 $$
--T(v)+T(v)=-Tv+Tv=0
+-1\cdot Tv+Tv=-Tv+Tv=0
 $$
 
 ### additive identity
 
-Consider the map $0v=0$ and the identity map $Iv=v,$ then
+For $0: V\to W$
 
 $$
-0(v)+T(v)=0+Tv=Tv
+0v+Tv=0+Tv=Tv
 $$
 
 ### multiplicative identity
 
 $$
-1\cdot T(v)=1\cdot Tv=Tv
+1\cdot Tv=T(1\cdot v)=Tv
 $$
 
 That's all required by Axler's definition, six properties. From that the other properties can be derived. 🤌
@@ -525,3 +531,49 @@ $$
 ## 11.
 
 > Suppose $V$ is finite-dimensional and $T\in\mathcal{L}(V).$ Prove that $T$ is a scalar multiple of the identity if and only if $ST=TS$ for every $S\in\mathcal{L}(V).$
+
+Suppose $T$ is a scalar multiple of the identity $I,$ then
+
+$$
+\begin{align*}
+ST=S(\lambda I)=S\lambda=\lambda S=\lambda I S=TS
+\end{align*}
+$$
+
+Now
+
+## 12.
+
+> Suppose $U$ is a subspace of $V$ with $U\ne V.$ Suppose $S\in \mathcal{L}(U,W)$ and $S\ne0$ (which means that $Su\ne0$ for some $u\in U$ ). Define $T:V\to W$ by
+>
+> $$
+> Tv =
+> \begin{cases}
+> Sv & \text{if } v \in U,\\
+> 0  & \text{if } v \in V \text{ and } v \notin U.
+> \end{cases}
+> $$
+>
+> Prove that $T$ is not a linear map on $V.$
+
+## 13.
+
+> Suppose $V$ is finite-dimensional. Prove that every linear map on a subspace of $V$ can be extended to a linear map on $V.$ In other words, show that if $U$ is a subspace of $V$ and $S\in \mathcal{L}(U,W),$ then there exists $T \in \mathcal{L}(V,W)$ such that $Tu=Su$ for all $u \in U.$
+> > The result in this exercise is used in the proof of 3.125.
+
+## 14.
+
+> Suppose $V$ is finite-dimensional with $\dim V>0,$ and suppose $W$ is infinite-dimensional. Prove that $\mathcal{L}(V,W)$ is infinite-dimensional.
+
+## 15.
+
+> Suppose $v_1,...,v_m$ is a linear dependent list of vectors in $V.$ Suppose also that $W\ne\{0\}.$ Prove that there exist $w_1,...,w_m\in W$ such that no $T\in \mathcal{L}(V,W)$ satisfies $Tv_k=w_k$ for each $k=1,...,m.$
+
+## 16.
+
+> Suppose $V$ is finite-dimensional with $\dim V > 1.$ Prove that there exist $S,T\in \mathcal{L}(V)$ such that $ST\ne TS.$
+
+## 17.
+
+> Suppose $V$ is finite-dimensional. Show that the only two-sided ideals of $\mathcal{L}(V)$ are $\{0\}$ and $\mathcal{L}(V).$
+> > *A subspace $\mathcal{E}$ of $\mathcal{L}(V)$ is called a **two-sided ideal** of $\mathcal{L}(V)$ if $TE\in \mathcal{E}$ and $ET \in \mathcal{E}$ for all $E\in \mathcal{E}$ and all $T \in \mathcal{L}(V)$ .*
