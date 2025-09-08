@@ -567,7 +567,7 @@ $$
 T(v_j)=\lambda_{j,1}v_1+\lambda_{j,2}v_2+\cdots+\lambda_{j,n}v_n
 $$
 
-Where the $j$ indi\lambdaates these scalars attach to the $v_j$ case, we can see
+Where the $j$ indicates these scalars attach to the $v_j$ case, we can see
 
 $$
 \begin{align*}
