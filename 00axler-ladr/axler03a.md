@@ -536,11 +536,93 @@ Suppose $T$ is a scalar multiple of the identity $I,$ then
 
 $$
 \begin{align*}
-ST=S(\lambda I)=S\lambda=\lambda S=\lambda I S=TS
+ST=S(\lambda I)=S\lambda=\lambda S=(\lambda I) S=TS
 \end{align*}
 $$
 
-Now
+Now, for the reverse case, assume $ST=TS$ for every $S\in\mathcal{L}(V).$ We can construct some particular maps that, given the condition, show what we need to see. Take  
+
+$$
+P_i : V\to V=
+\begin{cases}
+P_i(v_i)=v_i\\
+P_i(v_j)=v_0, &j\ne i
+\end{cases}
+$$
+
+So that for a basis in $V=(1,0,...,0),(0,1,...,0),...,(0,0,...,1)$ we have
+
+$$
+\begin{align*}
+P_1(v_1)&=(1,0,...,0)\\
+P_2(v_2)&=(0,1,...,0)\\
+&\vdots\\
+P_n(v_n)&=(0,0,...,1)
+\end{align*}
+$$
+
+Now, if we write
+
+$$
+T(v_j)=c_{j,1}v_1+c_{j,2}v_2+\cdots+c_{j,n}v_n
+$$
+
+Where the $j$ indicates these scalars attach to the $v_j$ case, we can see
+
+$$
+\begin{align*}
+TP_i(v_j)&=T(0)=0\\
+TP_i(v_i)&=T(v_i)=c_{i,i}v_i\\
+P_iT(v_j)&=P_i(c_{j,1}v_1+\cdots+c_{j,n}v_n)=c_{j,i}v_i\\
+P_iT(v_i)&=P_i(c_{i,1}v_1+\cdots+c_{i,n}v_n)=c_{i,i}v_i\\
+\end{align*}
+$$
+
+Since $TS=ST,$ for $P_iT(v_j)$ we must have
+
+$$
+\begin{align*}
+TP_i(v_j)&=T(0)=0\\
+P_iT(v_j)&=P_i(c_{j,1}v_1+\cdots+c_{j,n}v_n)=c_{j,i}v_i\\
+\end{align*}
+$$
+
+so that $c_{j,i}=0.$ 
+
+This means that if $TS=ST$ there is no extension by $T$ from the $v_j$ basis vector to the $v_i$ basis vector since only the $j\text{th}$ index is $1$ in $v_j.$ So we have for any $T(v_j)=\lambda_jv_j.$
+
+But it could be that $T$ has arbitrary scalars for each basis vectors, $\lambda_1=1,\lambda_2=2,...,\lambda_n=n.$
+
+
+Now let's take a map we'll call "Swap." Operating on the basis $v_1,...,v_n\in V$ define it so
+
+$$
+S : V\to V=
+\begin{cases}
+S(v_1)=v_2\\
+S(v_2)=v_1\\
+S(v_i)=v_i,&\text{for }i\ge3
+\end{cases}
+$$
+
+And we can write every $T$ thus
+
+$$
+T(v_i)=\lambda_iv_i
+$$
+
+Then if we examine the commutative behavior of "Swap" and $T$ we see
+
+$$
+\begin{align*}
+ST(v_1)=S(\lambda_1v_1)&=\lambda_1v_2\\
+TS(v_1)=Tv_2&=\lambda_2v_2\\
+\end{align*}
+$$
+
+But since $TS=ST$ we must have $\lambda_1v_2=\lambda_2v_2$ so that $\lambda_2=\lambda_1$ and the scalars are all identical.
+
+Combining the results from our $P_i$ and $S$ we can see that $T=\lambda I.$ 🤌
 
 ## 12.
 
