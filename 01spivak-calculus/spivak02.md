@@ -37,6 +37,10 @@
     - [12. (d)](#12-d)
   - [13.](#13)
     - [13. (a)](#13-a)
+      - [$\\sqrt3$](#sqrt3)
+      - [$\\sqrt5$](#sqrt5)
+      - [$\\sqrt6$](#sqrt6)
+      - [$\\sqrt4$](#sqrt4)
     - [13. (b)](#13-b)
   - [14.](#14)
     - [14. (a)](#14-a)
@@ -791,11 +795,149 @@ Yes, consider $a=-\sqrt2,b=\sqrt2,$ for which $-\sqrt2\sqrt2=-2$ and $-\sqrt2+\s
 
 > Prove that $\sqrt3,\sqrt5,\sqrt6$ are irrational. Hint: To treat $\sqrt3,$ for example, use the fact that every integer is of the form $3n$ or $3n+1$ or $3n+2.$ Why doesn't this proof work for $\sqrt4$?
 
+#### $\sqrt3$
 
+Every number is of the form $3n,3n+1,$ or $3n+2$
+
+Since 
+
+$$
+\begin{align*}
+(3n)^2&=9n^2=&3(3)n^2\\
+(3n+1)^2&=9n^2+6n+1=&3(n^2+2n)+1\\
+(3n+2)^2&=9n^2+12n+4=&3(3n^2+4n+1)+1\\
+\end{align*}
+$$
+
+it follows that if $k^2$ is divisible by 3, then $k$ must also be divisible by 3, because all squares are either cleanly divisible by 3 or leave a remainder of 1.
+
+Now suppose $\sqrt3=\frac{p}{q}$ where $p$ and $q$ have no common factor. I.e., $\sqrt 3$ is rational and so can be represented as a ratio of integers. Then
+
+$$
+\begin{align*}
+\sqrt3&=\frac{p}{q}\\
+3&=\frac{p^2}{q^2}\\
+3q^2&=p^2\\
+\end{align*}
+$$
+
+From this we can see that $p^2$ is divisible by 3. From what we discovered about squares divisible by 3, we know that $p$ must be as well. So for some natural number $p',$ 
+
+$$
+\begin{align*}
+(3p')^2&=3q^2\\
+9{p'}^2&=3q^2\\
+3{p'}^2&=q^2\\
+\end{align*}
+$$
+
+
+Thus, $q$ is also divisible by 3, a contradiction. 🤌
+
+#### $\sqrt5$
+
+Likewise every number is of the forms we will square below!
+
+$$
+\begin{align*}
+(5n)^2&=25n^2=&5\cdot5n^2\\
+(5n+1)^2&=25n^2+10n+1=&5(5n^2+2)+1\\
+(5n+2)^2&=25n^2+20n+4=&5(5n^2+4n+1)-1\\
+(5n+3)^2&=25n^2+30n+9=&5(5n^2+6n+2)-1\\
+(5n+4)^2&=25n^2+40n+16=&5(5n^2+8n+3)+1\\
+\end{align*}
+$$
+
+Again we see that if $k^2$ is divisible by 5, so is $k.$ Set $\sqrt5=p/q$ and we see
+
+$$
+\begin{align*}
+\sqrt5&=\frac{p}{q}\\
+5&=\frac{p^2}{q^2}\\
+5q^2&=p^2\\
+\end{align*}
+$$
+
+So that $p^2=(5p')^2$ and
+
+$$
+\begin{align*}
+5q^2&=(5p')^2\\
+5q^2&=25{p'}^2\\
+q^2&=5{p'}^2\\
+\end{align*}
+$$
+
+And we have a common factor and a contradiction.
+
+#### $\sqrt6$
+
+Again,
+
+$$
+\begin{align*}
+(6n)^2  &=36n^2        =&6\cdot6n^2\\
+(6n+1)^2&=36n^2+12n+1  =&6(6n^2+2)+1\\
+(6n+2)^2&=36n^2+24n+4  =&6(6n^2+4n+1)+2\\
+(6n+3)^2&=36n^2+36n+9  =&6(6n^2+6n+1)-3\\
+(6n+4)^2&=36n^2+48n+16 =&6(6n^2+8n+3)+2\\
+(6n+5)^2&=36n^2+60n+25 =&6(6n^2+10n+3)-1\\
+\end{align*}
+$$
+
+So we have the same result that any $k^2$ divisible by 6 has $k$ divisible by 6. Thus we will see the same contradiction emerge.
+
+#### $\sqrt4$
+
+For $\sqrt4$ however we'll see
+
+$$
+\begin{align*}
+(4n)^2  &=               &4\cdot4n^2\\
+(4n+1)^2&= 16n^2+8n+1   =&4(4n^2+2)+1\\
+(4n+2)^2&= 16n^2+16n+4  =&4(4n^2+4n+1)\\
+(4n+3)^2&= 16n^2+24n+9  =&4(4n^2+6n+2)+1
+\end{align*}
+$$  
+
+The argument will not work because $(4n+2)^2$ is divisible by $4$ so that for any $k^2$ divisible by 4 either $k$ is divisible by 4 or 2.
 
 ### 13. (b)
 
 > Prove that $\sqrt[3]2$ and $\sqrt[3]3$ are irrational.
+
+Evaluating similarly to (a) we see
+
+$$
+\begin{align*}
+(2n)^3&=8n^3=2\cdot4n^3=&2k\\
+(2n+1)^3&=8n^3+12n^2+6n+1=2(4n^3+6n^2+3n)+1=&2k+1
+\end{align*}
+$$  
+
+From this we can see that if $k^3$ is even, then so is $k.$ So if $\sqrt[3]2=p/q$
+
+$$
+\begin{align*}
+\sqrt[3]2&=\frac{p}{q}\\
+2&=\frac{p^3}{q^3}\\
+2q^3&=p^3
+2k&=p^3
+\end{align*}
+$$
+
+So we see $p^3$ is even, so $p^3=(2p')^3$ and
+
+$$
+\begin{align*}
+2q^3&=(2p')^3\\
+2q^3&=4{p'}^3\\
+q^3&=2{p'}^3\\
+q^3&=2k\\
+\end{align*}
+$$
+
+And now we see $q^3$ is also even, so it's cube root also is, and therefore $p$ and $q$ have a common factor and a contradiction. 🤌
 
 ## 14.
 
@@ -805,9 +947,34 @@ Yes, consider $a=-\sqrt2,b=\sqrt2,$ for which $-\sqrt2\sqrt2=-2$ and $-\sqrt2+\s
 
 > $\sqrt2+\sqrt6$ is irrational.
 
+Assume $\sqrt2+\sqrt6$ is rational. Then $(\sqrt2+\sqrt6)^2$ must be rational but
+
+$$
+\begin{align*}
+(\sqrt2+\sqrt6)^2&=2+2\sqrt2\sqrt6+6\\
+&=8+2\sqrt{12}\\
+&=8+2\sqrt4\sqrt3\\
+&=8+4\sqrt3\\
+\end{align*}
+$$
+
+From 12(a) we know the sum of a rational and irrational number is irrational so the only way for $8+4\sqrt3$ to be rational is if $4\sqrt3$ is rational.
+
+From 12(b) we know that the product of a rational and irrational number is only rational if the rational number is 0, which it is not, so for $4\sqrt3$ to be rational $\sqrt3$ must be rational.
+
+From 13(a) we know that $\sqrt3$ is irrational, so $4\sqrt3$ is irrational and $8+4\sqrt3$ is irrational and $(\sqrt2+\sqrt6)^2$ is irrational and $\sqrt2+\sqrt6$ is irrational. 🤌
+
 ### 14. (b)
 
 > $\sqrt2+\sqrt3$ is irrational.
+
+Once again, $(\sqrt2+\sqrt3)^2$ must be rational for $\sqrt2+\sqrt3$ to be rational, but 
+
+$$
+(\sqrt2+\sqrt3)^2=2+2\sqrt2\sqrt3+3=5+2\sqrt6
+$$
+
+And through the same logic we see $\sqrt6$ is irrational and taints the whole equation.
 
 ## 15.
 
