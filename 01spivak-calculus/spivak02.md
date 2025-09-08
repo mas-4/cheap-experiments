@@ -982,9 +982,45 @@ And through the same logic we see $\sqrt6$ is irrational and taints the whole eq
 
 > Prove that if $x=p+\sqrt q$ where $p$ and $q$ are rational, and $m$ is a natural number, then $x^m=a+b\sqrt q$ for some rational $a$ and $b.$
 
+We can see for $m=1$ that
+
+$$
+x^1=(p+\sqrt q)^1=p+1\sqrt q
+$$
+
+which is of the form $a+b\sqrt q.$
+
+Assume it's true for $m$ for induction. Then
+
+$$
+\begin{align*}
+x^m&=a+b\sqrt q \\
+x^m\cdot x&=(a+b\sqrt q)(p+\sqrt q) \\
+x^{m+1}&=ap+a\sqrt q + bp\sqrt q + bq\\
+x^{m+1}&=(ap+bq) + (a+bp)\sqrt q\\
+\end{align*}
+$$
+
+Since $ap+bq$ and $a+pb$ are rational the form holds.
+
 ### 15. (b)
 
 > Prove also that $(p-\sqrt q)^m=a-b\sqrt q.$
+
+We can see by the same logic that it holds for $m=1$ with no extra work.
+
+Assume it holds for $m.$
+
+$$
+\begin{align*}
+(p-\sqrt q)^m&=a-b\sqrt q \\
+(p-\sqrt q)^m(p-\sqrt q)&=(a-b\sqrt q)(p-\sqrt q) \\
+(p-\sqrt q)^{m+1}&=ap-a\sqrt q-bp\sqrt q+bq\\
+(p-\sqrt q)^{m+1}&=(ap+bq)-(a+bp)\sqrt q\\
+\end{align*}
+$$
+
+We see again terms $ap+bq$ and $a+bp$ which are rational so the form holds.
 
 ## 16.
 
@@ -996,6 +1032,60 @@ And through the same logic we see $\sqrt6$ is irrational and taints the whole eq
 > \frac{(m+2n)^2}{(m+n)^2}-2<2-\frac{m^2}{n^2}.
 > $$
 
+Working backwards we see
+
+$$
+\begin{align*}
+\frac{(m+2n)^2}{(m+n)^2}&>2\\
+\frac{m^2+4mn+4n^2}{m^2+2mn+n^2}&>2\\
+m^2+4mn+4n^2&>2(m^2+2mn+n^2)\\
+m^2+4mn+4n^2&>2m^2+4mn+2n^2\\
+4n^2&>m^2+2n^2\\
+2n^2&>m^2\\
+2&>\frac{m^2}{n^2}\\
+\frac{m^2}{n^2}&<2\\
+\end{align*}
+$$
+
+So the statements are equivalent. Moveover, subtracting the two equations immediately yields
+
+$$
+\begin{align*}
+\frac{(m+2n)^2}{(m+n)^2}&>2\\
+-(2&>\frac{m^2}{n^2})\\
+\hline
+\frac{(m+2n)^2}{(m+n)^2}-2&>2-\frac{m^2}{n^2} \quad 🤌\\
+\end{align*}
+$$
+
 ### 16. (b)
 
 > Prove the same result with all inequality signs reversed.
+
+My my we're feeling tedious today aren't we.
+
+Working backwards we see
+
+$$
+\begin{align*}
+\frac{(m+2n)^2}{(m+n)^2}&<2\\
+\frac{m^2+4mn+4n^2}{m^2+2mn+n^2}&<2\\
+m^2+4mn+4n^2&<2(m^2+2mn+n^2)\\
+m^2+4mn+4n^2&<2m^2+4mn+2n^2\\
+4n^2&<m^2+2n^2\\
+2n^2&<m^2\\
+2&<\frac{m^2}{n^2}\\
+\frac{m^2}{n^2}&>2\\
+\end{align*}
+$$
+
+So the statements are equivalent. Moveover, subtracting the two equations immediately yields
+
+$$
+\begin{align*}
+\frac{(m+2n)^2}{(m+n)^2}&<2\\
+-(2&<\frac{m^2}{n^2})\\
+\hline
+\frac{(m+2n)^2}{(m+n)^2}-2&<2-\frac{m^2}{n^2}\quad 🤌\\
+\end{align*}
+$$
