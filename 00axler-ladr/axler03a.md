@@ -564,17 +564,17 @@ $$
 Now, if we write
 
 $$
-T(v_j)=c_{j,1}v_1+c_{j,2}v_2+\cdots+c_{j,n}v_n
+T(v_j)=\lambda_{j,1}v_1+\lambda_{j,2}v_2+\cdots+\lambda_{j,n}v_n
 $$
 
-Where the $j$ indicates these scalars attach to the $v_j$ case, we can see
+Where the $j$ indi\lambdaates these scalars attach to the $v_j$ case, we can see
 
 $$
 \begin{align*}
 TP_i(v_j)&=T(0)=0\\
-TP_i(v_i)&=T(v_i)=c_{i,i}v_i\\
-P_iT(v_j)&=P_i(c_{j,1}v_1+\cdots+c_{j,n}v_n)=c_{j,i}v_i\\
-P_iT(v_i)&=P_i(c_{i,1}v_1+\cdots+c_{i,n}v_n)=c_{i,i}v_i\\
+TP_i(v_i)&=T(v_i)=\lambda_{i,i}v_i\\
+P_iT(v_j)&=P_i(\lambda_{j,1}v_1+\cdots+\lambda_{j,n}v_n)=\lambda_{j,i}v_i\\
+P_iT(v_i)&=P_i(\lambda_{i,1}v_1+\cdots+\lambda_{i,n}v_n)=\lambda_{i,i}v_i\\
 \end{align*}
 $$
 
@@ -583,11 +583,11 @@ Since $TS=ST,$ for $P_iT(v_j)$ we must have
 $$
 \begin{align*}
 TP_i(v_j)&=T(0)=0\\
-P_iT(v_j)&=P_i(c_{j,1}v_1+\cdots+c_{j,n}v_n)=c_{j,i}v_i\\
+P_iT(v_j)&=P_i(\lambda_{j,1}v_1+\cdots+\lambda_{j,n}v_n)=\lambda_{j,i}v_i\\
 \end{align*}
 $$
 
-so that $c_{j,i}=0.$ 
+so that $\lambda_{j,i}=0.$ 
 
 This means that if $TS=ST$ there is no extension by $T$ from the $v_j$ basis vector to the $v_i$ basis vector since only the $j\text{th}$ index is $1$ in $v_j.$ So we have for any $T(v_j)=\lambda_jv_j.$
 
