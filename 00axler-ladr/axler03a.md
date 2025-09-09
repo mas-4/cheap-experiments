@@ -627,6 +627,15 @@ Combining the results from our $P_i$ and $S$ we can see that $T=\lambda I.$ 🤌
 >
 > Prove that $T$ is not a linear map on $V.$
 
+Let $v$ be a vector such that $v\in V,v\notin U$ and $u$ be a vector $u\in U,Su\ne0.$ Then
+
+$$
+\begin{align*}
+Tu+Tv&=Su\\
+T(u+v)&=0
+\end{align*}
+$$
+
 ## 13.
 
 > Suppose $V$ is finite-dimensional. Prove that every linear map on a subspace of $V$ can be extended to a linear map on $V.$ In other words, show that if $U$ is a subspace of $V$ and $S\in \mathcal{L}(U,W),$ then there exists $T \in \mathcal{L}(V,W)$ such that $Tu=Su$ for all $u \in U.$
