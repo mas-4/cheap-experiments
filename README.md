@@ -136,7 +136,7 @@ Certainly this is a slow ramp up and will accelerate.
    - Supplement: Shilov
    - Supplement: Gelfand’s Lectures
 2. Spivak — Calculus
-   - Supplement: Schaum’s Outline (exercises)
+   - Supplement: Schaum’s Outline
    - Supplement: Shilov's Elementary Real & Complex Analysis
    - Supplement: Courant & John Introduction to Calculus & Analysis I
 
