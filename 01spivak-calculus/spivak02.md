@@ -51,6 +51,7 @@
   - [16.](#16)
     - [16. (a)](#16-a)
     - [16. (b)](#16-b)
+    - [16. (c)](#16-c)
 
 
 # Spivak's Calculus Chapter 02 Exercises
@@ -1026,7 +1027,7 @@ We see again terms $ap+bq$ and $a+bp$ which are rational so the form holds.
 
 ### 16. (a)
 
-> Prove that if $m$ and $n$ are natural numbers and $\frac{m^2}{n^2}\le2,$ then $\frac{(m+2n)^2}{(m+n)^2}>2;$ show, moreover, that
+> Prove that if $m$ and $n$ are natural numbers and $\frac{m^2}{n^2}<2,$ then $\frac{(m+2n)^2}{(m+n)^2}>2;$ show, moreover, that
 > 
 > $$
 > \frac{(m+2n)^2}{(m+n)^2}-2<2-\frac{m^2}{n^2}.
@@ -1047,15 +1048,33 @@ m^2+4mn+4n^2&>2m^2+4mn+2n^2\\
 \end{align*}
 $$
 
-So the statements are equivalent. Moveover, subtracting the two equations immediately yields
+So the statements are equivalent. Moreover, we can examine the two sides of our goal inequality.
 
 $$
 \begin{align*}
-\frac{(m+2n)^2}{(m+n)^2}&>2\\
--(2&>\frac{m^2}{n^2})\\
-\hline
-\frac{(m+2n)^2}{(m+n)^2}-2&>2-\frac{m^2}{n^2} \quad 🤌\\
+\frac{(m+2n)^2}{(m+n)^2}-2&=\frac{(m+2n)^2-2(m+n)^2}{(m+n)^2}\\
+&=\frac{(m^2+4mn+4n^2)-2(m^2+2mn+n^2)}{(m+n)^2}\\
+&=\frac{m^2+4mn+4n^2-2m^2-4mn-2n^2}{(m+n)^2}\\
+&=\frac{2n^2-m^2}{(m+n)^2}\\
 \end{align*}
+$$
+
+and
+
+$$
+2-\frac{m^2}{n^2}=\frac{2n^2-m^2}{n^2}
+$$
+
+Since $2n^2>m^2$ we know both are positive. Moreover, both $n,m>0$ (since they are natural numbers) so $m+n>n$ and
+
+$$
+\frac{2n^2-m^2}{(m+n)^2}<\frac{2n^2-m^2}{n^2}\\
+$$
+
+Therefore the inequality holds that
+
+$$
+\frac{(m+2n)^2}{(m+n)^2}-2<2-\frac{m^2}{n^2}
 $$
 
 ### 16. (b)
@@ -1079,13 +1098,45 @@ m^2+4mn+4n^2&<2m^2+4mn+2n^2\\
 \end{align*}
 $$
 
-So the statements are equivalent. Moveover, subtracting the two equations immediately yields
+So the statements are equivalent. Moreover, we can examine the two sides of our goal inequality.
 
 $$
 \begin{align*}
-\frac{(m+2n)^2}{(m+n)^2}&<2\\
--(2&<\frac{m^2}{n^2})\\
-\hline
-\frac{(m+2n)^2}{(m+n)^2}-2&<2-\frac{m^2}{n^2}\quad 🤌\\
+\frac{(m+2n)^2}{(m+n)^2}-2&=\frac{(m+2n)^2-2(m+n)^2}{(m+n)^2}\\
+&=\frac{(m^2+4mn+4n^2)-2(m^2+2mn+n^2)}{(m+n)^2}\\
+&=\frac{m^2+4mn+4n^2-2m^2-4mn-2n^2}{(m+n)^2}\\
+&=\frac{2n^2-m^2}{(m+n)^2}\\
+\end{align*}
+$$
+
+and
+
+$$
+2-\frac{m^2}{n^2}=\frac{2n^2-m^2}{n^2}
+$$
+
+Since $2n^2<m^2$ we know both are negative. Moreover, both $n,m>0$ (since they are natural numbers) so $m+n>n$ and
+
+$$
+\frac{2n^2-m^2}{(m+n)^2}>\frac{2n^2-m^2}{n^2}\\
+$$
+
+Therefore the inequality holds that
+
+$$
+\frac{(m+2n)^2}{(m+n)^2}-2>2-\frac{m^2}{n^2}
+$$
+
+
+### 16. (c)
+
+> Prove that if $m/n<\sqrt2,$ then there is another rational number $m'/n'$ with $m/n<m'/n'<\sqrt2.$
+
+Let $m'=m+2n$ and $n'=m+n.$ Then
+
+$$
+\begin{align*}
+\frac{(m+2n)^2}{(m+n)^2}-2&<2-\frac{m^2}{n^2}\\
+\frac{m'^2}{n'^2}+\frac{m^2}{n^2}&<4\\
 \end{align*}
 $$
