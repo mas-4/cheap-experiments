@@ -1132,11 +1132,52 @@ $$
 
 > Prove that if $m/n<\sqrt2,$ then there is another rational number $m'/n'$ with $m/n<m'/n'<\sqrt2.$
 
-Let $m'=m+2n$ and $n'=m+n.$ Then
+Let $m_1=m+2n$ and $n_1=m+n.$ Then let $m'=m_1+2n_1$ and $n'=m_1+n_1$ so that
 
 $$
 \begin{align*}
-\frac{(m+2n)^2}{(m+n)^2}-2&<2-\frac{m^2}{n^2}\\
-\frac{m'^2}{n'^2}+\frac{m^2}{n^2}&<4\\
+m'=m_1+2n_1&\quad n'=m_1+n_1\\
+m'=m+2n+2(m+n)&\quad n'=m+2n+m+n\\
+m'=3m+4n&\quad n'=2m+3n\\
 \end{align*}
 $$
+
+Then let's examine $m'/n'$
+
+First let's see if
+
+$$
+\begin{align*}
+\frac{m'}{n'}&>\frac{m}{n}\\
+\frac{3m+4n}{2m+3n}-\frac{m}{n}&>0\\
+\frac{n(3m+4n)-m(2m+3n)}{n(2m+3n)}&>0\\
+\frac{4n^2-2m^2}{n(2m+3n)}&>0\\
+\frac{4(n^2-m^2)}{n(2m+3n)}&>0\\
+\end{align*}
+$$
+
+The denominator is clearly positive since $m,n>0$ as natural numbers. The numerator we recognize to be positive from part (a) which established that if $m/n<\sqrt2$ then $m^2<2n^2.$ So we know
+
+$$
+\frac{m}{n}<\frac{m'}{n'}
+$$
+
+Now we have to determine if 
+
+$$
+\begin{align*}
+\frac{m'}{n'}&<\sqrt2\\
+\frac{(3m+4n)^2}{(2m+3n)^2}&<2\\
+\frac{9m^2+24mn+16n^2}{4m^2+12mn+9n^2}&<2\\
+9m^2+24mn+16n^2&<2(4m^2+12mn+9n^2)\\
+9m^2+24mn+16n^2&<8m^2+24mn+18n^2\\
+m^2+16n^2&<+18n^2\\
+m^2&<2n^2\\
+\end{align*}
+$$
+
+And finally we see that $m'/n'<\sqrt 2$ is also equivalent to $m^2<2n^2$ which we know to be true. So we have
+$$
+\frac{m}{n}<\frac{m'}{n'}<\sqrt2\quad 🤌
+$$
+
