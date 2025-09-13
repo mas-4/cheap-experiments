@@ -52,6 +52,12 @@
     - [16. (a)](#16-a)
     - [16. (b)](#16-b)
     - [16. (c)](#16-c)
+  - [17.](#17)
+    - [17. (a)](#17-a)
+    - [17. (b)](#17-b)
+    - [17. (c)](#17-c)
+    - [17. (d)](#17-d)
+  - [18. (a)](#18-a)
 
 
 # Spivak's Calculus Chapter 02 Exercises
@@ -1181,3 +1187,73 @@ $$
 \frac{m}{n}<\frac{m'}{n'}<\sqrt2\quad 🤌
 $$
 
+
+## 17.
+
+> It seems likely that $\sqrt n$ is irrational whenever the natural number $n$ is not the square of another natural number. Although the method of Problem 13 may actually be used to treat any particular case, it is not clear in advance that it will always work, and a proof for the general case requires some extra information. A natural number $p$ is called a **prime number** if it is impossible to write $p=ab$ for natural numbers $a$ and $b$ unless one of these is $p,$ and the other $1;$ for convenience we also agree that $1$ is *not* a prime number. The first few primes are $2,3,5,7,11,13,17,19.$ If $n>1$ is not a prime, then $n=ab,$ with $a,b<n;$ If either $a$ or $b$ is not a prime it can be factored similarly; continuing this way we can write $n$ as a product of primes. For example $28=4\cdot7=2\cdot2\cdot7.$
+
+### 17. (a)
+
+> Turn this argument into a rigorous proof by induction.
+
+The first natural non prime number is $4$ which can be written $4=2\cdot2.$
+
+Assume all numbers less than $n$ can be written as the product of primes $n=ab.$ Since $a,b<n$ they are each a product of primes by assumption, so $n=ab$ is also a product of primes. 🤌
+
+### 17. (b)
+
+> A fundamental theorem about integers, which we will not prove here, states that this factorization is unique, except for the order of factors...
+>
+> Using this fact, prove that $\sqrt n$ is irrational unless $n=m^2$ for some natural number $m.$
+
+If $\sqrt n$ is rational then for some $a,b$
+
+$$
+\begin{align*}
+\sqrt n &= \frac{a}{b}\\
+n &= \frac{a^2}{b^2}\\
+nb^2 &= a^2\\
+\end{align*}
+$$
+
+Since $nb^2=a^2$ and every prime factorization is unique there are identical primes in $nb^2$ and $a^2.$ Since $a^2$ and $b^2$ are squares, they have an even number of primes. So $n$ must as well. Otherwise either $a^2$ would not have an even number of primes or $\sqrt n\ne ab$ and would not be rational.
+
+### 17. (c) 
+
+> Prove more generally that $\sqrt[k]n$ is irrational unless $n=m^k$ for some natural number $m.$
+
+If $\sqrt[k] n$ is rational then for some $a,b$
+
+$$
+\begin{align*}
+\sqrt[k] n &= \frac{a}{b}\\
+n &= \frac{a^k}{b^k}\\
+nb^k &= a^k
+\end{align*}
+$$
+
+Since $nb^k=a^k$ and every prive factorization is unique there are identical primes in $nb^k$ and $a^k.$ Whatever factor in $a$ which is not in $b$ must be equal to $n.$ And since it occurs $k$ times in $a^k$ it also occurs $k$ times in $n.$
+
+
+### 17. (d)
+
+> No discussion of prime numbers should fail to allude to Euclid's beautiful proof that there are infinitely many of them. Prove that there cannot be only finitely many prime numbers $p_1,p_2,p_3...,p_n$ by considering $p_1\cdot p_2\cdot \ldots \cdot p_n+1$
+
+Assume there are finitely many primes, up to $n.$ Now consider
+
+$$
+P=\prod_{k=1}^np_k\\
+q=P+1\\
+$$
+
+Since there are only $n$ primes $q$ cannot be prime. So it must be composed of primes. Since all primes are in $P$ it must be that $p$ divides $P$ and $q-P.$ But $q-P=P+1-P=1$ and since $1$ is not composed of primes, nor a prime itself, we have a contradiction. There must be a $p$ not in the product.
+
+## 18. (a)
+
+> Prove that if $x$ satisfies
+>
+> $$
+> x^n+a_{n-1}x^{n-1}+\cdots+a_0=0
+> $$
+>
+> for some integers $a_{n-1},...,a_0,$ then $x$ is irrational unless $x$ is an integer. (Why is this a generalization of problem 17?)
