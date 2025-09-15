@@ -57,7 +57,12 @@
     - [17. (b)](#17-b)
     - [17. (c)](#17-c)
     - [17. (d)](#17-d)
-  - [18. (a)](#18-a)
+  - [18.](#18)
+    - [18. (a)](#18-a)
+    - [18 (b)](#18-b)
+    - [18.(c)](#18c)
+  - [19.](#19)
+  - [20.](#20)
 
 
 # Spivak's Calculus Chapter 02 Exercises
@@ -1248,7 +1253,9 @@ $$
 
 Since there are only $n$ primes $q$ cannot be prime. So it must be composed of primes. Since all primes are in $P$ it must be that $p$ divides $P$ and $q-P.$ But $q-P=P+1-P=1$ and since $1$ is not composed of primes, nor a prime itself, we have a contradiction. There must be a $p$ not in the product.
 
-## 18. (a)
+## 18.
+
+### 18. (a)
 
 > Prove that if $x$ satisfies
 >
@@ -1257,3 +1264,164 @@ Since there are only $n$ primes $q$ cannot be prime. So it must be composed of p
 > $$
 >
 > for some integers $a_{n-1},...,a_0,$ then $x$ is irrational unless $x$ is an integer. (Why is this a generalization of problem 17?)
+
+If $x$ is rational, then $x=p/q$ for some $p,q\in\mathbb{Z}$ and they do not share a common factor.
+
+But
+
+$$
+\begin{align*}
+x^n+a_{n-1}x^{n-1}+\cdots+a_0&=0\\
+\frac{p^n}{q^n}+a_{n-1}\frac{p^{n-1}}{q^{n-1}}+\cdots+a_0&=0\\
+p+a_{n-1}p^{n-1}q+\cdots+a_0q^n&=0\\
+a_{n-1}p^{n-1}q+\cdots+a_0q^n&=-p\\
+\end{align*}
+$$
+
+Since $q$ evenly divides every term on the left, and the prime factorization of a number is unique, $q$ also evenly divides $p$ on the right. So $p,q$ share a common factor, a contradiction. Which implies $q$ is 1.
+
+### 18 (b)
+
+> Prove that $\sqrt6-\sqrt2-\sqrt3$ is irrational.
+
+Letting 
+
+$$
+x=\sqrt6-\sqrt2-\sqrt3
+$$
+
+We get
+
+$$
+\begin{align*}
+x&=\sqrt6-\sqrt2-\sqrt3\\
+x&=\sqrt6-(\sqrt2+\sqrt3)\\
+x^2&=\sqrt6-2\sqrt6(\sqrt2+\sqrt3)+(\sqrt2+\sqrt3)^2\\
+x^2&=6-2\sqrt6(\sqrt2+\sqrt3)+2+2\sqrt2\sqrt3+3\\
+x^2&=11+2\sqrt6-2\sqrt6(\sqrt2+\sqrt3)\\
+x^2&=11+2\sqrt6(1-(\sqrt2+\sqrt3))\\
+x^2-11&=2\sqrt6(1-(\sqrt2+\sqrt3))\\
+(x^2-11)^2&=24(1-(\sqrt2+\sqrt3))^2\\
+(x^2-11)^2&=24(1-2(\sqrt2+\sqrt3)+(\sqrt2+\sqrt3)^2)\\
+(x^2-11)^2&=24(1-2\sqrt2-2\sqrt3+2+2\sqrt2\sqrt3+3)\\
+(x^2-11)^2&=24(6+2\sqrt6-2\sqrt2-2\sqrt3)\\
+(x^2-11)^2&=24(6+2(\sqrt6-\sqrt2-\sqrt3))\\
+(x^2-11)^2&=24(6+2x)\\
+\end{align*}
+$$
+
+We can exand further to a full polynomial but honestly what's the point, we see now that either x is an integer or it is irrational. Next let's prove it's an irrational.
+
+By calculator we can see the value is around -0.69 so let's prove
+
+
+First
+
+$$
+\begin{align*}
+-1&<\sqrt6-\sqrt2-\sqrt3\\
+-\sqrt6-1&<-\sqrt2-\sqrt3\\
+(\sqrt6+1)^2&>(\sqrt2+\sqrt3)^2\\
+6+2\sqrt6+1&>2+2\sqrt2\sqrt3+3\\
+7+2\sqrt6&>5+2\sqrt6\\
+\end{align*}
+$$
+
+We see that statement was true, next
+
+$$
+\begin{align*}
+\sqrt6-\sqrt2-\sqrt3&<0\\
+-\sqrt2-\sqrt3&<-\sqrt6\\
+(\sqrt2+\sqrt3)^2&>\sqrt6^2\\
+2+\sqrt2\sqrt3+3&>6\\
+5+\sqrt6&>6\\
+\sqrt6^2&>1^2\\
+6&>1\\
+\end{align*}
+$$
+
+Also true. So we know that 
+
+$$
+-1<\sqrt6-\sqrt2-\sqrt3<0\\
+$$
+
+And is therefore not an integer, so it is irrational.
+
+### 18.(c)
+
+> Prove $\sqrt2+\sqrt[3]2$ is irrational. (Hint: expand to the 6th power)
+
+Woof, this one is tough, pass for now #TODO
+
+## 19.
+
+> Prove Bernoulli's inequality: If $h>-1,$ Then
+>
+> $$
+> (1+h)^n\ge1+nh
+> $$
+
+First, for $n=1,$
+
+$$
+(1+h)^1\le1+h.
+$$
+
+Next, assume for $n,$ then
+
+$$
+\begin{align*}
+(1+h)^n&\ge1+nh\\
+(1+h)^n(1+h)&\ge(1+nh)(1+h)\\
+(1+h)^{n+1}&\ge1+h+nh+nh^2\\
+(1+h)^{n+1}&\ge1+(n+1)h+nh^2\ge1+(n+1)h\\
+(1+h)^{n+1}&\ge1+(n+1)h\quad 🤌\\
+\end{align*}
+$$
+
+## 20.
+
+> Prove for the fibonacci sequence defined
+>
+> $$
+> a_1=1,a_2=1,a_n=a_{n-1}+a_{n-2},
+> $$
+>
+> that
+>
+> $$
+> a_n=\frac{\left(\frac{1+\sqrt5}{2}\right)^n-\left(\frac{1-\sqrt5}{2}\right)^n}{\sqrt5}
+> $$
+
+Well, for
+
+$$
+\begin{align*}
+a_1&=\frac{\left(\frac{1+\sqrt5}{2}\right)^1-\left(\frac{1-\sqrt5}{2}\right)^1}{\sqrt5}=\frac{\frac{1+\sqrt5-1+\sqrt5}{2}}{\sqrt5}=\frac{\frac{2\sqrt5}{2}}{\sqrt5}=\frac{\sqrt5}{\sqrt5}=1\\
+a_2&=\frac{\left(\frac{1+\sqrt5}{2}\right)^2-\left(\frac{1-\sqrt5}{2}\right)^2}{\sqrt5}=\frac{\frac{1+2\sqrt5+5}{4}-\frac{1-2\sqrt5+5}{4}}{\sqrt5}=\frac{\frac{6+2\sqrt5-6+2\sqrt5}{4}}{\sqrt5}=\frac{\frac{4\sqrt5}{4}}{\sqrt5}=\frac{\sqrt5}{\sqrt5}=1\\
+\end{align*}
+$$
+
+So we have our base case. Now assume for all $k<n,$ notably $a_{n-1},a_{n-2}.$ Then we have
+
+$$
+\begin{align*}
+a_n&=a_{n-1}+a_{n-2}\\
+a_n&=\frac{\left(\frac{1+\sqrt5}{2}\right)^{n-2}-\left(\frac{1-\sqrt5}{2}\right)^{n-2}}{\sqrt5}+\frac{\left(\frac{1+\sqrt5}{2}\right)^{n-1}-\left(\frac{1-\sqrt5}{2}\right)^{n-1}}{\sqrt5}\\
+a_n&=\frac{\left(\frac{1+\sqrt5}{2}\right)^{n-2}+\left(\frac{1+\sqrt5}{2}\right)^{n-1}-\left(\frac{1-\sqrt5}{2}\right)^{n-2}-\left(\frac{1-\sqrt5}{2}\right)^{n-1}}{\sqrt5}
+\end{align*}
+$$
+
+Note that $x^{n-2}+x^{n-1}=x^{n-2}(1+x)$ so
+
+$$
+\begin{align*}
+a_n&=\frac{\left(\frac{1+\sqrt5}{2}\right)^{n-2}\left(1+\frac{1+\sqrt5}{2}\right)-\left(\frac{1-\sqrt5}{2}\right)^{n-2}\left(1+\frac{1-\sqrt5}{2}\right)}{\sqrt5}\\
+a_n&=\frac{\left(\frac{1+\sqrt5}{2}\right)^{n-2}\left(\frac{3+\sqrt5}{2}\right)-\left(\frac{1-\sqrt5}{2}\right)^{n-2}\left(\frac{3-\sqrt5}{2}\right)}{\sqrt5}\\
+a_n&=\frac{\left(\frac{1+\sqrt5}{2}\right)^{n-2}\left(\frac{6+2\sqrt5}{4}\right)-\left(\frac{1-\sqrt5}{2}\right)^{n-2}\left(\frac{6-2\sqrt5}{4}\right)}{\sqrt5}\\
+a_n&=\frac{\left(\frac{1+\sqrt5}{2}\right)^{n-2}\left(\frac{1+\sqrt5}{2}\right)^2-\left(\frac{1-\sqrt5}{2}\right)^{n-2}\left(\frac{1-\sqrt5}{2}\right)^2}{\sqrt5}\\
+a_n&=\frac{\left(\frac{1+\sqrt5}{2}\right)^n-\left(\frac{1-\sqrt5}{2}\right)^n}{\sqrt5}\quad 🤌\\
+\end{align*}
+$$
