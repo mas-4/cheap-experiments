@@ -632,14 +632,33 @@ Let $v$ be a vector such that $v\in V,v\notin U$ and $u$ be a vector $u\in U,Su\
 $$
 \begin{align*}
 Tu+Tv&=Su\\
-T(u+v)&=0
+T(u+v)&=0 \quad🤌
 \end{align*}
 $$
 
 ## 13.
 
 > Suppose $V$ is finite-dimensional. Prove that every linear map on a subspace of $V$ can be extended to a linear map on $V.$ In other words, show that if $U$ is a subspace of $V$ and $S\in \mathcal{L}(U,W),$ then there exists $T \in \mathcal{L}(V,W)$ such that $Tu=Su$ for all $u \in U.$
-> > The result in this exercise is used in the proof of 3.125.
+> > *The result in this exercise is used in the proof of 3.125.*
+
+Take a basis in $U:\{u_1,...,u_m\}$ and extend it to a basis in $V:\{u_1,...,u_m,v_1,...,v_n\}.$ Every vector in $V$ can be defined as some linear combination of this basis
+
+$$
+x=a_1u_1+\cdots+a_mu_m+b_1v_1+\cdots+b_nv_n
+$$
+
+Now, define
+
+$$
+T:
+\begin{cases}
+T(u_i)\to S(u_i)\\
+T(v_i)\to 0
+\end{cases}
+$$
+
+
+This definition sends each basis vector $v_j$ to 0, but an arbitrary vector $x\in V$ may still map to a nonzero vector, depending on its components along $U.$
 
 ## 14.
 
