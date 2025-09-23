@@ -664,6 +664,18 @@ This definition sends each basis vector $v_j$ to 0, but an arbitrary vector $x\i
 
 > Suppose $V$ is finite-dimensional with $\dim V>0,$ and suppose $W$ is infinite-dimensional. Prove that $\mathcal{L}(V,W)$ is infinite-dimensional.
 
+Take a basis in $V:\{v_1,v_2,...,v_n\}.$ Let $T_k\in\mathcal{L}(V,W)$ be the function that maps the $v_1\in V$ to the $k\text{th}$ element of $W.$ So
+
+$$
+\begin{align*}
+v&=a_1v_1+a_2v_2+\cdots+a_nv_n\\
+T_1(v)&=T_1(a_1v_1+a_2v_2+\cdots+a_nv_n)\\
+T_1(v)&=a_1w_1
+\end{align*}
+$$
+
+Since there are an infinite number of elements in $W,$ there are an infinite number of maps so defined. 🤌
+
 ## 15.
 
 > Suppose $v_1,...,v_m$ is a linear dependent list of vectors in $V.$ Suppose also that $W\ne\{0\}.$ Prove that there exist $w_1,...,w_m\in W$ such that no $T\in \mathcal{L}(V,W)$ satisfies $Tv_k=w_k$ for each $k=1,...,m.$
