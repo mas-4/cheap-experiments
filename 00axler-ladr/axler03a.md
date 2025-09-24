@@ -680,9 +680,39 @@ Since there are an infinite number of elements in $W,$ there are an infinite num
 
 > Suppose $v_1,...,v_m$ is a linear dependent list of vectors in $V.$ Suppose also that $W\ne\{0\}.$ Prove that there exist $w_1,...,w_m\in W$ such that no $T\in \mathcal{L}(V,W)$ satisfies $Tv_k=w_k$ for each $k=1,...,m.$
 
+If $v_1,...,v_m$ is linearly dependent in $V,$ then for some set of scalars $a_1,...,a_m$ not all $0$
+
+$$
+a_1v_1+\cdots+a_mv_m=0
+$$
+
+Let $j$ correspond to some $a_j$ for which we know $a_j\ne0$ in the above equation. Then choose some $w\in W$ with $w\ne0,$ and define a list of $w_1,...,w_m$ with $w_j=w$ and all other $w_k=0$ for $k\ne j.$
+
+Now using this set of vectors $w_1,...,w_m\in W$ let $T: T(v_k)=w_k.$ Then we have
+
+$$
+\begin{align*}
+T(a_1v_1)+\cdots+T(a_mv_m)&=T(0)\\
+a_1T(v_1)+\cdots+a_mT(v_m)&=T(0)\\
+a_1w_1+\cdots+a_mw_m&=0\\
+\end{align*}
+$$
+
+But since we know $a_j\ne0$ from $V$ and $w_j\ne0$ from $W,$ and we know furthermore that every other $w_k=0$ with $k\ne j,$ we have that $a_jw_j\ne0$ and $a_jw_j=0,$ a contradiction. So $T$ cannot exist. 🤌
+
 ## 16.
 
 > Suppose $V$ is finite-dimensional with $\dim V > 1.$ Prove that there exist $S,T\in \mathcal{L}(V)$ such that $ST\ne TS.$
+
+Choose a basis $e_1,...,e_n\in V.$
+
+Let $S: S(e_1)=e_1,S(e_2)=0,...,S(e_n)=0$ so that it merely projects on $e_1.$
+
+Let $T: T(e_1)=e_2,T(e_2)=e_3,...,T(e_n)=e_1$ so that it shifts everything to the right. Then
+
+$$
+ST(e_1)=S(T(e_1))=S(e_2)=0,\quad TS(e_1)=T(S(e_1))=T(e_1)=e_2 \quad 🤌
+$$
 
 ## 17.
 
