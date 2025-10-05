@@ -8,6 +8,10 @@
   - [5.](#5)
   - [6.](#6)
   - [7.](#7)
+  - [8.](#8)
+  - [9.](#9)
+  - [10.](#10)
+  - [11.](#11)
 
 
 
@@ -69,7 +73,7 @@ $$
 (T_1+T_2)(x_1,x_2,x_3,x_4,x_5)=(x_1,x_2,x_3,x_4)
 $$
 
-Clearly not in $\{T\in\mathcal{L}(\mathbb{R}^5,\mathbb{R}^4) : \dim \operatorname{null} T > 2\}.$ Therefore it is not closed under addition. 🤌
+which is clearly not in $\{T\in\mathcal{L}(\mathbb{R}^5,\mathbb{R}^4) : \dim \operatorname{null} T > 2\}.$ Therefore it is not closed under addition. 🤌
 
 ## 5.
 
@@ -109,3 +113,78 @@ But $5$ is not even so it does not equal $2x.$ 🤌
 
 > Suppose $V$ and $W$ are finite-dimensional with $2\le\dim V\le\dim W.$ Show that $\{T\in\mathcal{L}(V,W):T \text{ is not injective}\}$ is not a subspace of $\mathcal{L}(V,W)$
 
+Let's consider 
+
+$$
+\begin{align*}
+S(x,y)&=(x,0)\\
+T(x,y)&=(0,y)
+\end{align*}
+$$
+
+Both clearly not injective. However,
+
+$$
+(S+T)(x,y)=S(x,y)+T(x,y)=(x,0)+(0,y)=(x,y)
+$$
+
+So clearly the sum of the maps is injective, and it is not closed under addition, and is not a subspace.. 🤌
+
+## 8.
+
+> Suppose $V$ and $W$ are finite-dimensional with $\dim V \ge \dim W \ge 2.$ Show that $\{T\in\mathcal{L}(V,W) : T \text{ is not surjective}\}$ is not a subspace of $\mathcal{L}(V,W).$
+
+Consider the same maps from (7). Neither map is surjective, yet their sum clearly is, and is therefore outside the supposed subspace. It is therefore not closed under addition and not a subspace. 🤌
+
+## 9.
+
+> Suppose $T\in \mathcal{L}(V,W)$ is injective and $v_1,...,v_n$ is linearly independent in $V.$ Prove that $Tv_1,...,Tv_n$ is linearly independent in $W.$
+
+If $Tv_1,...,Tv_n$ is linearly dependent in $W,$ then for some $a_1,...,a_n$ not all $0.$
+
+$$
+\begin{align*}
+a_1Tv_1+\cdots+a_nTv_n&=0_W\\
+Ta_1v_1+\cdots+Ta_nv_n&=0_W\\
+T(a_1v_1+\cdots+a_nv_n)&=0_W\\
+\end{align*}
+$$
+Since $T$ is injective, $\operatorname{null}T=\{0\}$ so
+
+$$
+a_1v_1+\cdots+a_nv_n=0_V
+$$
+
+Since $v_1,...,v_n$ is linearly independent in $V$ we know that $a_1=\cdots=a_n=0$ contradicting the previous statement that they are not all equal to 0. 🤌
+
+## 10.
+
+> Suppose $v_1,...,v_n$ spans $V$ and $T\in \mathcal{L}(V,W).$ Show that $Tv_1,...,Tv_n$ spans $\operatorname{range}T.$
+
+Assume that $Tv_1,...,Tv_n$ does not span $\operatorname{range}T.$ Then there is some vector $w\in\operatorname{range}T$ and $w\notin\mathrm{span}(Tv_1,...,Tv_n).$ 
+
+Since $w\in\operatorname{range}T,$ there exists some $u\in V$ for which $Tu=w.$ Since $v_1,...,v_n$ spans $V,$ there is some set of scalars $a_1,...,a_n$ for which
+
+$$
+u=a_1v_1+\cdots+a_nv_n
+$$
+
+but this being the case, we now see
+
+$$
+\begin{align*}
+u&=a_1v_1+\cdots+a_nv_n\\
+Tu&=T(a_1v_1+\cdots+a_nv_n)\\
+w&=a_1Tv_1+\cdots+a_nTv_n\\
+\end{align*}
+$$
+
+So clearly $w$ can be represented as a linear combination of $Tv_1,...,Tv_n$ and is therefore in $\mathrm{span}(Tv_1,...,Tv_n),$ contradicting our earlier assumption. 🤌
+
+## 11.
+
+> Suppose that $V$ is finite-dimensional and that $T\in \mathcal{L}(V,W).$ Prove that there exists a subspace $U$ of $V$ such that
+>
+> $$
+> U\cap \operatorname{null}T=\{0\}\quad\text{ and }\quad\operatorname{range}T=\{Tu:u\in U\}
+> $$
