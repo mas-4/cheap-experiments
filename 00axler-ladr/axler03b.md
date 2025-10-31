@@ -113,6 +113,7 @@ But $5$ is not even so it does not equal $2x.$ 🤌
 
 > Suppose $V$ and $W$ are finite-dimensional with $2\le\dim V\le\dim W.$ Show that $\{T\in\mathcal{L}(V,W):T \text{ is not injective}\}$ is not a subspace of $\mathcal{L}(V,W)$
 
+<<<<<<< HEAD
 Let's consider 
 
 $$
